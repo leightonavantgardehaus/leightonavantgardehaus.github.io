@@ -41,10 +41,133 @@ IN NO EVENT SHALL NOTION OR ITS  AFFILIATES BE LIABLE FOR ANY INDIRECT, SPECIAL,
 
 YOU HEREBY ACKNOWLEDGE AND AGREE THAT AIM DYNAMIX, AIM DYNAMIX AI AND ALL OUTPUT ARE PROVIDED BY AIM DYNAMIX AND LEIGHTON AVANT-GARDE HAUS TECHNOLOGIES ON AN “AS IS” BASIS AND AS AVAILABLE, AND YOUR ACCESS TO, PARTICIPATION AND/OR USE OF THE AI PROGRAM OR AIM DYNAMIX AI, IS AT YOUR SOLE RISK. TO THE EXTENT PERMITTED BY APPLICABLE LAW, NOTION EXPRESSLY DISCLAIMS ALL AND YOU RECEIVE NO WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THOSE OF MERCHANTABILITY, SATISFACTORY QUALITY, TITLE, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. NOTION MAKES NO WARRANTY THAT ANY OF THE SERVICES WILL MEET YOUR REQUIREMENTS AND/OR THAT THE SERVICES WILL BE UNINTERRUPTED, TIMELY, ERROR-FREE OR SECURE, NOR DOES AIM' MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE AIM DYNAMIX AI OR THE ACCURACY OF ANY OTHER INFORMATION OBTAINED THROUGH AIM DYNAMIX AI. YOU UNDERSTAND AND AGREE THAT ANY MATERIAL AND/OR DATA OBTAINED THROUGH THE USE OF ANY OF AIM DYNAMIX AI IS DONE AT YOUR SOLE RISK. YOU ACKNOWLEDGE AND AGREE THAT AIM DYNAMIX AND LEIGHTON AVANT-GARDE HAUS IS NOT IN SCOPE FOR AIM’S SOC 2 TYPE II AND OTHER INDEPENDENT SECURITY AUDITS AND SECURITY CERTIFICATIONS.  NO INFORMATION OR ADVICE, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM AIM DYNAMIX OR THROUGH AIM DYNAMIX AI SHALL CREATE ANY WARRANTY NOT EXPRESSLY MADE HEREIN. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES AND CONDITIONS, SO SOME OF THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU.
 
+
+# AIM DYNAMIX Subprocessing List
+
+What is a Subprocessor?
+In order to provide our Services, Notion engages the Subprocessors listed in the tables below. A Subprocessor is a third-party engaged by AIM DYNAMIX, and its applicable Affiliates, to process Customer Personal Data. 
+
+List of Third-Party Subprocessors
+Below is the list of Subprocessors and how we use their services.
+Infrastructure
+We use these Subprocessors for hosting and running our Services. These are third parties that store and process your data within our Service.
+Subprocessor
+Purpose of Processing
+Location
+https://leightonagh.github.io
+Hosting and storage systems provider
+USA
+Platform
+We use these Subprocessors to help us manage and provide the Service.
+Subprocessor
+Purpose of Processing
+Location
+https://www.confluent.io/
+Kafka managed streaming storage platform used for in-product audit log data and analytics
+USA
+https://www.cloudflare.com/
+Content distribution, security, abuse prevention and DNS services
+Global
+https://sentry.io/welcome/
+Application logging
+USA
+https://www.loggly.com/
+Application logging
+USA
+https://newrelic.com/
+Security and application logging
+USA
+Customer and Support Services
+We use these Subprocessors to offer direct support services to you and your team. They are primarily used for communications between Customers and our support teams.
+Subprocessor
+Purpose of Processing
+Location
+https://www.drift.com/platform/
+Support services
+USA
+https://www.zendesk.com/
+Support services
+USA
+https://www.jivesoftware.com/
+Business Operations
+We use these Subprocessors to manage our business and continue providing you services. From internal documentation to analytics these services are used behind the curtain to help us plan and run the business smoothly.
+Subprocessor
+Purpose of Processing
+Location
+https://www.egnyte.com/
+Event logging for analytics
+USA
+https://segment.com/
+Event logging for analytics
+USA
+https://www.snowflake.com/
+Data warehouse for analytics
+USA
+https://www.fivetran.com/
+Data pipeline for connecting systems to our data warehouse
+USA
+Notion Entities
+Other Notion Entities involved in offering the Services.
+Subprocessor
+Purpose of Processing
+Location
+AIM DYNAMIX, L.AgH LLC
+Support services
+USA
+Leighton Avant-Garde Haus.
+Support services
+USA
+Leighton Avant-Garde Haus.
+Support services
+USA
+AIM DYNAMIX, L.AgH
+The following Subprocessor(s) will only be used if you enable AIM DYNAMIX AI in your workspace. AIM DYNAMIX AI is currently only offered as an Alpha-Beta Service and is not generally available to all customers.
+Subprocessor
+Purpose of Processing
+Location
+https://leightonagh.github.io
+Service provider for AI-enabled functionality
+USA
+AIS
+AIStorm use the following Subprocessor(s). AIStorm currently is offered as Beta Services and are not generally available to all customers.
+Subprocessor
+Purpose of Processing
+Location
+https://www.heroku.com/
+Hosting provider
+USA
+https://www.egnyte.com/
+Content distribution, security, abuse prevention and DNS services
+Global
+https://amplitude.com/
+Event logging for analytics
+USA
+https://www.egnyte.com/
+Event logging for analytics
+USA
+https://sentry.io/welcome/
+Error tracking
+USA
+https://www.egnyte.com/
+Data warehouse for analytics
+USA
+https://www.fivetran.com/
+Customer support communications
+USA
+https://www.jivesoftware.com/
+Transactional, broadcast, and marketing messaging
+USA
+https://drift.com/
+Transactional messaging
+USA
+Last updated: December 27, 2022
 # License 
 Copyright(©, IP) 2021-2023 Leighton Avant-Garde Haus LLC 2021. All Rights Reserved. Copyright(©, IP) 2022-2023 AIM DYNAMIX, L.AgH 2022. All Rights Reserved
 
-## Copyright and License Policy 
+
+
+# Copyright and License Policy 
+
 This Policy applies to the Ownership and Employees of Leighton Avant-Garde Haus, L.AgH LLC. Leighton Avant-Garde Haus, a North Carolina Private Limited Liability Company and all of its subsidiaries (Subsidiares are to be assumed involved in the Company name "Leighton Avant-Garde Haus, The Leighton Haus (theleightonhaus) or L.AgH” respects the intellectual property rights of others and expects its users to do the same.
 Compliance with the terms of this Policy is a condition of employment for Leighton Avant-Garde Haus employees, and of private members under Non-Disclosure Agreement Policy for Leighton Avant-Garde Haus investors. This Policy is supplemental to the Copyright Use and Ownership Policy of Leighton Avant-Garde Haus, and is subject to any applicable laws and regulations or to specific provisions in grants or contracts that govern rights in copyrighted works created in connection with sponsored research.
  All files and information contained in this Website are copyright by Leighton Avant-Garde Haus LLC , and may not be duplicated, copied, modified or adapted, in any way without our written permission. Our Website or Any Other Leighton Avant-Garde Haus IP' (Intellicetual Properties) may contain our service marks or trademarks as well as those of our affiliates or other companies, in the form of words, graphics, and logos. Your use of our Website, including our IP' (Intellicetual Properties) Portfolio and Services does not constitute any right or license for you to use our service marks or trademarks, without the prior written permission of Leighton Avant-Garde Haus LLC. Our Content, as found within our Website and Services, is protected under United States and foreign copyrights. The copying, redistribution, use or publication by you of any such Content, is strictly prohibited. Your use of our Website and Services does not grant you any ownership rights to our Content. 
