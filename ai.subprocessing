@@ -1,0 +1,119 @@
+# AIM DYNAMIX Subprocessing List
+
+What is a Subprocessor?
+In order to provide our Services, Notion engages the Subprocessors listed in the tables below. A Subprocessor is a third-party engaged by AIM DYNAMIX, and its applicable Affiliates, to process Customer Personal Data. 
+
+List of Third-Party Subprocessors
+Below is the list of Subprocessors and how we use their services.
+Infrastructure
+We use these Subprocessors for hosting and running our Services. These are third parties that store and process your data within our Service.
+Subprocessor
+Purpose of Processing
+Location
+https://leightonagh.github.io
+Hosting and storage systems provider
+USA
+Platform
+We use these Subprocessors to help us manage and provide the Service.
+Subprocessor
+Purpose of Processing
+Location
+https://www.confluent.io/
+Kafka managed streaming storage platform used for in-product audit log data and analytics
+USA
+https://www.cloudflare.com/
+Content distribution, security, abuse prevention and DNS services
+Global
+https://sentry.io/welcome/
+Application logging
+USA
+https://www.loggly.com/
+Application logging
+USA
+https://newrelic.com/
+Security and application logging
+USA
+Customer and Support Services
+We use these Subprocessors to offer direct support services to you and your team. They are primarily used for communications between Customers and our support teams.
+Subprocessor
+Purpose of Processing
+Location
+https://www.drift.com/platform/
+Support services
+USA
+https://www.zendesk.com/
+Support services
+USA
+https://www.jivesoftware.com/
+Business Operations
+We use these Subprocessors to manage our business and continue providing you services. From internal documentation to analytics these services are used behind the curtain to help us plan and run the business smoothly.
+Subprocessor
+Purpose of Processing
+Location
+https://www.egnyte.com/
+Event logging for analytics
+USA
+https://segment.com/
+Event logging for analytics
+USA
+https://www.snowflake.com/
+Data warehouse for analytics
+USA
+https://www.fivetran.com/
+Data pipeline for connecting systems to our data warehouse
+USA
+Notion Entities
+Other Notion Entities involved in offering the Services.
+Subprocessor
+Purpose of Processing
+Location
+AIM DYNAMIX, L.AgH LLC
+Support services
+USA
+Leighton Avant-Garde Haus.
+Support services
+USA
+Leighton Avant-Garde Haus.
+Support services
+USA
+AIM DYNAMIX, L.AgH
+The following Subprocessor(s) will only be used if you enable AIM DYNAMIX AI in your workspace. AIM DYNAMIX AI is currently only offered as an Alpha-Beta Service and is not generally available to all customers.
+Subprocessor
+Purpose of Processing
+Location
+https://leightonagh.github.io
+Service provider for AI-enabled functionality
+USA
+AIS
+AIStorm use the following Subprocessor(s). AIStorm currently is offered as Beta Services and are not generally available to all customers.
+Subprocessor
+Purpose of Processing
+Location
+https://www.heroku.com/
+Hosting provider
+USA
+https://www.egnyte.com/
+Content distribution, security, abuse prevention and DNS services
+Global
+https://amplitude.com/
+Event logging for analytics
+USA
+https://www.egnyte.com/
+Event logging for analytics
+USA
+https://sentry.io/welcome/
+Error tracking
+USA
+https://www.egnyte.com/
+Data warehouse for analytics
+USA
+https://www.fivetran.com/
+Customer support communications
+USA
+https://www.jivesoftware.com/
+Transactional, broadcast, and marketing messaging
+USA
+https://drift.com/
+Transactional messaging
+USA
+Last updated: December 27, 2022
