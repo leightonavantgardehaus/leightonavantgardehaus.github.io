@@ -1,12 +1,13 @@
 # 2023 Legal Compliant Registered Documents Listing. Any questions please email: legal@theleightonhaus.com
 
-### Copyright and License Policy
+## Attention!
+For Leighton Avant-Garde Haus Investors, we have started distributing printed copies. We will be hosting a Zoom Call for the Private Investor Group Thursday, December 29th, and following Thursday, January 5th. If you have not scheduled that call, please email:      
 
-### License 
-Copyright (c, ©, IP) 2021-2023 Leighton Avant-Garde Haus LLC 2021. All Rights Reserved
+legal@theleightonhaus.com  
 
-Copyright (c, ©, IP) 2022-2023 AIM DYNAMIX, L.AgH 2022. All Rights Reserved
-
+# License 
+Copyright(©, IP) 2021-2023 Leighton Avant-Garde Haus LLC 2021. All Rights Reserved. Copyright(©, IP) 2022-2023 AIM DYNAMIX, L.AgH 2022. All Rights Reserved
+## Copyright and License Policy 
 This Policy applies to the Ownership and Employees of Leighton Avant-Garde Haus, L.AgH LLC. Leighton Avant-Garde Haus, a North Carolina Private Limited Liability Company and all of its subsidiaries (Subsidiares are to be assumed involved in the Company name "Leighton Avant-Garde Haus, The Leighton Haus (theleightonhaus) or L.AgH” respects the intellectual property rights of others and expects its users to do the same.
 Compliance with the terms of this Policy is a condition of employment for Leighton Avant-Garde Haus employees, and of private members under Non-Disclosure Agreement Policy for Leighton Avant-Garde Haus investors. This Policy is supplemental to the Copyright Use and Ownership Policy of Leighton Avant-Garde Haus, and is subject to any applicable laws and regulations or to specific provisions in grants or contracts that govern rights in copyrighted works created in connection with sponsored research.
  All files and information contained in this Website are copyright by Leighton Avant-Garde Haus LLC , and may not be duplicated, copied, modified or adapted, in any way without our written permission. Our Website or Any Other Leighton Avant-Garde Haus IP' (Intellicetual Properties) may contain our service marks or trademarks as well as those of our affiliates or other companies, in the form of words, graphics, and logos. Your use of our Website, including our IP' (Intellicetual Properties) Portfolio and Services does not constitute any right or license for you to use our service marks or trademarks, without the prior written permission of Leighton Avant-Garde Haus LLC. Our Content, as found within our Website and Services, is protected under United States and foreign copyrights. The copying, redistribution, use or publication by you of any such Content, is strictly prohibited. Your use of our Website and Services does not grant you any ownership rights to our Content. 
