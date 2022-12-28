@@ -1,4 +1,4 @@
-# 2023 Legal Compliant Registered Documents Listing. Any questions please email: legal@theleightonhaus.com
+## 2023 Legal Compliant Registered Documents Listing. Any questions please email: legal@theleightonhaus.com
 
 ## Attention!
 For Leighton Avant-Garde Haus Investors, we have started distributing printed copies. We will be hosting a Zoom Call for the Private Investor Group Thursday, December 29th, and following Thursday, January 5th. If you have not scheduled that call, please email:      
