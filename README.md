@@ -1,9 +1,9 @@
 ## 2023 Legal Compliant Registered Documents Listing.
 
 ## Attention!
-For Leighton Avant-Garde Haus Investors, we have started distributing printed copies requiring signature. We will be hosting a Zoom Call for the Private Investor Group Thursday, December 29th, and following Thursday, January 5th to verify each entity has received all requirements. If you have not scheduled that call, please email:      
+For Leighton Avant-Garde Haus Investors, we have started distributing printed copies requiring signature. We will be hosting a Zoom Call for the Private Investor Group Thursday, December 29th, and following Thursday, January 5th to verify each entity has received all requirements. If you have not scheduled that call, 
 
-legal@theleightonhaus.com  
+please email: legal@theleightonhaus.com  
 
 # License 
 Copyright(©, IP) 2021-2023 Leighton Avant-Garde Haus LLC 2021. All Rights Reserved. Copyright(©, IP) 2022-2023 AIM DYNAMIX, L.AgH 2022. All Rights Reserved
