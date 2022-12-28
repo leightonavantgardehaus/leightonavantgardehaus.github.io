@@ -1,10 +1,10 @@
 ![new6](https://user-images.githubusercontent.com/118361152/209752154-38fd1051-456b-4ff8-ab26-f61345108989.jpeg)
 
-## This page dedicated to Leighton Avant-Garde Haus' 2023 Legal Compliance Documentation that has been filed for Registration. 
+## This page is a full list of our 2023 Legal Compliance Documentation Portfolio
 
- # AIM DYNAMIX AI Program Terms
+# AIM DYNAMIX AI Program Terms
 
-The following terms (“AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and AIM DYNAMIX, L.AgH LLC (“AIM, AIM DYNAMIX AI, AIM DYNAMIX, AIM VI The Leighton Haus, or Leighton Avant-Garde Haus”) and apply to and govern your participation in the AIM DYNAMIX AI early access program that provides AI-enabled features and functionality to program participants (“AI Program”). All defined terms in these AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
+The following terms (“AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and AIM DYNAMIX, L.AgH LLC (“AIM, AIM DYNAMIX AI, AIM DYNAMIX, AIM AI The Leighton Haus, or Leighton Avant-Garde Haus”) and apply to and govern your participation in the AIM DYNAMIX AI early access program that provides AI-enabled features and functionality to program participants (“AI Program”). All defined terms in these AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
 Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these AI Program Terms.
 
 # Participation and Termination
