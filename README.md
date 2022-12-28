@@ -2,10 +2,45 @@
 
 ## This page dedicated to Leighton Avant-Garde Haus' 2023 Legal Compliance Documentation that has been filed for Registration. 
 
- 
+ # AIM DYNAMIX AI Program Terms
+
+The following terms (“AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and AIM DYNAMIX, L.AgH LLC (“AIM, AIM DYNAMIX AI, AIM DYNAMIX, AIM VI The Leighton Haus, or Leighton Avant-Garde Haus”) and apply to and govern your participation in the AIM DYNAMIX AI early access program that provides AI-enabled features and functionality to program participants (“AI Program”). All defined terms in these AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these AI Program Terms.
+Participation and Termination
+Notion may suspend or terminate your access to or use of AIM DYNAMIX AI at any time. The AIM VI Program Terms will automatically terminate upon the release of a generally available version of any AIM DYNAMIX AI or upon notice of termination by AIM DYNAMIX. You acknowledge AIM is under no obligation to make AIM VI generally available and may never do so. Further, upon AIM DYNAMIX AI becoming generally available, you acknowledge that continued access and use of the AIM VI feature may be subject to your agreement to pay additional fees. We reserve the right to modify or terminate the AI Program, the AI Program Terms, or your use of AIM VI, to limit or deny access to AIM VI and/or participation in the AIM DYNAMIX AI Program, at any time, in our sole discretion, for any reason, with or without notice and without liability to you. You may discontinue your use of AIM VI and/or your participation in the AIM DYNAMIX AI Program at any time by disabling the AIM VI feature.
+
+# Nature of AI
+
+You may provide input to be processed by AIM DYNAMIX AI (“Input”), and receive output generated and returned by the AIM DYNAMIX AI based on the Input (“Output”). Input and Output are your Content or Customer Data, as applicable. You will ensure that your Input and use of the AIM DYNAMIX AI will not violate any applicable law. You are solely responsible for the development, content, operation, maintenance, and use of your Content and Customer Data.
+
+#IP
+
+You agree that, as between you and us, we own all legal rights, title and interest in and to the AIM DYNAMIX AI Program, AIM VI, or any and Parent Company, Leighton Avant-Garde Haus' Properties, which includes all intellectual property rights, and except for the license provided herein, no other rights or permissions to any of present or future AIM DYNAMIX AI is granted.
+Nothing herein gives you a right to use any of our trade names, trademarks, service marks, logos, domain names, and other distinctive brand features.  Except to the extent permitted by law, you may not modify, distribute, prepare derivative works of, reverse engineer, reverse assemble, disassemble, decompile or otherwise attempt to decipher any code in connection with AIM DYNAMIX AI and/or any other aspect of AIM DYNAMIX technology, except as permitted by us.
+
+# Additional Use Provisions
+
+You may not use AIM DYNAMIX AI (i) to develop foundation models or other large scale models that compete with AIM DYNAMIX AI; (ii) to mislead any person that Output from the Services was solely human generated; (iii) to generate spam, content for dissemination in electoral campaigns, use the Services in a manner that violates any applicable laws or technical documentation, usage guidelines, or parameters; or (iv) process sensitive personal data as that term is understood under applicable data protection law.
+You acknowledge that due to the nature of machine learning and the technology powering AIM DYNAMIX AI, Output may not be unique and the Services may generate the same or similar output to AIM DYNAMIX or a third party.
+AIM DYNAMIX uses technology provided by our Parent Company, Leighton Avant-Garde Haus LLC (“TheLeightonHaus, L.AgH”) to provide AIM DYNAMIX AI. You may not use AIM DYNAMIX AI in a manner that violates any Leighton Avant-Garde Haus Policy, including any other Legal Agreements
+
+# Improvement of Services
+
+Artificial intelligence and machine learning models can improve over time to better address specific use cases. We do not and will not permit third parties to use your Content or Customer Data to improve or train their AI models. We do not and will not use your Content or Customer Data to improve or train our models unless you give us express permission to do so.
+#Additional Processing Instruction
+To the extent your Input contains Customer Personal Data (as that term is defined in the Data Process Addendum), you instruct Notion to process the Customer Personal Data for the additional Business Purpose of providing the AIM DYNAMIX AI functionality and Output.
+You acknowledge that for the purposes of your participation in the AIM DYNAMIX AI Program and your use of AIM DYNAMIX AI, AIM DYNAMIX uses additional subprocessor(s) to provide the AIM DYNAMIX AI functionality.
+
+# LIMITS ON LIABILITY
+
+IN NO EVENT SHALL NOTION OR ITS  AFFILIATES BE LIABLE FOR ANY INDIRECT, SPECIAL, CONSEQUENTIAL OR INCIDENTAL LOSS, EXEMPLARY OR OTHER DAMAGES RELATED TO THESE AI PROGRAM TERMS OR YOUR PARTICIPATION IN THE AIM DYNAMIX AI PROGRAM WHETHER DIRECT OR INDIRECT,  HOWEVER CAUSED AND BASED ON ANY THEORY OF LIABILITY, AND WHETHER OR NOT FOR BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), VIOLATION OF STATUTE, OR OTHERWISE, AND WHETHER OR NOT AIM DYNAMIX OR LEIGHTON AVANT-GARDE HAUS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. TO THE EXTENT PERMITTED BY APPLICABLE LAW, LEIGHTON AVANT-GARDE HAUS' MAXIMUM LIABILITY HEREUNDER IS LIMITED TO $100.00. SOME JURISDICTIONS DO NOT ALLOW LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
+
+# WARRANTY DISCLAIMER
+
+YOU HEREBY ACKNOWLEDGE AND AGREE THAT AIM DYNAMIX, AIM DYNAMIX AI AND ALL OUTPUT ARE PROVIDED BY AIM DYNAMIX AND LEIGHTON AVANT-GARDE HAUS TECHNOLOGIES ON AN “AS IS” BASIS AND AS AVAILABLE, AND YOUR ACCESS TO, PARTICIPATION AND/OR USE OF THE AI PROGRAM OR AIM DYNAMIX AI, IS AT YOUR SOLE RISK. TO THE EXTENT PERMITTED BY APPLICABLE LAW, NOTION EXPRESSLY DISCLAIMS ALL AND YOU RECEIVE NO WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THOSE OF MERCHANTABILITY, SATISFACTORY QUALITY, TITLE, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. NOTION MAKES NO WARRANTY THAT ANY OF THE SERVICES WILL MEET YOUR REQUIREMENTS AND/OR THAT THE SERVICES WILL BE UNINTERRUPTED, TIMELY, ERROR-FREE OR SECURE, NOR DOES AIM' MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE AIM DYNAMIX AI OR THE ACCURACY OF ANY OTHER INFORMATION OBTAINED THROUGH AIM DYNAMIX AI. YOU UNDERSTAND AND AGREE THAT ANY MATERIAL AND/OR DATA OBTAINED THROUGH THE USE OF ANY OF AIM DYNAMIX AI IS DONE AT YOUR SOLE RISK. YOU ACKNOWLEDGE AND AGREE THAT AIM DYNAMIX AND LEIGHTON AVANT-GARDE HAUS IS NOT IN SCOPE FOR AIM’S SOC 2 TYPE II AND OTHER INDEPENDENT SECURITY AUDITS AND SECURITY CERTIFICATIONS.  NO INFORMATION OR ADVICE, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM AIM DYNAMIX OR THROUGH AIM DYNAMIX AI SHALL CREATE ANY WARRANTY NOT EXPRESSLY MADE HEREIN. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES AND CONDITIONS, SO SOME OF THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU.
 
 # License 
 Copyright(©, IP) 2021-2023 Leighton Avant-Garde Haus LLC 2021. All Rights Reserved. Copyright(©, IP) 2022-2023 AIM DYNAMIX, L.AgH 2022. All Rights Reserved
+
 ## Copyright and License Policy 
 This Policy applies to the Ownership and Employees of Leighton Avant-Garde Haus, L.AgH LLC. Leighton Avant-Garde Haus, a North Carolina Private Limited Liability Company and all of its subsidiaries (Subsidiares are to be assumed involved in the Company name "Leighton Avant-Garde Haus, The Leighton Haus (theleightonhaus) or L.AgH” respects the intellectual property rights of others and expects its users to do the same.
 Compliance with the terms of this Policy is a condition of employment for Leighton Avant-Garde Haus employees, and of private members under Non-Disclosure Agreement Policy for Leighton Avant-Garde Haus investors. This Policy is supplemental to the Copyright Use and Ownership Policy of Leighton Avant-Garde Haus, and is subject to any applicable laws and regulations or to specific provisions in grants or contracts that govern rights in copyrighted works created in connection with sponsored research.
@@ -249,7 +284,7 @@ You acknowledge that your breach of any of the provisions of these Terms may cau
 You agree that we will not be liable for delays, failures, or inadequate performance of the Sites resulting from conditions outside of our reasonable control, including but not limited to natural disasters or other acts of God, failure of telecommunications networks or any other network or utility, threatened or actual acts of terrorism or war, riots, labor strikes, or governmental acts or orders.
 
 
-#Privacy Policy 
+# Privacy Policy 
 
 Privacy Policy for Leighton Avant-Garde Haus, L.AgH, LLC and Company Portfolio Holdings
 
@@ -321,39 +356,3 @@ Another part of our priority is adding protection for children while using the i
 
 theleightonhaus does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
 
-
-# AIM DYNAMIX AI Program Terms
-
-The following terms (“AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and AIM DYNAMIX, L.AgH LLC (“AIM, AIM VI, AIM DYNAMIX AI, AIM DYNAMIX, The Leighton Haus, or Leighton Avant-Garde Haus”) and apply to and govern your participation in the AIM DYNAMIX AI early access program that provides AI-enabled features and functionality to program participants (“AI Program”). All defined terms in these AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these AI Program Terms.
-Participation and Termination
-Notion may suspend or terminate your access to or use of AIM DYNAMIX AI at any time. The AIM VI Program Terms will automatically terminate upon the release of a generally available version of any AIM DYNAMIX AI or upon notice of termination by AIM DYNAMIX. You acknowledge AIM is under no obligation to make AIM VI generally available and may never do so. Further, upon AIM DYNAMIX AI becoming generally available, you acknowledge that continued access and use of the AIM VI feature may be subject to your agreement to pay additional fees. We reserve the right to modify or terminate the AI Program, the AI Program Terms, or your use of AIM VI, to limit or deny access to AIM VI and/or participation in the AIM DYNAMIX AI Program, at any time, in our sole discretion, for any reason, with or without notice and without liability to you. You may discontinue your use of AIM VI and/or your participation in the AIM DYNAMIX AI Program at any time by disabling the AIM VI feature.
-
-# Nature of AI
-
-You may provide input to be processed by AIM DYNAMIX AI (“Input”), and receive output generated and returned by the AIM DYNAMIX AI based on the Input (“Output”). Input and Output are your Content or Customer Data, as applicable. You will ensure that your Input and use of the AIM DYNAMIX AI will not violate any applicable law. You are solely responsible for the development, content, operation, maintenance, and use of your Content and Customer Data.
-
-#IP
-
-You agree that, as between you and us, we own all legal rights, title and interest in and to the AIM DYNAMIX AI Program, AIM VI, or any and Parent Company, Leighton Avant-Garde Haus' Properties, which includes all intellectual property rights, and except for the license provided herein, no other rights or permissions to any of present or future AIM DYNAMIX AI is granted.
-Nothing herein gives you a right to use any of our trade names, trademarks, service marks, logos, domain names, and other distinctive brand features.  Except to the extent permitted by law, you may not modify, distribute, prepare derivative works of, reverse engineer, reverse assemble, disassemble, decompile or otherwise attempt to decipher any code in connection with AIM DYNAMIX AI and/or any other aspect of AIM DYNAMIX technology, except as permitted by us.
-
-# Additional Use Provisions
-
-You may not use AIM DYNAMIX AI (i) to develop foundation models or other large scale models that compete with AIM DYNAMIX AI; (ii) to mislead any person that Output from the Services was solely human generated; (iii) to generate spam, content for dissemination in electoral campaigns, use the Services in a manner that violates any applicable laws or technical documentation, usage guidelines, or parameters; or (iv) process sensitive personal data as that term is understood under applicable data protection law.
-You acknowledge that due to the nature of machine learning and the technology powering AIM DYNAMIX AI, Output may not be unique and the Services may generate the same or similar output to AIM DYNAMIX or a third party.
-AIM DYNAMIX uses technology provided by our Parent Company, Leighton Avant-Garde Haus LLC (“TheLeightonHaus, L.AgH”) to provide AIM DYNAMIX AI. You may not use AIM DYNAMIX AI in a manner that violates any Leighton Avant-Garde Haus Policy, including any other Legal Agreements
-
-# Improvement of Services
-
-Artificial intelligence and machine learning models can improve over time to better address specific use cases. We do not and will not permit third parties to use your Content or Customer Data to improve or train their AI models. We do not and will not use your Content or Customer Data to improve or train our models unless you give us express permission to do so.
-#Additional Processing Instruction
-To the extent your Input contains Customer Personal Data (as that term is defined in the Data Process Addendum), you instruct Notion to process the Customer Personal Data for the additional Business Purpose of providing the AIM DYNAMIX AI functionality and Output.
-You acknowledge that for the purposes of your participation in the AIM DYNAMIX AI Program and your use of AIM DYNAMIX AI, Notion uses additional subprocessor(s) to provide the AIM DYNAMIX AI functionality.
-
-# LIMITS ON LIABILITY
-
-IN NO EVENT SHALL NOTION OR ITS  AFFILIATES BE LIABLE FOR ANY INDIRECT, SPECIAL, CONSEQUENTIAL OR INCIDENTAL LOSS, EXEMPLARY OR OTHER DAMAGES RELATED TO THESE AI PROGRAM TERMS OR YOUR PARTICIPATION IN THE NOTION AI PROGRAM WHETHER DIRECT OR INDIRECT,  HOWEVER CAUSED AND BASED ON ANY THEORY OF LIABILITY, AND WHETHER OR NOT FOR BREACH OF CONTRACT, TORT (INCLUDING NEGLIGENCE), VIOLATION OF STATUTE, OR OTHERWISE, AND WHETHER OR NOT NOTION HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. TO THE EXTENT PERMITTED BY APPLICABLE LAW, NOTION’S MAXIMUM LIABILITY HEREUNDER IS LIMITED TO $100.00. SOME JURISDICTIONS DO NOT ALLOW LIMITATION OR EXCLUSION OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO SOME OF THE ABOVE LIMITATIONS MAY NOT APPLY TO YOU.
-
-# WARRANTY DISCLAIMER
-
-YOU HEREBY ACKNOWLEDGE AND AGREE THAT AIM DYNAMIX, AIM DYNAMIX AI AND ALL OUTPUT ARE PROVIDED BY AIM DYNAMIX AND LEIGHTON AVANT-GARDE HAUS TECHNOLOGIES ON AN “AS IS” BASIS AND AS AVAILABLE, AND YOUR ACCESS TO, PARTICIPATION AND/OR USE OF THE AI PROGRAM OR NOTION AI, IS AT YOUR SOLE RISK. TO THE EXTENT PERMITTED BY APPLICABLE LAW, NOTION EXPRESSLY DISCLAIMS ALL AND YOU RECEIVE NO WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THOSE OF MERCHANTABILITY, SATISFACTORY QUALITY, TITLE, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. NOTION MAKES NO WARRANTY THAT ANY OF THE SERVICES WILL MEET YOUR REQUIREMENTS AND/OR THAT THE SERVICES WILL BE UNINTERRUPTED, TIMELY, ERROR-FREE OR SECURE, NOR DOES NOTION MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE NOTION AI OR THE ACCURACY OF ANY OTHER INFORMATION OBTAINED THROUGH AIM DYNAMIX AI. YOU UNDERSTAND AND AGREE THAT ANY MATERIAL AND/OR DATA OBTAINED THROUGH THE USE OF ANY OF NOTION AI IS DONE AT YOUR SOLE RISK. YOU ACKNOWLEDGE AND AGREE THAT AIM DYNAMIX AND LEIGHTON AVANT-GARDE HAUS IS NOT IN SCOPE FOR AIM’S SOC 2 TYPE II AND OTHER INDEPENDENT SECURITY AUDITS AND SECURITY CERTIFICATIONS.  NO INFORMATION OR ADVICE, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM AIM DYNAMIX OR THROUGH AIM DYNAMIX AI SHALL CREATE ANY WARRANTY NOT EXPRESSLY MADE HEREIN. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES AND CONDITIONS, SO SOME OF THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU.
