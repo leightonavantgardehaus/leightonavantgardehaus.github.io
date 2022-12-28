@@ -1,4 +1,4 @@
-# leightonavantgardehaus.github.io Legals
+# ALL Legals
 
 # Copyright and License Policy
 
