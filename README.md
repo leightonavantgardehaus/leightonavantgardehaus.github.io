@@ -4,15 +4,18 @@
 
  # AIM DYNAMIX AI Program Terms
 
-The following terms (“AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and AIM DYNAMIX, L.AgH LLC (“AIM, AIM DYNAMIX AI, AIM DYNAMIX, AIM VI The Leighton Haus, or Leighton Avant-Garde Haus”) and apply to and govern your participation in the AIM DYNAMIX AI early access program that provides AI-enabled features and functionality to program participants (“AI Program”). All defined terms in these AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these AI Program Terms.
-Participation and Termination
-Notion may suspend or terminate your access to or use of AIM DYNAMIX AI at any time. The AIM DYNAMIX AI Program Terms will automatically terminate upon the release of a generally available version of any AIM DYNAMIX AI or upon notice of termination by AIM DYNAMIX. You acknowledge AIM is under no obligation to make AIM DYNAMIX generally available and may never do so. Further, upon AIM DYNAMIX AI becoming generally available, you acknowledge that continued access and use of the AIM VI feature may be subject to your agreement to pay additional fees. We reserve the right to modify or terminate the AI Program, the AI Program Terms, or your use of AIM VI, to limit or deny access to AIM VI and/or participation in the AIM DYNAMIX AI Program, at any time, in our sole discretion, for any reason, with or without notice and without liability to you. You may discontinue your use of AIM AI and/or your participation in the AIM DYNAMIX AI Program at any time by disabling the AIM AI feature.
+The following terms (“AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and AIM DYNAMIX, L.AgH LLC (“AIM, AIM DYNAMIX AI, AIM DYNAMIX, AIM VI The Leighton Haus, or Leighton Avant-Garde Haus”) and apply to and govern your participation in the AIM DYNAMIX AI early access program that provides AI-enabled features and functionality to program participants (“AI Program”). All defined terms in these AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
+Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these AI Program Terms.
+
+# Participation and Termination
+
+AIM DYNAMIX may suspend or terminate your access to or use of AIM DYNAMIX AI at any time. The AIM DYNAMIX AI Program Terms will automatically terminate upon the release of a generally available version of any AIM DYNAMIX AI or upon notice of termination by AIM DYNAMIX. You acknowledge AIM is under no obligation to make AIM DYNAMIX generally available and may never do so. Further, upon AIM DYNAMIX AI becoming generally available, you acknowledge that continued access and use of the AIM AI feature may be subject to your agreement to pay additional fees. We reserve the right to modify or terminate the AI Program, the AI Program Terms, or your use of AIM AI, to limit or deny access to AIM AI and/or participation in the AIM DYNAMIX AI Program, at any time, in our sole discretion, for any reason, with or without notice and without liability to you. You may discontinue your use of AIM AI and/or your participation in the AIM DYNAMIX AI Program at any time by disabling the AIM AI feature.
 
 # Nature of AI
 
 You may provide input to be processed by AIM DYNAMIX AI (“Input”), and receive output generated and returned by the AIM DYNAMIX AI based on the Input (“Output”). Input and Output are your Content or Customer Data, as applicable. You will ensure that your Input and use of the AIM DYNAMIX AI will not violate any applicable law. You are solely responsible for the development, content, operation, maintenance, and use of your Content and Customer Data.
 
-#IP
+# IP
 
 You agree that, as between you and us, we own all legal rights, title and interest in and to the AIM DYNAMIX AI Program, AIM AI, or any and Parent Company, Leighton Avant-Garde Haus' Properties, which includes all intellectual property rights, and except for the license provided herein, no other rights or permissions to any of present or future AIM DYNAMIX AI is granted.
 Nothing herein gives you a right to use any of our trade names, trademarks, service marks, logos, domain names, and other distinctive brand features.  Except to the extent permitted by law, you may not modify, distribute, prepare derivative works of, reverse engineer, reverse assemble, disassemble, decompile or otherwise attempt to decipher any code in connection with AIM DYNAMIX AI and/or any other aspect of AIM DYNAMIX technology, except as permitted by us.
@@ -91,7 +94,7 @@ Throughout the Terms, “we,” “us,” “our” and “ours” refer to ALL 
 
 
 
-### 1. ACCEPTANCE OF TERMS
+## 1. ACCEPTANCE OF TERMS
 
 Leighton Avant-Garde Haus provides the Sites to you conditioned upon your accepting all of the Terms, without modification. Your use of the Sites constitutes your agreement with such Terms. We reserve the right to change, modify, add to, or remove portions of these Terms in our sole discretion at any time and we will, at our sole discretion, either post the modification on https://www.theleightonhaus/terms or provide you with email notice of the modification. You should check these Terms periodically for changes and you can determine when these Terms were last revised by referring to the “Last Updated” reference at the top of these Terms. Any modification shall be effective immediately upon the uploading of modified Terms. You indicate your agreement to comply with, and be bound by, any such modification by continuing to use or access the Sites after modified Terms are posted. If the modified Terms are not acceptable to you, your sole recourse is to discontinue your use of the Sites.
 
@@ -105,7 +108,7 @@ Software (“Software”) may be made available to you through the Sites. Your r
 
 
 
-### 2. LICENSE GRANT AND PROPRIETARY RIGHTS
+## 2. LICENSE GRANT AND PROPRIETARY RIGHTS
 
 ‍
 
@@ -121,7 +124,7 @@ Except solely as necessary for you to access the Sites for the intended purpose 
 
 
 
-### 3. Subject to your compliance with these Terms, solely for so long as you are permitted by Leighton Avant-Garde Haus to access and use the Sites, and provided that you keep intact all copyright and other proprietary notices, you may view Content and you may download and print the materials that Noble.AI specifically makes available for downloading from the Sites (such as white papers or user documentation), in each case solely for informational purposes and solely for personal or internal business use. INFORMATION SUBMITTED THROUGH OR TO OUR SITES
+## 3. Subject to your compliance with these Terms, solely for so long as you are permitted by Leighton Avant-Garde Haus to access and use the Sites, and provided that you keep intact all copyright and other proprietary notices, you may view Content and you may download and print the materials that Noble.AI specifically makes available for downloading from the Sites (such as white papers or user documentation), in each case solely for informational purposes and solely for personal or internal business use. INFORMATION SUBMITTED THROUGH OR TO OUR SITES
 
 ‍
 
@@ -133,7 +136,7 @@ For each Submission, you represent and warrant that you have all rights necessar
 
 
 
-### You agree that you will not, and will not allow or authorize any third party to, post Submissions containing:
+##4 You agree that you will not, and will not allow or authorize any third party to, post Submissions containing:
 
 • Anything that is or may be (a) threatening, harassing, degrading, abusive or hateful; (b) an incitement to violence, terrorism or other wrongdoing; (c) defamatory or libelous; (d) invasive of privacy rights; (e) fraudulent, deceptive, impersonating of any person or entity, or misrepresentative of your affiliation with any person or entity; (f) obscene, pornographic, indecent, grotesque or otherwise objectionable; or (g) protected by copyright, trademark, confidentiality obligations, or other proprietary or privacy right without the express prior written consent of the owner of such right.
 
@@ -149,7 +152,7 @@ For each Submission, you represent and warrant that you have all rights necessar
 
 
 
-### 4. Leighton Avant-Garde Haus generally does not pre-screen or monitor Submissions (but reserves the right to do so) and does not control Submissions. Therefore, Leighton Avant-Garde Haus does not guarantee the accuracy, quality or appropriateness of Submissions and disclaims any responsibility for Submissions, including any liability for errors or omissions, or for any loss or damage of any kind incurred as a result of their use. However, Leighton Avant-Garde Haus reserves the right at its sole discretion to refuse, delete, screen or edit Submissions, provided that even if we do remove or alter any Submission, we shall have no obligation to stop our other uses of such Submission or any other Submission as permitted above. We have no obligation to store any of your Submissions. We have no responsibility or liability for the deletion or failure to store, transmit or receive your Submissions, nor do we have any responsibility for the security, privacy, storage or transmission of other communications originating with or involving your use of the Sites, except as may be expressly stated in these Terms or in the Privacy Policy. You are solely responsible for creating backup copies of and replacing any Submissions at your sole cost and expense. Our Privacy Policy governs your Submissions.
+## 5. Leighton Avant-Garde Haus generally does not pre-screen or monitor Submissions (but reserves the right to do so) and does not control Submissions. Therefore, Leighton Avant-Garde Haus does not guarantee the accuracy, quality or appropriateness of Submissions and disclaims any responsibility for Submissions, including any liability for errors or omissions, or for any loss or damage of any kind incurred as a result of their use. However, Leighton Avant-Garde Haus reserves the right at its sole discretion to refuse, delete, screen or edit Submissions, provided that even if we do remove or alter any Submission, we shall have no obligation to stop our other uses of such Submission or any other Submission as permitted above. We have no obligation to store any of your Submissions. We have no responsibility or liability for the deletion or failure to store, transmit or receive your Submissions, nor do we have any responsibility for the security, privacy, storage or transmission of other communications originating with or involving your use of the Sites, except as may be expressly stated in these Terms or in the Privacy Policy. You are solely responsible for creating backup copies of and replacing any Submissions at your sole cost and expense. Our Privacy Policy governs your Submissions.
 
 ‍
 
@@ -159,7 +162,7 @@ Leighton Avant-Garde reserves the right to disclose any Submissions, and the cir
 
 
 
-### 5. REQUIRED CONDUCT WHILE USING OUR SITES
+## 6. REQUIRED CONDUCT WHILE USING OUR SITES
 
 While using the Sites you will comply with all applicable laws, rules and regulations. In addition, Leighton Avant-Garde Haus expects users of the Sites to respect the rights and dignity of others. Your use of the Sites is conditioned on your compliance with the rules of conduct set forth in this Section; any failure to comply may also result in termination of your access to the Sites pursuant to Section 9 (Suspension or Termination of Access to Our Sites). In using the Sites, you agree that you will not, and will not allow or authorize any third party to:
 
@@ -195,13 +198,13 @@ While using the Sites you will comply with all applicable laws, rules and regula
 
 
 
-### 6. LINKS
+## 7. LINKS
 
 We may from time-to-time at our discretion host or provide links to services, products, web pages, websites or other content of third parties (“Third-Party Content”). The inclusion of any link to, or the hosting of, any Third Party Content is provided solely as a convenience to our users, including you, and does not imply affiliation, endorsement, approval, control or adoption by us of the Third-Party Content. We make no claims or representations regarding, and accept no responsibility or liability for, Third-Party Content including without limitation its quality, accuracy, nature, ownership or reliability. Your use of Third-Party Content is at your own risk. When you leave the Sites to access Third Party Content via a link, you should be aware that our policies, including the Privacy Policy, no longer govern. You should review the applicable terms and policies, including privacy and data gathering policies, of any website to which you navigate from the Sites.
 
 
 
-### 7. DISCLAIMER OF WARRANTIES
+## 8. DISCLAIMER OF WARRANTIES
 
 YOU EXPRESSLY AGREE THAT YOUR USE OF THE SITES, INCLUDING ANY CONTENT, IS AT YOUR SOLE RISK. ALL OF THE SITES AND CONTENT ARE PROVIDED TO YOU ON AN “AS IS” AND “AS AVAILABLE” BASIS, AND Leighton Avant-Garde Haus MAKES NO RELATED REPRESENTATIONS, AND DISCLAIMS ALL POSSIBLE WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SITES OR CONTENT ARE ACCURATE, CONTINUOUSLY AVAILABLE, COMPLETE, RELIABLE, SECURE, CURRENT, ERROR-FREE, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. Leighton Avant-Garde Haus CANNOT AND DOES NOT GUARANTEE THAT ANY DEFECTS, ERRORS OR OMISSIONS WILL BE CORRECTED, REGARDLESS OF WHETHER Noble.AI IS AWARE OF SUCH DEFECTS, ERRORS OR OMISSIONS.
 
@@ -211,7 +214,7 @@ TO THE EXTENT APPLICABLE STATE LAW DOES NOT ALLOW THE EXCLUSIONS AND DISCLAIMERS
 
 
 
-### 8. LIMITATION OF LIABILITY
+## 9. LIMITATION OF LIABILITY
 
 YOU ACKNOWLEDGE AND AGREE THAT, TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE ENTIRE RISK ARISING OUT OF YOUR ACCESS TO AND USE OF THE SITES AND CONTENT REMAINS WITH YOU. IN NO EVENT WILL Noble.AI OR ANY OF ITS DIRECTORS, EMPLOYEES, AGENTS OR SUPPLIERS BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL, EXEMPLARY, CONSEQUENTIAL OR PUNITIVE DAMAGES OF ANY KIND (INCLUDING, BUT NOT LIMITED TO, LOSS OF USE, LOSS OF BUSINESS, LOSS OF PROFITS, LOSS OF DATA, LOSS OF GOODWILL, SERVICE INTERRUPTION, COMPUTER DAMAGE, SYSTEM FAILURE OR THE COST OF SUBSTITUTE PRODUCTS OR SERVICES) ARISING OUT OF OR IN CONNECTION WITH THE SITES, AND ANY CONTENT, SERVICES OR PRODUCTS INCLUDED ON OR OTHERWISE MADE AVAILABLE THROUGH THE SITES, REGARDLESS OF THE FORM OF ACTION (WHETHER IN CONTRACT, TORT, STRICT LIABILITY, EQUITY OR OTHERWISE) AND EVEN IF WE ARE AWARE OF OR HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
@@ -227,25 +230,25 @@ THIS SECTION WILL BE GIVEN FULL EFFECT EVEN IF ANY REMEDY SPECIFIED IN THESE TER
 
 
 
-### 9. INDEMNIFICATION
+## 10. INDEMNIFICATION
 
 To the fullest extent permitted by law, you agree to indemnify, defend and hold harmless Leighton Avant-Garde Haus, its officers, directors, shareholders, successors in interest, employees, agents, subsidiaries and affiliates, from and against any and all actual or threatened third party claims (groundless or otherwise), demands, losses, damages, costs and liability, proceedings (at law or in equity) and expenses (including reasonable attorneys’ and expert fees and costs of investigation) arising out of or in connection with (a) your use of the Sites, including without limitation any of your Submissions, (b) your breach of these Terms, including your breach of any covenant, representation, warranty, term, or condition set forth herein, including, without limitation, the obligations set forth in Section 3 (Information Submitted Through Our Sites) and Section 4 (Required Conduct While Using Our Sites), (c) your violation of any law or regulation or of any third party rights, including infringement, libel, misappropriation, or other violation of any third party’s intellectual property or other legal rights or (d) the disclosure, solicitation or use of any personal information by you, whether with or without your knowledge or consent. Leighton Avant-Garde Haus reserves the right, however, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you and, in such case, you agree to cooperate with Leighton Avant-Garde Haus’ defense of such claim, and in no event may you agree to any settlement affecting Leighton Avant-Garde Haus without Leighton Avant-Garde Haus’ prior written consent.
 
 
 
-### 10. SUSPENSION OR TERMINATION OF ACCESS TO OUR SITES
+## 11. SUSPENSION OR TERMINATION OF ACCESS TO OUR SITES
 
 Notwithstanding any provision to the contrary in these Terms, you agree that Leighton Avant-Garde Haus may, in its sole discretion and with or without prior notice, for any or no reason, suspend or terminate your access to any or all of the Sites and/or block your future access to any or all of the Sites, including without limitation for any of the following reasons: (a) if we determine that you have violated any provision, or the spirit, of these Terms, (b) in response to a request by a law enforcement or other government agency, (c) due to discontinuance or material modification of any of the Sites, or (d) due to unexpected technical issues or problems. Leighton Avant-Garde Haus shall not be liable to you or any third party for any termination of your access to any part of the Sites. The rights and obligations of these Terms which by their nature should survive, shall so survive any termination of your use of the Sites.
 
 
 
-### 11. CONTACT
+## 11. CONTACT
 
 Questions or comments about the Terms or about the Sites may be directed to Leighton Avant-Garde Haus at the email address legal@theleightonhaus.com. You may also email us at that address if you would like to report what you believe to be a violation of these Terms. However, please note that we do not accept any responsibility to maintain the confidentiality of any report of a violation you may submit to us, including your identity, nor do we commit to providing a personal reply to any report you submit, nor are we obligated to take action in response to your report.
 
 
 
-### 12. CLAIMS OF COPYRIGHT INFRINGEMENT
+## 12. CLAIMS OF COPYRIGHT INFRINGEMENT
 
 Leighton Avant-Garde Haus respects the intellectual property rights of others and we request that the people who use the Sites do the same. The Digital Millennium Copyright Act of 1998 (the “DMCA”) provides recourse for copyright owners who believe that material appearing on the Internet infringes their rights under U.S. copyright law. If you believe in good faith that materials available on the Sites infringe your copyright, you (or your agent) may send Leighton Avant-Garde Haus a notice requesting that we remove the material or block access to it. If you believe in good faith that someone has wrongly filed a notice of copyright infringement against you, you may send a counter-notice to Leighton Avant-Garde Haus under applicable provisions of the DMCA. Please note that substantial penalties under U.S. copyright law may be levied against any filer of a false counter-notice. Notices and counter-notices must meet the then-current statutory requirements imposed by the DMCA. See 17 U.S.C. § 512(c)(3), available at http://www.copyright.gov/title17/92chap5.html for details. Notices and counter-notices should be sent to:
 
@@ -265,7 +268,7 @@ In accordance with the DMCA and other applicable law, Leighton Avant-Garde Haus 
 
 
 
-### 13. GENERAL
+## 13. GENERAL
 
 The Terms and the relationship between each user and Leighton Avant-Garde Haus shall be governed by the laws of the State of California, including governed laws of the State of North Carolina, AND lastly, the State of Florida to the fullest extent, without regard to its conflict of law provisions and each party shall submit to the personal and exclusive jurisdiction of the courts located in ;[San Francisco, California ~ Charlotte, North Carolina ~ and or Miami-Dade, Florida]. The application of the United Nations Convention on Contracts for the International Sale of Goods is expressly excluded. Except to the extent a Services Agreement applies, these Terms, along with the Privacy Policy, constitute the entire agreement between you and Leighton Avant-Garde Haus with respect to your use of the Sites and supersede all prior or contemporaneous communications and proposals, whether electronic, oral or written, between you and Leighton Avant-Garde Haus with respect to the Sites. If any provision of the Terms is found by a court of competent jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor to give effect to the parties’ intentions as reflected in the provision, and the other provisions of the Terms remain in full force and effect. A party may only waive its rights under these Terms by a written document executed by both parties. Leighton Avant-Garde Haus’ failure to insist on or enforce strict performance of these Terms shall not be construed as a waiver by Leighton Avant-Garde Haus of any provision or any right it has to enforce these Terms, nor shall any course of conduct between Leighton Avant-Garde Haus and you or any other party be deemed to modify any provision of these Terms. The headings of the sections of these Terms are for convenience of reference only and are not intended to restrict, affect or be of any weight in the interpretation or construction of the provisions of such sections.
 
