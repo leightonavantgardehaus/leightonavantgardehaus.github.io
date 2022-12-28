@@ -1,6 +1,6 @@
-# ALL Legals
+# ALL Current Legals Portfolio Listing
 
-# Copyright and License Policy
+### Copyright and License Policy
 
 ### License 
 Copyright (c, ©, IP) 2021-2023 Leighton Avant-Garde Haus LLC 2021. All Rights Reserved
