@@ -1,18 +1,18 @@
 # Security Policy
 
-## Applied Integration
+### Applied Integration
 
-Use this section to tell people about which versions of your project are
-currently being supported with security updates.
-
-| Version | Supported          |
-| ------- | ------------------ |
-| v0.0.1   | ⚔️: |
+Currently Supporting Pre-Alpha v0.0.1 
 
 
-## Found a Vulnerability? 
+| Version  | Supported          |
+| -------  | ------------------ |
+| v0.0.1   |  🦾                |
 
-Submit any vulnerabilities or cracks in the site via email: ai@theleightonhaus.com
+## Reporting a Vulnerability?
 
+Please file a report via email: gianni@lucienleighton.com
+
+Evaluations are finalized and Scheduled each Thursday, 3:30pm EST
 
 
