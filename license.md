@@ -1,9 +1,13 @@
 # Copyright and License Policy
 
 ### License 
-Copyright (c, ©, IP) 2021-2023 Leighton Avant-Garde Haus LLC 2021. All Rights Reserved
 
-Copyright (c, ©) 2022 AIM DYNAMIX, L.AgH. All Rights Reserved  
+Copyright (c, ©) 2022 AIM DYNAMIX, L.AgH 
+All Rights Reserved
+
+Copyright (c, ©, IP) 2022-2023 Leighton Avant-Garde Haus LLC 
+All Rights Reserved
+
 
 
 This Policy applies to the Ownership and Employees of Leighton Avant-Garde Haus, L.AgH LLC. Leighton Avant-Garde Haus, a North Carolina Private Limited Liability Company and all of its subsidiaries (Subsidiares are to be assumed involved in the Company name "Leighton Avant-Garde Haus, The Leighton Haus (theleightonhaus) or L.AgH” respects the intellectual property rights of others and expects its users to do the same.
