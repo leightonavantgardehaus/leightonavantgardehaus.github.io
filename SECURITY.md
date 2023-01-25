@@ -9,10 +9,11 @@ Currently Supporting Pre-Alpha v0.0.1
 | -------  | ------------------ |
 | v0.0.1   |  🦾                |
 
-## Reporting a Vulnerability?
 
-Please file a report via email: ai@theleightonhaus.com
 
-Evaluations are finalized and Scheduled each Thursday, 3:30pm EST
+ <a href='mailto:tech@theleightonhaus.com' target="_blank"><img alt='icloud' src='https://img.shields.io/badge/File_Vulnerability-100000?style=for-the-badge&logo=icloud&logoColor=white&labelColor=black&color=black'/></a>
+##
+
+Evaluations scheduled every Thursday, 3:30pm EST
 
 
