@@ -1,6 +1,6 @@
+# 2023 Compliance 
 ![new6](https://user-images.githubusercontent.com/118361152/209752154-38fd1051-456b-4ff8-ab26-f61345108989.jpeg)
 
-### 2023 Legal Compliance Documentation
 
 # AIM DYNAMIX AI Program Terms
 
