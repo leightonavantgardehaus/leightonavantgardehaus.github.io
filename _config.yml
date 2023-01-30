@@ -1,4 +1,2 @@
 name: 2023 Compliance
 title: null
-- name: Authenticate to Google Cloud
-  uses: google-github-actions/auth@v1
