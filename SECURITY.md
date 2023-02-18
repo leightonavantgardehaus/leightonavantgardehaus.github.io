@@ -1,6 +1,6 @@
 # Security Policy
 
-### Applied Integration
+### ICDAP Auth Applied Integration
 
 Currently Supporting Pre-Alpha v0.0.1 
 
