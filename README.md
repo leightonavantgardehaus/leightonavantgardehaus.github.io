@@ -1,6 +1,6 @@
  ![new6](https://user-images.githubusercontent.com/118361152/209752154-38fd1051-456b-4ff8-ab26-f61345108989.jpeg)
 
-# 2023 Compliance
+<h3 align="middle"> 2023 Compliance
 
 # AIM DYNAMIX AI Program Terms
 
@@ -160,7 +160,7 @@ USA
 https://drift.com/
 Transactional messaging
 USA
-Last updated: December 27, 2022
+Last updated: February 19, 2023
 # License 
 Copyright(©, IP) 2021-2023 Leighton Avant-Garde Haus LLC 2021. All Rights Reserved. Copyright(©, IP) 2022-2023 AIM DYNAMIX, L.AgH 2022. All Rights Reserved
 
