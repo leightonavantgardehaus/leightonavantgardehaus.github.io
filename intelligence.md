@@ -1,4 +1,4 @@
-### Intelligence  
+# Intelligence  
 
 Artificial intelligence (AI) promises to revolutionize data management and analytics for government by automating ingest and handling, amplifying human intelligence, and transforming decision-making and outcome efficacy. But adoption remains difficult, as many government agencies are facing data complexity roadblocks, shortages of data scientists and AI experts and a lack of low-cost, readily deployable technologies. 
 
