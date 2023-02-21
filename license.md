@@ -96,7 +96,7 @@ For each Submission, you represent and warrant that you have all rights necessar
 
 
 
-### 4. You agree that you will not, and will not allow or authorize any third party to, post Submissions containing:
+### You agree that you will not, and will not allow or authorize any third party to, post Submissions containing:
 
 • Anything that is or may be (a) threatening, harassing, degrading, abusive or hateful; (b) an incitement to violence, terrorism or other wrongdoing; (c) defamatory or libelous; (d) invasive of privacy rights; (e) fraudulent, deceptive, impersonating of any person or entity, or misrepresentative of your affiliation with any person or entity; (f) obscene, pornographic, indecent, grotesque or otherwise objectionable; or (g) protected by copyright, trademark, confidentiality obligations, or other proprietary or privacy right without the express prior written consent of the owner of such right.
 
