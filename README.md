@@ -214,7 +214,7 @@ Email: legal@theleightonhaus.com
 
 Leighton Avant-Garde Haus. AIM DYNAMIX
 Terms of Use
-These terms of use (“Terms”) govern your access to and use of all Leighton Avant-Garde Haus Propertiesbranded publicly available websites, including sites located on theleightonhaus.com, lucienleighton.com, and any other pages that link to these Terms (collectively, the “Sites”).
+These terms of use (“Terms”) govern your access to and use of all Leighton Avant-Garde Haus Properties--branded publicly available websites, including sites located on theleightonhaus.com, lucienleighton.com, and any other pages that link to these Terms (collectively, the “Sites”).
  
 
 PLEASE READ CAREFULLY THESE TERMS AND THE Leighton Avant-Garde Haus PRIVACY POLICY(“PRIVACY POLICY”) WHICH IS INCORPORATED BY REFERENCE INTO THESE TERMS. BY ACCESSING OR USING ANY OF THE SITES, YOU REPRESENT THAT YOU ARE AT LEAST 18 YEARS OLD, YOU ACKNOWLEDGE AND AGREE THAT YOU HAVE READ AND UNDERSTOOD THESE TERMS, AND YOU AGREE TO BE LEGALLY BOUND BY ALL OF THESE TERMS. IF YOU DO NOT AGREE TO ALL OF THESE TERMS, DO NOT ACCESS OR USE THE SITES. WE SUGGEST YOU PRINT A COPY OF THESE TERMS FOR YOUR RECORDS.
