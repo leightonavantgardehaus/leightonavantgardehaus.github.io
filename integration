@@ -1,13 +1,38 @@
 
-
 ### IQX Auth Applied Integration
 
 <Pre-Alpha v0.0.1> 
 
   //<v0.0.1// 
-    set.run.auth.5042.signature.secure.run
+    set.run.auth.5042.signature.secure.run.tensorflow
 
+  sysconfig/fetch.export.os.numpy.funtion 'pytorch_rocm_arch=rtx
+     
+     export NAME_NGC=pytorch:22.10-py3
+export NAME_CONFIG=8xA100_80GB_SXM4_v1
+export NAME_MODEL=all 
+export TIME_OUT=3000
 
+PyTorch_SSD_AMP                     :  sucessful
+PyTorch_SSD_FP32                    :  sucessful
+PyTorch_bert_base_squad_FP16        :  sucessful
+PyTorch_bert_base_squad_FP32        :  sucessful
+PyTorch_bert_large_squad_FP16       :  sucessful
+PyTorch_bert_large_squad_FP32       :  sucessful
+PyTorch_gnmt_FP16                   :  sucessful
+PyTorch_gnmt_FP32                   :  sucessful
+PyTorch_ncf_FP16                    :  sucessful
+PyTorch_ncf_FP32                    :  sucessful
+PyTorch_resnet50_AMP                :  sucessful
+PyTorch_resnet50_FP32               :  sucessful
+PyTorch_tacotron2_FP16              :  sucessful
+PyTorch_tacotron2_FP32              :  sucessful
+PyTorch_transformerxlbase_FP16      :  sucessful
+PyTorch_transformerxlbase_FP32      :  sucessful
+PyTorch_transformerxllarge_FP16     :  sucessful
+PyTorch_transformerxllarge_FP32     :  sucessful
+PyTorch_waveglow_FP16               :  sucessful
+PyTorch_waveglow_FP32               :  sucessful
 
 
 
