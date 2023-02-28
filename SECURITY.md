@@ -2,12 +2,12 @@
 
 ### ICDAP Auth Applied Integration
 
-Currently Supporting Pre-Alpha v0.0.1 
+Currently Supporting Pre-Alpha v0.0.3 
 
 
 | Version  | Supported          |
 | -------  | ------------------ |
-| v0.0.1   |  🦾                |
+| v0.0.3   |  🦾                |
 
 
 
