@@ -9,7 +9,7 @@ Privacy Policy) is incorporated by reference and will control for any provisions
 
 # Participation and Termination
 
-Xerataus may suspend or terminate your access to or use of Xerataus AI at any time. The Xerataus AI Program Terms will automatically terminate upon the release of a generally available version of any Xerataus AI or upon notice of termination by Xerataus. You acknowledge AIMX is under no obligation to make Xerataus generally available and may never do so. Further, upon AIM DYNAMIX AI becoming generally available, you acknowledge that continued access and use of the Xerataus AI feature may be subject to your agreement to pay additional fees. We reserve the right to modify or terminate the AI Program, the AI Program Terms, or your use of Xerataus AI, to limit or deny access to Xerataus AI and/or participation in the Xerataus AI Program, at any time, in our sole discretion, for any reason, with or without notice and without liability to you. You may discontinue your use of Xerataus AI and/or your participation in the Xerataus AI Program at any time by disabling the Xerataus AI feature.
+Xerataus may suspend or terminate your access to or use of Xerataus AI at any time. The Xerataus AI Program Terms will automatically terminate upon the release of a generally available version of any Xerataus AI or upon notice of termination by Xerataus. You acknowledge AIMX is under no obligation to make Xerataus generally available and may never do so. Further, upon Xerataus AI becoming generally available, you acknowledge that continued access and use of the Xerataus AI feature may be subject to your agreement to pay additional fees. We reserve the right to modify or terminate the AI Program, the AI Program Terms, or your use of Xerataus AI, to limit or deny access to Xerataus AI and/or participation in the Xerataus AI Program, at any time, in our sole discretion, for any reason, with or without notice and without liability to you. You may discontinue your use of Xerataus AI and/or your participation in the Xerataus AI Program at any time by disabling the Xerataus AI feature.
 
 # Nature of AI
 
@@ -17,14 +17,14 @@ You may provide input to be processed by Xerataus AI (“Input”), and receive 
 
 # IP
 
-You agree that, as between you and us, we own all legal rights, title and interest in and to the AIM DYNAMIX AI Program, AIM AI, or any and Parent Company, Leighton Avant-Garde Haus' Properties, which includes all intellectual property rights, and except for the license provided herein, no other rights or permissions to any of present or future AIM DYNAMIX AI is granted.
+You agree that, as between you and us, we own all legal rights, title and interest in and to the Xerataus AI Program, (AIMX), or any and Parent Company, Leighton Avant-Garde Haus' Properties, which includes all intellectual property rights, and except for the license provided herein, no other rights or permissions to any of present or future Xerataus AI is granted.
 Nothing herein gives you a right to use any of our trade names, trademarks, service marks, logos, domain names, and other distinctive brand features.  Except to the extent permitted by law, you may not modify, distribute, prepare derivative works of, reverse engineer, reverse assemble, disassemble, decompile or otherwise attempt to decipher any code in connection with Xerataus AI and/or any other aspect of Xerataus technology, except as permitted by us.
 
 # Additional Use Provisions
 
-You may not use AIM DYNAMIX AI (i) to develop foundation models or other large scale models that compete with AIM DYNAMIX AI; (ii) to mislead any person that Output from the Services was solely human generated; (iii) to generate spam, content for dissemination in electoral campaigns, use the Services in a manner that violates any applicable laws or technical documentation, usage guidelines, or parameters; or (iv) process sensitive personal data as that term is understood under applicable data protection law.
-You acknowledge that due to the nature of machine learning and the technology powering AIM DYNAMIX AI, Output may not be unique and the Services may generate the same or similar output to AIM DYNAMIX or a third party.
-Xerataus uses technology provided by our Parent Company, Leighton Avant-Garde Haus LLC (“TheLeightonHaus, L.AgH”) to provide AIM DYNAMIX AI. You may not use Xerataus AI in a manner that violates any Leighton Avant-Garde Haus Policy, including any other Legal Agreements
+You may not use AIM DYNAMIX AI (i) to develop foundation models or other large scale models that compete with Xerataus AI; (ii) to mislead any person that Output from the Services was solely human generated; (iii) to generate spam, content for dissemination in electoral campaigns, use the Services in a manner that violates any applicable laws or technical documentation, usage guidelines, or parameters; or (iv) process sensitive personal data as that term is understood under applicable data protection law.
+You acknowledge that due to the nature of machine learning and the technology powering Xerataus AI, Output may not be unique and the Services may generate the same or similar output to AIM DYNAMIX or a third party.
+Xerataus uses technology provided by our Parent Company, Leighton Avant-Garde Haus LLC (“TheLeightonHaus, L.AgH”) to provide Xerataus AI. You may not use Xerataus AI in a manner that violates any Leighton Avant-Garde Haus Policy, including any other Legal Agreements
 
 # Improvement of Services
 
@@ -39,13 +39,13 @@ IN NO EVENT SHALL NOTION OR ITS  AFFILIATES BE LIABLE FOR ANY INDIRECT, SPECIAL,
 
 # WARRANTY DISCLAIMER
 
-YOU HEREBY ACKNOWLEDGE AND AGREE THAT AIM DYNAMIX, AIM DYNAMIX AI AND ALL OUTPUT ARE PROVIDED BY AIM DYNAMIX AND LEIGHTON AVANT-GARDE HAUS TECHNOLOGIES ON AN “AS IS” BASIS AND AS AVAILABLE, AND YOUR ACCESS TO, PARTICIPATION AND/OR USE OF THE AI PROGRAM OR XERATAUS AI, IS AT YOUR SOLE RISK. TO THE EXTENT PERMITTED BY APPLICABLE LAW, NOTION EXPRESSLY DISCLAIMS ALL AND YOU RECEIVE NO WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THOSE OF MERCHANTABILITY, SATISFACTORY QUALITY, TITLE, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. NOTION MAKES NO WARRANTY THAT ANY OF THE SERVICES WILL MEET YOUR REQUIREMENTS AND/OR THAT THE SERVICES WILL BE UNINTERRUPTED, TIMELY, ERROR-FREE OR SECURE, NOR DOES AIM' MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE AIM DYNAMIX AI OR THE ACCURACY OF ANY OTHER INFORMATION OBTAINED THROUGH AIM DYNAMIX AI. YOU UNDERSTAND AND AGREE THAT ANY MATERIAL AND/OR DATA OBTAINED THROUGH THE USE OF ANY OF XERATAUS AI IS DONE AT YOUR SOLE RISK. YOU ACKNOWLEDGE AND AGREE THAT XERATAUS AND LEIGHTON AVANT-GARDE HAUS IS NOT IN SCOPE FOR AIM’S SOC 2 TYPE II AND OTHER INDEPENDENT SECURITY AUDITS AND SECURITY CERTIFICATIONS.  NO INFORMATION OR ADVICE, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM AIM DYNAMIX OR THROUGH XERATAUS AI SHALL CREATE ANY WARRANTY NOT EXPRESSLY MADE HEREIN. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES AND CONDITIONS, SO SOME OF THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU.
+YOU HEREBY ACKNOWLEDGE AND AGREE THAT XERATAUS, XERATAUS AI (AIMX) AND ALL OUTPUT ARE PROVIDED BY XERATAUS AND LEIGHTON AVANT-GARDE HAUS TECHNOLOGIES ON AN “AS IS” BASIS AND AS AVAILABLE, AND YOUR ACCESS TO, PARTICIPATION AND/OR USE OF THE AI PROGRAM OR XERATAUS AI, IS AT YOUR SOLE RISK. TO THE EXTENT PERMITTED BY APPLICABLE LAW, NOTION EXPRESSLY DISCLAIMS ALL AND YOU RECEIVE NO WARRANTIES AND CONDITIONS OF ANY KIND, WHETHER EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THOSE OF MERCHANTABILITY, SATISFACTORY QUALITY, TITLE, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. NOTION MAKES NO WARRANTY THAT ANY OF THE SERVICES WILL MEET YOUR REQUIREMENTS AND/OR THAT THE SERVICES WILL BE UNINTERRUPTED, TIMELY, ERROR-FREE OR SECURE, NOR DOES AIM' MAKE ANY WARRANTY AS TO THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF THE XERATAUS AI OR THE ACCURACY OF ANY OTHER INFORMATION OBTAINED THROUGH XERATAUS AI. YOU UNDERSTAND AND AGREE THAT ANY MATERIAL AND/OR DATA OBTAINED THROUGH THE USE OF ANY OF XERATAUS AI IS DONE AT YOUR SOLE RISK. YOU ACKNOWLEDGE AND AGREE THAT XERATAUS AND LEIGHTON AVANT-GARDE HAUS IS NOT IN SCOPE FOR AIM’S SOC 2 TYPE II AND OTHER INDEPENDENT SECURITY AUDITS AND SECURITY CERTIFICATIONS.  NO INFORMATION OR ADVICE, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM XERATAUS OR THROUGH XERATAUS AI SHALL CREATE ANY WARRANTY NOT EXPRESSLY MADE HEREIN. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES AND CONDITIONS, SO SOME OF THE ABOVE EXCLUSIONS MAY NOT APPLY TO YOU.
 
 
 # XERATAUS Subprocessing List
 
 What is a Subprocessor?
-In order to provide our Services, Notion engages the Subprocessors listed in the tables below. A Subprocessor is a third-party engaged by AIM DYNAMIX, and its applicable Affiliates, to process Customer Personal Data. 
+In order to provide our Services, Notion engages the Subprocessors listed in the tables below. A Subprocessor is a third-party engaged by Xerataus, and its applicable Affiliates, to process Customer Personal Data. 
 
 List of Third-Party Subprocessors
 Below is the list of Subprocessors and how we use their services.
@@ -165,7 +165,7 @@ Infrastructure, processing, data, (other)
 USA
 Last updated: February 21, 2023
 # License 
-Copyright(©, IP) 2023 Leighton Avant-Garde Haus LLC. All Rights Reserved. Copyright(©, IP) 2022-2023 AIM DYNAMIX, L.AgH 2022. All Rights Reserved
+Copyright(©, IP) 2023 Leighton Avant-Garde Haus LLC. All Rights Reserved. Copyright(©, IP) 2022-2023 Xerataus, L.AgH 2022. All Rights Reserved
 
 
 
