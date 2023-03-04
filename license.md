@@ -3,7 +3,7 @@
  
 Copyright (c, ©, IP) 2023 LEIGHTON AVANT-GARDE HAUS LLC. All Rights Reserved
 
-Copyright (c, ©, IP) 2023 AIM DYNAMIX, L.AgH 2022. All Rights Reserved
+Copyright (c, ©, IP) 2023 XERATAUS, L.AgH 2022. All Rights Reserved
 
 This Policy applies to the Ownership and Employees of LEIGHTON AVANT-GARDE HAUS, L.AgH LLC AND AIM DYNAMIX, L.AgH. Leighton Avant-Garde Haus, a North Carolina Private Limited Liability Company and all of its subsidiaries (Subsidiares are to be assumed involved in the Company name "Leighton Avant-Garde Haus, The Leighton Haus, AIM DYNAMIX, Leighton AgH, or L.AgH") respects the intellectual property rights of others and expects its users to do the same.
 Compliance with the terms of this Policy is a condition of employment for Leighton Avant-Garde Haus employees, and of private members under Non-Disclosure Agreement Policy for Leighton Avant-Garde Haus investors. This Policy is supplemental to the Copyright Use and Ownership Policy of Leighton Avant-Garde Haus, and is subject to any applicable laws and regulations or to specific provisions in grants or contracts that govern rights in copyrighted works created in connection with sponsored research.
