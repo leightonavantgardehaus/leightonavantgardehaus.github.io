@@ -2,14 +2,14 @@
 
 # 2023 Compliance
 
-# Xerataus AI (AIMX) Program Terms
+# Xerataus AI (A1MX) Program Terms
 
-The following terms (“AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“Xerataus AI, AIMX, Xerataus The Leighton Haus, or Leighton Avant-Garde Haus”) and apply to and govern your participation in the Xerataus AI early access program that provides AI-enabled features and functionality to program participants (“AI Program”). All defined terms in these AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
+The following terms (“AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“Xerataus AI, A1MX, Leighton IQX) and apply to and govern your participation in the Xerataus AI early access program that provides AI-enabled features and functionality to program participants (“AI Program”). All defined terms in these AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
 Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these AI Program Terms.
 
 # Participation and Termination
 
-Xerataus may suspend or terminate your access to or use of Xerataus AI at any time. The Xerataus AI Program Terms will automatically terminate upon the release of a generally available version of any Xerataus AI or upon notice of termination by Xerataus. You acknowledge AIMX is under no obligation to make Xerataus generally available and may never do so. Further, upon Xerataus AI becoming generally available, you acknowledge that continued access and use of the Xerataus AI feature may be subject to your agreement to pay additional fees. We reserve the right to modify or terminate the AI Program, the AI Program Terms, or your use of Xerataus AI, to limit or deny access to Xerataus AI and/or participation in the Xerataus AI Program, at any time, in our sole discretion, for any reason, with or without notice and without liability to you. You may discontinue your use of Xerataus AI and/or your participation in the Xerataus AI Program at any time by disabling the Xerataus AI feature.
+Xerataus may suspend or terminate your access to or use of Xerataus AI at any time. The Xerataus AI Program Terms will automatically terminate upon the release of a generally available version of any Xerataus AI or upon notice of termination by Xerataus. You acknowledge A1MX is under no obligation to make Xerataus generally available and may never do so. Further, upon Xerataus AI becoming generally available, you acknowledge that continued access and use of the Xerataus AI feature may be subject to your agreement to pay additional fees. We reserve the right to modify or terminate the AI Program, the AI Program Terms, or your use of Xerataus AI, to limit or deny access to Xerataus AI and/or participation in the Xerataus AI Program, at any time, in our sole discretion, for any reason, with or without notice and without liability to you. You may discontinue your use of Xerataus AI and/or your participation in the Xerataus AI Program at any time by disabling the Xerataus AI feature.
 
 # Nature of AI
 
@@ -17,14 +17,14 @@ You may provide input to be processed by Xerataus AI (“Input”), and receive 
 
 # IP
 
-You agree that, as between you and us, we own all legal rights, title and interest in and to the Xerataus AI Program (AIMX), or any and Parent Company, Leighton Avant-Garde Haus' Properties, which includes all intellectual property rights, and except for the license provided herein, no other rights or permissions to any of present or future Xerataus AI is granted.
-Nothing herein gives you a right to use any of our trade names, trademarks, service marks, logos, domain names, and other distinctive brand features.  Except to the extent permitted by law, you may not modify, distribute, prepare derivative works of, reverse engineer, reverse assemble, disassemble, decompile or otherwise attempt to decipher any code in connection with Xerataus AI and/or any other aspect of Xerataus technology, except as permitted by us.
+You agree that, as between you and us, we own all legal rights, title and interest in and to the Xerataus AI Program (A1MX), or any and Parent Company, Leighton Avant-Garde Haus' Properties, which includes all intellectual property rights, and except for the license provided herein, no other rights or permissions to any of present or future Xerataus AI is granted.
+Nothing herein gives you a right to use any of our trade names, trademarks, service marks, logos, domain names, and other distinctive brand features.  Except to the extent permitted by law, you may not modify, distribute, prepare derivative works of, reverse engineer, reverse assemble, disassemble, decompile or otherwise attempt to decipher any code in connection with Xerataus AI and/or any other aspect of Xerataus IQX technology, except as permitted by us.
 
 # Additional Use Provisions
 
 You may not use A1MX (i) to develop foundation models or other large scale models that compete with Xerataus AI; (ii) to mislead any person that Output from the Services was solely human generated; (iii) to generate spam, content for dissemination in electoral campaigns, use the Services in a manner that violates any applicable laws or technical documentation, usage guidelines, or parameters; or (iv) process sensitive personal data as that term is understood under applicable data protection law.
 You acknowledge that due to the nature of machine learning and the technology powering Xerataus AI, Output may not be unique and the Services may generate the same or similar output to Xerataus IQX or a third party.
-Xerataus IQX uses technology provided by our Parent Company, Leighton Avant-Garde Haus LLC (“TheLeightonHaus, L.AgH”) to provide Xerataus AI. You may not use Xerataus AI in a manner that violates any Leighton Avant-Garde Haus Policy, including any other Legal Agreements
+Xerataus IQX uses technology provided by our Parent Company (Leighton Avant-Garde Haus, LLC) to provide Xerataus AI. You may not use Xerataus AI in a manner that violates any Leighton Avant-Garde Haus Policy, including any other Legal Agreements
 
 # Improvement of Services
 
