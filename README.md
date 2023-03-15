@@ -121,7 +121,7 @@ Leighton Avant-Garde Haus.
 Support services
 USA
 Xerataus IQX, L.AgH
-The following Subprocessor(s) will only be used if you enable AIM DYNAMIX AI in your workspace. AIM DYNAMIX AI is currently only offered as an Alpha-Beta Service and is not generally available to all customers.
+The following Subprocessor(s) will only be used if you enable Xerataus AI in your workspace. A1MX is currently only offered as an Alpha-Beta Service and is not generally available to all customers.
 Subprocessor
 Purpose of Processing
 Location
@@ -174,7 +174,7 @@ Copyright(©, IP) 2023 Leighton Avant-Garde Haus LLC. All Rights Reserved. Copyr
  
 Copyright (c, ©, IP) 2023 LEIGHTON AVANT-GARDE HAUS LLC. All Rights Reserved
 
-Copyright (c, ©, IP) 2023 XERATAUS IQX, L.AgH 2022. All Rights Reserved
+Copyright (c, ©, IP) 2023 XERATAUS IQX, L.AgH LLC. All Rights Reserved
 
 This Policy applies to the Ownership and Employees of LEIGHTON AVANT-GARDE HAUS, L.AgH LLC AND XERATAUS, L.AgH. Leighton Avant-Garde Haus, a North Carolina Private Limited Liability Company and all of its subsidiaries (Subsidiaries are to be assumed involved in the Company name "Leighton Avant-Garde Haus, The Leighton Haus, Xerataus, Leighton AgH, or L.AgH") respects the intellectual property rights of others and expects its users to do the same.
 Compliance with the terms of this Policy is a condition of employment for Leighton Avant-Garde Haus employees, and of private members under Non-Disclosure Agreement Policy for Leighton Avant-Garde Haus investors. This Policy is supplemental to the Copyright Use and Ownership Policy of Leighton Avant-Garde Haus, and is subject to any applicable laws and regulations or to specific provisions in grants or contracts that govern rights in copyrighted works created in connection with sponsored research.
