@@ -176,9 +176,9 @@ Copyright (c, ©, IP) 2023 LEIGHTON AVANT-GARDE HAUS LLC. All Rights Reserved
 
 Copyright (c, ©, IP) 2023 XERATAUS, L.AgH 2022. All Rights Reserved
 
-This Policy applies to the Ownership and Employees of LEIGHTON AVANT-GARDE HAUS, L.AgH LLC AND XERATAUS, L.AgH. Leighton Avant-Garde Haus, a North Carolina Private Limited Liability Company and all of its subsidiaries (Subsidiares are to be assumed involved in the Company name "Leighton Avant-Garde Haus, The Leighton Haus, Xerataus, Leighton AgH, or L.AgH") respects the intellectual property rights of others and expects its users to do the same.
+This Policy applies to the Ownership and Employees of LEIGHTON AVANT-GARDE HAUS, L.AgH LLC AND XERATAUS, L.AgH. Leighton Avant-Garde Haus, a North Carolina Private Limited Liability Company and all of its subsidiaries (Subsidiaries are to be assumed involved in the Company name "Leighton Avant-Garde Haus, The Leighton Haus, Xerataus, Leighton AgH, or L.AgH") respects the intellectual property rights of others and expects its users to do the same.
 Compliance with the terms of this Policy is a condition of employment for Leighton Avant-Garde Haus employees, and of private members under Non-Disclosure Agreement Policy for Leighton Avant-Garde Haus investors. This Policy is supplemental to the Copyright Use and Ownership Policy of Leighton Avant-Garde Haus, and is subject to any applicable laws and regulations or to specific provisions in grants or contracts that govern rights in copyrighted works created in connection with sponsored research.
- All files and information contained in this Website are copyright by Leighton Avant-Garde Haus LLC , and may not be duplicated, copied, modified or adapted, in any way without our written permission. Our Website or Any Other Leighton Avant-Garde Haus IP' (Intellicetual Properties) may contain our service marks or trademarks as well as those of our affiliates or other companies, in the form of words, graphics, and logos. Your use of our Website, including our IP' (Intellicetual Properties) Portfolio and Services does not constitute any right or license for you to use our service marks or trademarks, without the prior written permission of Leighton Avant-Garde Haus LLC. Our Content, as found within our Website and Services, is protected under United States and foreign copyrights. The copying, redistribution, use or publication by you of any such Content, is strictly prohibited. Your use of our Website and Services does not grant you any ownership rights to our Content. 
+ All files and information contained in this Website are copyright by Leighton Avant-Garde Haus LLC , and may not be duplicated, copied, modified or adapted, in any way without our written permission. Our Website or Any Other Leighton Avant-Garde Haus IP (Internet Properties) may contain our service marks or trademarks as well as those of our affiliates or other companies, in the form of words, graphics, and logos. Your use of our Website, including our IP (Internet Properties) Portfolio and Services does not constitute any right or license for you to use our service marks or trademarks, without the prior written permission of Leighton Avant-Garde Haus LLC. Our Content, as found within our Website and Services, is protected under United States and foreign copyrights. The copying, redistribution, use or publication by you of any such Content, is strictly prohibited. Your use of our Website and Services does not grant you any ownership rights to our Content. 
 
 
  It is  policy, in appropriate circumstances and at its discretion, to disable and/or terminate the accounts of users who repeatedly infringe or are repeatedly charged with infringing the copyrights or other intellectual property rights of others.
@@ -212,7 +212,7 @@ Email: legal@theleightonhaus.com
 
 # Terms of Use
 
-Leighton Avant-Garde Haus. AIM DYNAMIX
+Leighton Avant-Garde Haus. Xerataus IQX
 Terms of Use
 These terms of use (“Terms”) govern your access to and use of all Leighton Avant-Garde Haus Properties--branded publicly available websites, including sites located on theleightonhaus.com, lucienleighton.com, and any other pages that link to these Terms (collectively, the “Sites”).
  
@@ -227,7 +227,7 @@ Throughout the Terms, “we,” “us,” “our” and “ours” refer to ALL 
 
 ### 1. ACCEPTANCE OF TERMS
 
-Leighton Avant-Garde Haus provides the Sites to you conditioned upon your accepting all of the Terms, without modification. Your use of the Sites constitutes your agreement with such Terms. We reserve the right to change, modify, add to, or remove portions of these Terms in our sole discretion at any time and we will, at our sole discretion, either post the modification on https://www.theleightonhaus/terms or provide you with email notice of the modification. You should check these Terms periodically for changes and you can determine when these Terms were last revised by referring to the “Last Updated” reference at the top of these Terms. Any modification shall be effective immediately upon the uploading of modified Terms. You indicate your agreement to comply with, and be bound by, any such modification by continuing to use or access the Sites after modified Terms are posted. If the modified Terms are not acceptable to you, your sole recourse is to discontinue your use of the Sites.
+Leighton Avant-Garde Haus provides the Sites to you conditioned upon your accepting all of the Terms, without modification. Your use of the Sites constitutes your agreement with such Terms. We reserve the right to change, modify, add to, or remove portions of these Terms in our sole discretion at any time and we will, at our sole discretion, either post the modification on https://leightonavantgardehaus.github.io or provide you with email notice of the modification. You should check these Terms periodically for changes and you can determine when these Terms were last revised by referring to the “Last Updated” reference at the top of these Terms. Any modification shall be effective immediately upon the uploading of modified Terms. You indicate your agreement to comply with, and be bound by, any such modification by continuing to use or access the Sites after modified Terms are posted. If the modified Terms are not acceptable to you, your sole recourse is to discontinue your use of the Sites.
 
 ‍
 
@@ -421,10 +421,10 @@ You agree that we will not be liable for delays, failures, or inadequate perform
 
 Privacy Policy for Leighton Avant-Garde Haus, L.AgH, LLC and Subsidiaries 
 
-The Leighton Haus properties, Leighton Avant-Garde Haus and AIM DYNAMIX, Official GitHub links for Leighton Avant-Garde Haus and AIM DYNAMIX, Official Lucien Leighton Website(s). This Privacy Policy document contains types of information that is collected and recorded by 'theleightonhaus (Leighton Avant-Garde Haus)' properties and how we use it.
+The Leighton Haus properties, Leighton Avant-Garde Haus and Xerataus IQX, Official GitHub links for Leighton Avant-Garde Haus and Xerataus IQX, Official Lucien Leighton Website(s). This Privacy Policy document contains types of information that is collected and recorded by 'theleightonhaus (Leighton Avant-Garde Haus)' properties and how we use it.
 
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
-This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in theleightonhaus. This policy is not applicable to any information collected offline or via channels other than this website, AIM DYNAMIX USER DATA, and LucienLeighton.com 
+This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in theleightonhaus. This policy is not applicable to any information collected offline or via channels other than this website, Xerataus IQX USER DATA, and LucienLeighton.com 
 Consent
 
 By using our websites, you hereby consent to our Privacy Policy and agree to its terms.
@@ -460,7 +460,7 @@ Third-party ad servers or ad networks uses technologies like cookies, JavaScript
 Note that theleightonhaus has no access to or control over these cookies that are used by third-party advertisers.
 Third Party Privacy Policies
 
-theleightonhaus's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
+'theleightonhaus's Privacy Policy does not apply to other advertisers or websites. Thus, we are advising you to consult the respective Privacy Policies of these third-party ad servers for more detailed information. It may include their practices and instructions about how to opt-out of certain options.
 You can choose to disable cookies through your individual browser options. To know more detailed information about cookie management with specific web browsers, it can be found at the browsers' respective websites.
 
 CCPA Privacy Rights (Do Not Sell My Personal Information)
