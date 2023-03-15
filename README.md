@@ -165,7 +165,9 @@ Infrastructure, processing, data, (other)
 USA
 Last updated: February 21, 2023
 # License 
-Copyright(©, IP) 2023 Leighton Avant-Garde Haus LLC. All Rights Reserved. Copyright(©, IP) 2022-2023 Xerataus IQX, L.AgH 2022. All Rights Reserved
+Copyright(©, IP) 2023 Leighton Avant-Garde Haus LLC. All Rights Reserved. 
+
+Copyright(©, IP) 2022-2023 Xerataus IQX, L.AgH LLC. All Rights Reserved
 
 
 
