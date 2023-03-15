@@ -4,7 +4,7 @@
 
 # Xerataus AI (AIMX) Program Terms
 
-The following terms (“AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus, L.AgH LLC (“Xerataus AI, AIMX, Xerataus The Leighton Haus, or Leighton Avant-Garde Haus”) and apply to and govern your participation in the Xerataus AI early access program that provides AI-enabled features and functionality to program participants (“AI Program”). All defined terms in these AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
+The following terms (“AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“Xerataus AI, AIMX, Xerataus The Leighton Haus, or Leighton Avant-Garde Haus”) and apply to and govern your participation in the Xerataus AI early access program that provides AI-enabled features and functionality to program participants (“AI Program”). All defined terms in these AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
 Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these AI Program Terms.
 
 # Participation and Termination
@@ -54,7 +54,7 @@ We use these Subprocessors for hosting and running our Services. These are third
 Subprocessor
 Purpose of Processing
 Location
-https://leightonagh.github.io
+https://xerataus.github.io
 Hosting and storage systems provider
 USA
 Platform
@@ -111,7 +111,7 @@ Other Notion Entities involved in offering the Services.
 Subprocessor
 Purpose of Processing
 Location
-AIM DYNAMIX, L.AgH LLC
+Leighton IQX, L.AgH LLC
 Support services
 USA
 Leighton Avant-Garde Haus.
@@ -120,12 +120,12 @@ USA
 Leighton Avant-Garde Haus.
 Support services
 USA
-AIM DYNAMIX, L.AgH
+Xerataus IQX, L.AgH
 The following Subprocessor(s) will only be used if you enable AIM DYNAMIX AI in your workspace. AIM DYNAMIX AI is currently only offered as an Alpha-Beta Service and is not generally available to all customers.
 Subprocessor
 Purpose of Processing
 Location
-https://leightonagh.github.io
+https://leightonavantgardehaus.github.io
 Service provider for AI-enabled functionality
 USA
 AIS
@@ -165,7 +165,7 @@ Infrastructure, processing, data, (other)
 USA
 Last updated: February 21, 2023
 # License 
-Copyright(©, IP) 2023 Leighton Avant-Garde Haus LLC. All Rights Reserved. Copyright(©, IP) 2022-2023 Xerataus, L.AgH 2022. All Rights Reserved
+Copyright(©, IP) 2023 Leighton Avant-Garde Haus LLC. All Rights Reserved. Copyright(©, IP) 2022-2023 Xerataus IQX, L.AgH 2022. All Rights Reserved
 
 
 
@@ -174,7 +174,7 @@ Copyright(©, IP) 2023 Leighton Avant-Garde Haus LLC. All Rights Reserved. Copyr
  
 Copyright (c, ©, IP) 2023 LEIGHTON AVANT-GARDE HAUS LLC. All Rights Reserved
 
-Copyright (c, ©, IP) 2023 XERATAUS, L.AgH 2022. All Rights Reserved
+Copyright (c, ©, IP) 2023 XERATAUS IQX, L.AgH 2022. All Rights Reserved
 
 This Policy applies to the Ownership and Employees of LEIGHTON AVANT-GARDE HAUS, L.AgH LLC AND XERATAUS, L.AgH. Leighton Avant-Garde Haus, a North Carolina Private Limited Liability Company and all of its subsidiaries (Subsidiaries are to be assumed involved in the Company name "Leighton Avant-Garde Haus, The Leighton Haus, Xerataus, Leighton AgH, or L.AgH") respects the intellectual property rights of others and expects its users to do the same.
 Compliance with the terms of this Policy is a condition of employment for Leighton Avant-Garde Haus employees, and of private members under Non-Disclosure Agreement Policy for Leighton Avant-Garde Haus investors. This Policy is supplemental to the Copyright Use and Ownership Policy of Leighton Avant-Garde Haus, and is subject to any applicable laws and regulations or to specific provisions in grants or contracts that govern rights in copyrighted works created in connection with sponsored research.
