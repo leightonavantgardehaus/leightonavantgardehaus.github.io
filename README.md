@@ -1,8 +1,8 @@
  ![new6](https://user-images.githubusercontent.com/118361152/209752154-38fd1051-456b-4ff8-ab26-f61345108989.jpeg)
 
-# 2023 Compliance
+# 2024 Compliance
 
-# Leighton Avant-Garde Haus (IQX/AI) and Xerataus IQX (A1MX) Program Terms
+# Leighton Avant-Garde Haus (IQX/AI) and Xerataus IQX Program Terms
 
 The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“Xerataus IQX, A1MX, Leighton IQX) and apply to and govern your participation in the Xerataus IQX and A1MX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
 Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these IQX/AI Program Terms.
@@ -174,9 +174,9 @@ Copyright(©, IP) 2022-2023 Xerataus IQX, L.AgH LLC. All Rights Reserved
 # Copyright and License Policy
 
  
-Copyright (c, ©, IP) 2023 LEIGHTON AVANT-GARDE HAUS LLC. All Rights Reserved
+Copyright (c, ©, IP) LEIGHTON AVANT-GARDE HAUS LLC. All Rights Reserved
 
-Copyright (c, ©, IP) 2023 XERATAUS IQX, L.AgH LLC. All Rights Reserved
+Copyright (c, ©, IP) XERATAUS IQX, L.AgH LLC. All Rights Reserved
 
 This Policy applies to the Ownership and Employees of LEIGHTON AVANT-GARDE HAUS, L.AgH LLC AND XERATAUS, L.AgH. Leighton Avant-Garde Haus, a North Carolina Private Limited Liability Company and all of its subsidiaries (Subsidiaries are to be assumed involved in the Company name "Leighton Avant-Garde Haus, The Leighton Haus, Xerataus, Leighton AgH, or L.AgH") respects the intellectual property rights of others and expects its users to do the same.
 Compliance with the terms of this Policy is a condition of employment for Leighton Avant-Garde Haus employees, and of private members under Non-Disclosure Agreement Policy for Leighton Avant-Garde Haus investors. This Policy is supplemental to the Copyright Use and Ownership Policy of Leighton Avant-Garde Haus, and is subject to any applicable laws and regulations or to specific provisions in grants or contracts that govern rights in copyrighted works created in connection with sponsored research.
@@ -206,9 +206,8 @@ Compliance with the terms of this Policy is a condition of employment for Leight
 ### Deliver this Notice, with all items completed, to Leighton Avant-Garde Haus’ Designated Copyright Agent:  
 Attn: Copyright Agent  
 
-c/o Leighton Avant-Garde Haus, L.AgH, LLC 
+c/o Leighton Avant-Garde Haus, LLC 
 
-401 North Tryon Street Charlotte, North Carolina 28202
 
 Email: legal@theleightonhaus.com
 
@@ -485,7 +484,7 @@ The right to object to processing – You have the right to object to our proces
 The right to data portability – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
 
 If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us.
-Children's Information
+
 
 Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
 
