@@ -5,7 +5,7 @@ Copyright (c, ©) LEIGHTON AVANT-GARDE HAUS LLC. All Rights Reserved
 
 Copyright (c, ©) XERATAUS IQX, L.AgH. All Rights Reserved
 
-This Policy applies to the Ownership and Employees of LEIGHTON AVANT-GARDE HAUS, L.AgH LLC AND Xerataus IQX, L.AgH. Leighton Avant-Garde Haus, a North Carolina Private Limited Liability Company and all of its subsidiaries (Subsidiares are to be assumed involved in the Company name "Leighton Avant-Garde Haus, The Leighton Haus, Xerataus IQX, Leighton AgH, or L.AgH") respects the intellectual property rights of others and expects its users to do the same.
+This Policy applies to the Ownership and Employees of LEIGHTON DYNAMICA (AVANT-GARDE HAUS), L.AgH LLC AND Xerataus IQX, L.AgH. Leighton Dynamica, a North Carolina Private Limited Liability Company and all of its subsidiaries (Subsidiares are to be assumed involved in the Company name "Leighton Avant-Garde Haus, The Leighton Haus, Xerataus IQX, Leighton Dynamica, or L.AgH") respects the intellectual property rights of others and expects its users to do the same.
 Compliance with the terms of this Policy is a condition of employment for Leighton Avant-Garde Haus employees, and of private members under Non-Disclosure Agreement Policy for Leighton Avant-Garde Haus investors. This Policy is supplemental to the Copyright Use and Ownership Policy of Leighton Avant-Garde Haus, and is subject to any applicable laws and regulations or to specific provisions in grants or contracts that govern rights in copyrighted works created in connection with sponsored research.
  All files and information contained in this Website are copyright by Leighton Avant-Garde Haus LLC , and may not be duplicated, copied, modified or adapted, in any way without our written permission. Our Website or Any Other Leighton Avant-Garde Haus IP' (Intellicetual Properties) may contain our service marks or trademarks as well as those of our affiliates or other companies, in the form of words, graphics, and logos. Your use of our Website, including our IP' (Intellicetual Properties) Portfolio and Services does not constitute any right or license for you to use our service marks or trademarks, without the prior written permission of Leighton Avant-Garde Haus LLC. Our Content, as found within our Website and Services, is protected under United States and foreign copyrights. The copying, redistribution, use or publication by you of any such Content, is strictly prohibited. Your use of our Website and Services does not grant you any ownership rights to our Content. 
 
@@ -41,7 +41,7 @@ Email: legal@theleightonhaus.com
 
 # Terms of Use
 
-Leighton Avant-Garde Haus. AIM DYNAMIX
+Leighton Dynamica (Avant-Garde Haus). Xerataus IQX
 Terms of Use
 These terms of use (“Terms”) govern your access to and use of all Leighton Avant-Garde Haus Propertiesbranded publicly available websites, including sites located on theleightonhaus.com, lucienleighton.com, and any other pages that link to these Terms (collectively, the “Sites”).
  
