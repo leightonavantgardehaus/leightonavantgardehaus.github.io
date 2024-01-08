@@ -2,9 +2,9 @@
 
 # 2024 Compliance
 
-# Leighton Avant-Garde Haus (IQX/AI) and Xerataus IQX Program Terms
+# Leighton Dynamica (IQX/AI) and Xerataus IQX Program Terms
 
-The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“Xerataus IQX, A1MX, Leighton IQX) and apply to and govern your participation in the Xerataus IQX and A1MX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
+The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“A1MX, Leighton Avant-Garde Haus, Leighton Dynamica, Leighton IQX, Xerataus IQX) and apply to and govern your participation in the A1MX, Leighton IQX, and Xerataus IQX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
 Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these IQX/AI Program Terms.
 
 # Participation and Termination
@@ -31,7 +31,7 @@ Xerataus IQX uses technology provided by our Parent Company (Leighton Avant-Gard
 Artificial intelligence and machine learning models can improve over time to better address specific use cases. We do not and will not permit third parties to use your Content or Customer Data to improve or train their AI models. We do not and will not use your Content or Customer Data to improve or train our models unless you give us express permission to do so.
 #Additional Processing Instruction
 To the extent your Input contains Customer Personal Data (as that term is defined in the Data Process Addendum), you instruct Notion to process the Customer Personal Data for the additional Business Purpose of providing the A1MX functionality and Output.
-You acknowledge that for the purposes of your participation in the A1MX Program and your use of Xerataus IQX, Xerataus uses additional subprocessor(s) to provide the Xerataus IQX functionality.
+You acknowledge that for the purposes of your participation in the A1MX, Leighton IQX Program(s) and your use of Xerataus IQX, Xerataus uses additional subprocessor(s) to provide the Xerataus IQX functionality.
 
 # LIMITS ON LIABILITY
 
@@ -165,9 +165,9 @@ Infrastructure, processing, data, (other)
 USA
 Last updated: February 21, 2023
 # License 
-Copyright(©, IP) 2023 Leighton Avant-Garde Haus LLC. All Rights Reserved. 
+Copyright(©, IP) 2024 Leighton Avant-Garde Haus LLC. All Rights Reserved. 
 
-Copyright(©, IP) 2022-2023 Xerataus IQX, L.AgH LLC. All Rights Reserved
+Copyright(©, IP) 2024 Xerataus IQX, L.AgH LLC. All Rights Reserved
 
 
 
@@ -213,9 +213,9 @@ Email: legal@theleightonhaus.com
 
 # Terms of Use
 
-Leighton Avant-Garde Haus. Xerataus IQX
+Leighton Dynamica. Xerataus IQX
 Terms of Use
-These terms of use (“Terms”) govern your access to and use of all Leighton Avant-Garde Haus Properties--branded publicly available websites, including sites located on theleightonhaus.com, lucienleighton.com, and any other pages that link to these Terms (collectively, the “Sites”).
+These terms of use (“Terms”) govern your access to and use of all Leighton Dynamica, collectivelly all Leighton Avant-Garde Haus Properties--branded publicly available websites, including sites located on theleightonhaus.com and xerataus.one or any other pages that link to these Terms (collectively, the “Sites”).
  
 
 PLEASE READ CAREFULLY THESE TERMS AND THE Leighton Avant-Garde Haus PRIVACY POLICY(“PRIVACY POLICY”) WHICH IS INCORPORATED BY REFERENCE INTO THESE TERMS. BY ACCESSING OR USING ANY OF THE SITES, YOU REPRESENT THAT YOU ARE AT LEAST 18 YEARS OLD, YOU ACKNOWLEDGE AND AGREE THAT YOU HAVE READ AND UNDERSTOOD THESE TERMS, AND YOU AGREE TO BE LEGALLY BOUND BY ALL OF THESE TERMS. IF YOU DO NOT AGREE TO ALL OF THESE TERMS, DO NOT ACCESS OR USE THE SITES. WE SUGGEST YOU PRINT A COPY OF THESE TERMS FOR YOUR RECORDS.
@@ -338,7 +338,7 @@ We may from time-to-time at our discretion host or provide links to services, pr
 
 ### 7. DISCLAIMER OF WARRANTIES
 
-YOU EXPRESSLY AGREE THAT YOUR USE OF THE SITES, INCLUDING ANY CONTENT, IS AT YOUR SOLE RISK. ALL OF THE SITES AND CONTENT ARE PROVIDED TO YOU ON AN “AS IS” AND “AS AVAILABLE” BASIS, AND LEIGHTON AVANT-GARDE HAUS MAKES NO RELATED REPRESENTATIONS, AND DISCLAIMS ALL POSSIBLE WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SITES OR CONTENT ARE ACCURATE, CONTINUOUSLY AVAILABLE, COMPLETE, RELIABLE, SECURE, CURRENT, ERROR-FREE, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. Noble.AI CANNOT AND DOES NOT GUARANTEE THAT ANY DEFECTS, ERRORS OR OMISSIONS WILL BE CORRECTED, REGARDLESS OF WHETHER Noble.AI IS AWARE OF SUCH DEFECTS, ERRORS OR OMISSIONS.
+YOU EXPRESSLY AGREE THAT YOUR USE OF THE SITES, INCLUDING ANY CONTENT, IS AT YOUR SOLE RISK. ALL OF THE SITES AND CONTENT ARE PROVIDED TO YOU ON AN “AS IS” AND “AS AVAILABLE” BASIS, AND LEIGHTON AVANT-GARDE HAUS MAKES NO RELATED REPRESENTATIONS, AND DISCLAIMS ALL POSSIBLE WARRANTIES, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. WE DO NOT WARRANT THAT THE SITES OR CONTENT ARE ACCURATE, CONTINUOUSLY AVAILABLE, COMPLETE, RELIABLE, SECURE, CURRENT, ERROR-FREE, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS. LEIGHTON AVANT-GARDE HAUS CANNOT AND DOES NOT GUARANTEE THAT ANY DEFECTS, ERRORS OR OMISSIONS WILL BE CORRECTED, REGARDLESS OF WHETHER IQX TECHNOLOGIES IS AWARE OF SUCH DEFECTS, ERRORS OR OMISSIONS.
 
 ‍
 
@@ -348,7 +348,7 @@ TO THE EXTENT APPLICABLE STATE LAW DOES NOT ALLOW THE EXCLUSIONS AND DISCLAIMERS
 
 ### 8. LIMITATION OF LIABILITY
 
-YOU ACKNOWLEDGE AND AGREE THAT, TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE ENTIRE RISK ARISING OUT OF YOUR ACCESS TO AND USE OF THE SITES AND CONTENT REMAINS WITH YOU. IN NO EVENT WILL Noble.AI OR ANY OF ITS DIRECTORS, EMPLOYEES, AGENTS OR SUPPLIERS BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL, EXEMPLARY, CONSEQUENTIAL OR PUNITIVE DAMAGES OF ANY KIND (INCLUDING, BUT NOT LIMITED TO, LOSS OF USE, LOSS OF BUSINESS, LOSS OF PROFITS, LOSS OF DATA, LOSS OF GOODWILL, SERVICE INTERRUPTION, COMPUTER DAMAGE, SYSTEM FAILURE OR THE COST OF SUBSTITUTE PRODUCTS OR SERVICES) ARISING OUT OF OR IN CONNECTION WITH THE SITES, AND ANY CONTENT, SERVICES OR PRODUCTS INCLUDED ON OR OTHERWISE MADE AVAILABLE THROUGH THE SITES, REGARDLESS OF THE FORM OF ACTION (WHETHER IN CONTRACT, TORT, STRICT LIABILITY, EQUITY OR OTHERWISE) AND EVEN IF WE ARE AWARE OF OR HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+YOU ACKNOWLEDGE AND AGREE THAT, TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE ENTIRE RISK ARISING OUT OF YOUR ACCESS TO AND USE OF THE SITES AND CONTENT REMAINS WITH YOU. IN NO EVENT WILL LEIGHTON DYNAMICA INCLUDING PORTFOLIO HOLDINGS OR ANY OF ITS DIRECTORS, EMPLOYEES, AGENTS OR SUPPLIERS BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL, EXEMPLARY, CONSEQUENTIAL OR PUNITIVE DAMAGES OF ANY KIND (INCLUDING, BUT NOT LIMITED TO, LOSS OF USE, LOSS OF BUSINESS, LOSS OF PROFITS, LOSS OF DATA, LOSS OF GOODWILL, SERVICE INTERRUPTION, COMPUTER DAMAGE, SYSTEM FAILURE OR THE COST OF SUBSTITUTE PRODUCTS OR SERVICES) ARISING OUT OF OR IN CONNECTION WITH THE SITES, AND ANY CONTENT, SERVICES OR PRODUCTS INCLUDED ON OR OTHERWISE MADE AVAILABLE THROUGH THE SITES, REGARDLESS OF THE FORM OF ACTION (WHETHER IN CONTRACT, TORT, STRICT LIABILITY, EQUITY OR OTHERWISE) AND EVEN IF WE ARE AWARE OF OR HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
 
 ‍
 
@@ -376,7 +376,7 @@ Notwithstanding any provision to the contrary in these Terms, you agree that Lei
 
 ### 11. CONTACT
 
-Questions or comments about the Terms or about the Sites may be directed to Leighton Avant-Garde Haus at the email address legal@theleightonhaus.com. You may also email us at that address if you would like to report what you believe to be a violation of these Terms. However, please note that we do not accept any responsibility to maintain the confidentiality of any report of a violation you may submit to us, including your identity, nor do we commit to providing a personal reply to any report you submit, nor are we obligated to take action in response to your report.
+Questions or comments about the Terms or about the Sites may be directed to Leighton Avant-Garde Haus at the email address mgmt@theleightonhaus.com. You may also email us at that address if you would like to report what you believe to be a violation of these Terms. However, please note that we do not accept any responsibility to maintain the confidentiality of any report of a violation you may submit to us, including your identity, nor do we commit to providing a personal reply to any report you submit, nor are we obligated to take action in response to your report.
 
 
 
@@ -390,7 +390,7 @@ Leighton Avant-Garde Haus, L.AgH, LLC including Portfolio Holdings, and Register
 
 401 North Tryon Street Charlotte, NC 28202
 
-legal@theleightonhaus.com
+mgmt@theleightonhaus.com
 
 
 You should note that if you knowingly misrepresent in your notification that the material or activity is infringing, you will be liable for any damages, including costs and attorneys’ fees, incurred by us or the alleged infringer as the result of our relying upon such misrepresentation in removing or disabling access to the material or activity claimed to be infringing. We encourage you to consult your legal advisor before filing a notice or counter-notice.
