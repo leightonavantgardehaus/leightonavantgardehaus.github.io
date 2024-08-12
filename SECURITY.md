@@ -1,13 +1,13 @@
 # Security Policy
 
-### ICDAP Auth Applied Integration
+### IQX Auth Applied Integration
 
-Currently Supporting Pre-Alpha v0.0.3 
+Currently Supporting Sigma v1.0.4 
 
 
 | Version  | Supported          |
 | -------  | ------------------ |
-| v0.0.3   |  🦾                |
+| v1.0.4   |  🦾                |
 
 
 
