@@ -1,6 +1,6 @@
  ![new6](https://user-images.githubusercontent.com/118361152/209752154-38fd1051-456b-4ff8-ab26-f61345108989.jpeg)
 
-# 2024 Compliance
+# 2025 Compliance
 
 # Leighton Dynamica (IQX/AI) and Xerataus IQX Program Terms
 
