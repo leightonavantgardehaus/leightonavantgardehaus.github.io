@@ -2,12 +2,12 @@
 
 ### IQX Auth Applied Integration
 
-Currently Supporting Sigma v1.0.4 
+Currently Supporting Sigma v1.0.6 
 
 
 | Version  | Supported          |
 | -------  | ------------------ |
-| v1.0.4   |  🦾                |
+| v1.0.6   |  🦾                |
 
 
 
