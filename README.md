@@ -2,7 +2,7 @@
 
 # 2025 Compliance
 
-# Leighton Dynamica, Xerataus IQX, F-47 Program Terms
+# Leighton Dynamica, Xerataus IQX Program Terms
 
 The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“A1MX, Leighton Avant-Garde Haus, Leighton Dynamica, Leighton IQX, Xerataus IQX) and apply to and govern your participation in the A1MX, Leighton IQX, and Xerataus IQX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
 Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these IQX/AI Program Terms.
@@ -422,10 +422,10 @@ You agree that we will not be liable for delays, failures, or inadequate perform
 
 Privacy Policy for Leighton Avant-Garde Haus, L.AgH, LLC and Subsidiaries 
 
-The Leighton Haus properties, Leighton Avant-Garde Haus and Xerataus IQX, Official GitHub links for Leighton Avant-Garde Haus and Xerataus IQX, Official Lucien Leighton Website(s). This Privacy Policy document contains types of information that is collected and recorded by 'theleightonhaus (Leighton Avant-Garde Haus)' properties and how we use it.
+The Leighton Haus properties, Leighton Avant-Garde Haus and Xerataus IQX, Official GitHub links for Leighton Avant-Garde Haus and Xerataus IQX, Official Tristan Leighton contact site(s). This Privacy Policy document contains types of information that is collected and recorded by 'theleightonhaus (Leighton Avant-Garde Haus)' properties and how we use it.
 
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
-This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in theleightonhaus. This policy is not applicable to any information collected offline or via channels other than this website, Xerataus IQX USER DATA, and LucienLeighton.com 
+This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in IQX. This policy is not applicable to any information collected offline or via channels other than this website, Xerataus IQX USER DATA, 
 Consent
 
 By using our websites, you hereby consent to our Privacy Policy and agree to its terms.
