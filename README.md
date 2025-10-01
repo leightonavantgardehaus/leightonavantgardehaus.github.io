@@ -1,7 +1,5 @@
  ![new6](https://user-images.githubusercontent.com/118361152/209752154-38fd1051-456b-4ff8-ab26-f61345108989.jpeg)
 
-<h1 align="middle"
-
 
 # Leighton Dynamica 2025 Compliance
 
