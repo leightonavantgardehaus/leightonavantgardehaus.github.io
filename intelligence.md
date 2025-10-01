@@ -5,7 +5,7 @@ Artificial intelligence (AI) promises to revolutionize data management and analy
 
 If your agency is struggling with these challenges, Leighton AgH can help. Our data science expertise, open-architecture solution stack and integration know-how can federate and centrally organize your data and then operationalize AI-driven analytics from it with greater ease. Leverage a full life-cycle solution or integrate in increments into existing systems as your transformation journey and resources allow: 
 
-ICD Data Platform, featuring zero-trust and attribute-based access controls that enable data co-location 
+IQX Data Platform, featuring zero-trust and attribute-based access controls that enable data co-location 
 
 Leighton  IQX,  our low-code rapid-development environment for AI and analytic models 
 
@@ -13,13 +13,13 @@ Leighton  IQX,  our low-code rapid-development environment for AI and analytic m
 
 Leighton IQX, our pre-built algorithms and AI models specially designed for a variety of private sector, government, or large scale mission needs. 
 
-The path to AI and knowledge transformation is especially tough if you're a resource-constrained organization facing technical hurdles. Leighton AgH and AIM DYNAMIX, a Leighton AgH company, have the experts and solutions to elevate your data and empower the people and resources you have to achieve data-driven decision-making for your mission.
+The path to IQX and knowledge transformation is especially tough if you're a resource-constrained organization facing technical hurdles. Leighton IQX and XERATAUS IQX, a Leighton AgH company, have the experts and solutions to elevate your data and empower the people and resources you have to achieve data-driven decision-making for your mission.
 Our solutions improve decision-making, enhance readiness, and elevate outcomes in critical missions.
 
 Innovating Immersive Technologies 
 
 
-Leighton AgH' immersive technologies augment the ways people interact with tasks and information. Advanced synthetic environments, or computer representations of the real world, provide new ways for people to learn and gather information, while systems adapt to learners based off biometric human performance and analytic feedback.
+Leighton Dynamica' immersive technologies augment the ways people interact with tasks and information. Advanced synthetic environments, or computer representations of the real world, provide new ways for people to learn and gather information, while systems adapt to learners based off biometric human performance and analytic feedback.
 
 We integrate systems of systems to accelerate understanding of complex concepts in training, experimentation, and prototyping by leveraging artificial intelligence, machine learning, digital engineering, software, human performance, and biometrics.
 
@@ -39,5 +39,7 @@ Leighton Avant-Garde Haus drives applied science and intersects it with policy a
 
   <a href="https://leightonavantgardehaus.github.io">
   <img align="center" alt="Auth" width="30px" src="https://simpleicons.vercel.app/stackblitz/000" /> 
+  
+  <h6 align="middle">
 
-<sub>©2023 LEIGHTON AVANT-GARDE HAUS</sub>
+<sub>©2025 LEIGHTON AVANT-GARDE HAUS</sub>

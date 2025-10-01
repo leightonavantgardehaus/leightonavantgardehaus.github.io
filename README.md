@@ -1,8 +1,14 @@
  ![new6](https://user-images.githubusercontent.com/118361152/209752154-38fd1051-456b-4ff8-ab26-f61345108989.jpeg)
 
-# 2024 Compliance
 
-# Leighton Dynamica (IQX/AI) and Xerataus IQX Program Terms
+
+<h3 align="middle">
+ 2025 Compliance
+
+
+
+
+# Leighton Dynamica, Xerataus IQX Program Terms
 
 The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“A1MX, Leighton Avant-Garde Haus, Leighton Dynamica, Leighton IQX, Xerataus IQX) and apply to and govern your participation in the A1MX, Leighton IQX, and Xerataus IQX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
 Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these IQX/AI Program Terms.
@@ -244,7 +250,7 @@ Software (“Software”) may be made available to you through the Sites. Your r
 
 ‍
 
-Provided that you fully comply at all times with these Terms and any other policies or restrictions posted on or transmitted through the Sites, Leighton Avant-Garde Haus grants you a limited, non-exclusive, non-transferable, revocable license to access and use the Sites. Except as otherwise specifically noted in these Terms or on the Sites, the Software, Submissions (as later defined), and all other information, content, user interfaces, graphics, registered or unregistered trademarks, logos, images, artwork, videos, and documents, and the design, structure, selection, coordination, expression, “look and feel” and arrangement of such materials, made available through the Sites (collectively, the “Content”), regardless of its source or creation, is owned, controlled or licensed by or to Noble.AI, and is protected by trade dress, copyright, patent and trademark laws, and various other intellectual property rights and unfair competition laws, and Leighton Avant-Garde Haus reserves and retains all rights in and to such Content. Any reproduction, redistribution or other use or exploitation of Software in violation of any applicable Software License or in violation of any license granted under these Terms or, if applicable, under a Services Agreement, is expressly prohibited by law, and may result in civil and criminal penalties.
+Provided that you fully comply at all times with these Terms and any other policies or restrictions posted on or transmitted through the Sites, Leighton Avant-Garde Haus grants you a limited, non-exclusive, non-transferable, revocable license to access and use the Sites. Except as otherwise specifically noted in these Terms or on the Sites, the Software, Submissions (as later defined), and all other information, content, user interfaces, graphics, registered or unregistered trademarks, logos, images, artwork, videos, and documents, and the design, structure, selection, coordination, expression, “look and feel” and arrangement of such materials, made available through the Sites (collectively, the “Content”), regardless of its source or creation, is owned, controlled or licensed by or to Leighton Avant-Garde Haus, and is protected by trade dress, copyright, patent and trademark laws, and various other intellectual property rights and unfair competition laws, and Leighton Avant-Garde Haus reserves and retains all rights in and to such Content. Any reproduction, redistribution or other use or exploitation of Software in violation of any applicable Software License or in violation of any license granted under these Terms or, if applicable, under a Services Agreement, is expressly prohibited by law, and may result in civil and criminal penalties.
 
 ‍
 
@@ -390,7 +396,7 @@ Leighton Avant-Garde Haus, L.AgH, LLC including Portfolio Holdings, and Register
 
 401 North Tryon Street Charlotte, NC 28202
 
-mgmt@theleightonhaus.com
+contact@leightondynamica.cloud
 
 
 You should note that if you knowingly misrepresent in your notification that the material or activity is infringing, you will be liable for any damages, including costs and attorneys’ fees, incurred by us or the alleged infringer as the result of our relying upon such misrepresentation in removing or disabling access to the material or activity claimed to be infringing. We encourage you to consult your legal advisor before filing a notice or counter-notice.
@@ -422,10 +428,10 @@ You agree that we will not be liable for delays, failures, or inadequate perform
 
 Privacy Policy for Leighton Avant-Garde Haus, L.AgH, LLC and Subsidiaries 
 
-The Leighton Haus properties, Leighton Avant-Garde Haus and Xerataus IQX, Official GitHub links for Leighton Avant-Garde Haus and Xerataus IQX, Official Lucien Leighton Website(s). This Privacy Policy document contains types of information that is collected and recorded by 'theleightonhaus (Leighton Avant-Garde Haus)' properties and how we use it.
+The Leighton Dynamica properties, Leighton Avant-Garde Haus and IQX, A1MX, Xerataus IQX,  Official GitHub links for Leighton Avant-Garde Haus and IQX, Official Tristan Leighton contact site(s). This Privacy Policy document contains types of information that is collected and recorded by 'Leighton Dynamica (Leighton Avant-Garde Haus)' properties and how we use it.
 
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
-This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in theleightonhaus. This policy is not applicable to any information collected offline or via channels other than this website, Xerataus IQX USER DATA, and LucienLeighton.com 
+This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in IQX. This policy is not applicable to any information collected offline or via channels other than this website, Xerataus IQX USER DATA, 
 Consent
 
 By using our websites, you hereby consent to our Privacy Policy and agree to its terms.
@@ -488,4 +494,4 @@ If you make a request, we have one month to respond to you. If you would like to
 
 Another part of our priority is adding protection for children while using the internet. We encourage parents and guardians to observe, participate in, and/or monitor and guide their online activity.
 
-theleightonhaus does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.
+Leighton Dynamica does not knowingly collect any Personal Identifiable Information from children under the age of 13. If you think that your child provided this kind of information on our website, we strongly encourage you to contact us immediately and we will do our best efforts to promptly remove such information from our records.

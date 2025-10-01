@@ -1,4 +1,4 @@
-# AIM DYNAMIX Subprocessing List
+# Leighton IQX Subprocessing List
 
 What is a Subprocessor?
 In order to provide our Services, Notion engages the Subprocessors listed in the tables below. A Subprocessor is a third-party engaged by AIM DYNAMIX, and its applicable Affiliates, to process Customer Personal Data. 
@@ -62,21 +62,16 @@ USA
 https://www.fivetran.com/
 Data pipeline for connecting systems to our data warehouse
 USA
-Notion Entities
-Other Notion Entities involved in offering the Services.
-Subprocessor
-Purpose of Processing
-Location
-AIM DYNAMIX, L.AgH LLC
+Leighton IQX
 Support services
 USA
 Leighton Avant-Garde Haus.
 Support services
 USA
-Leighton Avant-Garde Haus.
+Leighton IQX
 Support services
 USA
-AIM DYNAMIX, L.AgH
+Leighton IQX
 The following Subprocessor(s) will only be used if you enable AIM DYNAMIX AI in your workspace. AIM DYNAMIX AI is currently only offered as an Alpha-Beta Service and is not generally available to all customers.
 Subprocessor
 Purpose of Processing
@@ -89,26 +84,6 @@ AIStorm use the following Subprocessor(s). AIStorm currently is offered as Beta 
 Subprocessor
 Purpose of Processing
 Location
-https://www.heroku.com/
-Hosting provider
-USA
-https://www.egnyte.com/
-Content distribution, security, abuse prevention and DNS services
-Global
-https://amplitude.com/
-Event logging for analytics
-USA
-https://www.egnyte.com/
-Event logging for analytics
-USA
-https://sentry.io/welcome/
-Error tracking
-USA
-https://www.egnyte.com/
-Data warehouse for analytics
-USA
-https://www.fivetran.com/
-Customer support communications
 USA
 https://www.tensorflow.org/
 Infrastructure, processing, data, (other)
@@ -119,6 +94,6 @@ USA
 https://developer.nvidia.com/cuda-zone
 Infrastructure, processing, data, (other)
 USA
-Last updated: February 27, 2023
+Last updated: February 26, 2025
 # License 
-Copyright(©, IP) 2023 Leighton Avant-Garde Haus LLC. All Rights Reserved. Copyright(©, IP) 2022-2023 AIM DYNAMIX, L.AgH 2022. All Rights Reserved
+Copyright(©, IP) 2025 Leighton Avant-Garde Haus LLC. All Rights Reserved. Copyright(©, IP) 2022-2025 Leighton IQX. All Rights Reserved

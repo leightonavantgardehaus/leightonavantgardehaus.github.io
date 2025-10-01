@@ -7,3 +7,7 @@ In Our Workplaces: We’ve developed creative workspaces that offer variety to s
 Supportive/Collaborative Environment: We have a diverse, inclusive and highly engaged workplace. We are encouraged to be ourselves at work, and we are supported and respected by our peers and our leaders.
 
 Performance Driven: We do impactful work and are consistently rewarded for doing the right thing for our clients and for our teams. Pay, incentives and performance are closely linked at Leighton Avant-Garde Haus
+  
+  <h6 align="middle">
+
+<sub>©2025 LEIGHTON AVANT-GARDE HAUS</sub>
