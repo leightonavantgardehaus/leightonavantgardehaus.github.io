@@ -8,8 +8,53 @@
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
-  </head>
-  <body>
+  <head>
+  <meta charset="utf-8">
+  <title>Leighton Avant Garde Haus</title>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "#organization",
+        "name": "Leighton Dynamica",
+        "alternateName": "Leighton Avant-Garde Haus",
+        "url": "https://leightonavantgardehaus.github.io",
+        "logo": "https://user-images.githubusercontent.com/119469038/220439784-45fd073d-efac-478e-8192-2ba05a678826.png",
+        "description": "Leighton Dynamica delivers intelligent systems and strategic consulting for defense, healthcare, and enterprise transformation.",
+        "sameAs": [
+          "https://www.linkedin.com/company/theleightonhaus",
+          "https://linktr.ee/leightondynamica"
+        ],
+        "founder": {
+          "@id": "#tristanleighton"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Service",
+          "email": "contact@leightondynamica.cloud"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "#tristanleighton",
+        "name": "Tristan Leighton",
+        "jobTitle": "Founder & CEO",
+        "worksFor": {
+          "@id": "#organization"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/tristanleighton",
+          "https://www.linktr.ee/tristanleighton"
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
     <div class="container-lg px-3 my-5 markdown-body">
      
 
