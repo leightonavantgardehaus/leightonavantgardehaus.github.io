@@ -1,71 +1,48 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Leighton Avant Garde Haus</title>
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
-  <head>
-  <meta charset="utf-8">
-    <title>Leighton Avant Garde Haus</title>
-    
-    
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "#organization",
-      "name": "Leighton Dynamica",
-      "alternateName": "Leighton Avant-Garde Haus",
-      "url": "https://leightonavantgardehaus.github.io",
-      "logo": "https://github.com/leightonavantgardehaus/leightonavantgardehaus.github.io/blob/main/LeightonDynamica.PNG",
-      "description": "Leighton Dynamica delivers intelligent systems and strategic consulting for defense, healthcare, and enterprise transformation.",
-      "sameAs": [
-        "https://www.linkedin.com/company/theleightonhaus",
-        "https://linktr.ee/leightondynamica"
-      ],
-      "founder": { "@id": "#tristanleighton" },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "contactType": "Customer Service",
-        "email": "contact@leightondynamica.cloud"
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  {% include head-custom.html %}
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "#organization",
+        "name": "Leighton Dynamica",
+        "alternateName": "Leighton Avant-Garde Haus",
+        "url": "https://leightonavantgardehaus.github.io",
+        "logo": "https://leightonavantgardehaus.github.io/images/LeightonDynamica.PNG",
+        "description": "Leighton Dynamica delivers intelligent systems and strategic consulting for defense, healthcare, and enterprise transformation.",
+        "sameAs": [
+          "https://www.linkedin.com/company/theleightonhaus",
+          "https://linktr.ee/leightondynamica"
+        ],
+        "founder": { "@id": "#tristanleighton" },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "contactType": "Customer Service",
+          "email": "contact@leightondynamica.cloud"
+        }
+      },
+      {
+        "@type": "Person",
+        "@id": "#tristanleighton",
+        "name": "Tristan Leighton",
+        "jobTitle": "Founder & CEO",
+        "url": "https://leightonavantgardehaus.github.io",
+        "worksFor": { "@id": "#organization" },
+        "sameAs": [
+          "https://www.linkedin.com/in/tristanleighton",
+          "https://linktr.ee/tristanleighton"
+        ]
       }
-    },
-    {
-      "@type": "Person",
-      "@id": "#tristanleighton",
-      "name": "Tristan Leighton",
-      "jobTitle": "Founder & CEO",
-      "url": "https://leightonavantgardehaus.github.io",
-      "worksFor": { "@id": "#organization" },
-      "sameAs": [
-        "https://www.linkedin.com/in/tristanleighton",
-        "https://linktr.ee/tristanleighton"
-      ]
-    }
-  ]
-}
-</script>
-
+    ]
+  }
+  </script>
 </head>
-<body>
-    <div class="container-lg px-3 my-5 markdown-body">
-     
-
-      {{ content }}
-
-      {% if site.github.private != true and site.github.license %}
-      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
-        This site is open source. {% github_edit_link "Improve this page" %}.
-      </div>
-      {% endif %}
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-  </body>
-</html>
