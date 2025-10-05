@@ -1,5 +1,4 @@
-  <img width="80" alt="LeightonDynamica" src="https://github.com/leightonavantgardehaus/leightonavantgardehaus.github.io/blob/11d81d78f86c4c7016dcadc4d554b1aab42112a6/images/directory/LeightonDynamica.PNG">
-  
+
 # Leighton Dynamica 2025 Compliance
 
 The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“A1MX, Leighton Avant-Garde Haus, Leighton Dynamica, Leighton IQX, Xerataus IQX) and apply to and govern your participation in the A1MX, Leighton IQX, and Xerataus IQX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our 
