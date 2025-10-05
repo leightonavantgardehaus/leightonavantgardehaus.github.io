@@ -18,55 +18,57 @@
   <!-- Custom head content (favicons, additional scripts, etc.) -->
   {% include head-custom.html %}
 
-  <!-- Structured data (JSON-LD schema) -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Organization",
-        "@id": "https://leightonavantgardehaus.github.io#organization",
-        "name": "Leighton Dynamica",
-        "alternateName": "Leighton Avant-Garde Haus",
-        "url": "https://leightonavantgardehaus.github.io",
-        "logo": "https://leightonavantgardehaus.github.io/images/LeightonDynamica.PNG",
-        "description": "Leighton Dynamica is an Avant-Garde Haus dedicated to innovation in AI, defense, and healthcare, delivering intelligent systems and strategic consulting for private sector enterprises.",
-        "foundingDate": "2022",
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "Charlotte",
-          "addressRegion": "North Carolina",
-          "postalCode": "28202",
-          "streetAddress": "121 West Trade St"
-        },
-        "industry": "Defense and Space Manufacturing, Artificial Intelligence",
-        "sameAs": [
-          "https://www.linkedin.com/company/theleightonhaus",
-          "https://www.instagram.com/leightondynamica/",
-          "https://www.crunchbase.com/organization/leighton-avant-garde-haus",
-          "https://github.com/leightonavantgardehaus"
-        ],
-        "founder": { "@id": "https://leightonavantgardehaus.github.io#tristanleighton" },
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "contactType": "Customer Service",
-          "email": "contact@leightondynamica.cloud",
-          "telephone": "+1-980-866-1839"
-        }
+<!-- Structured data (JSON-LD schema) -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://leightonavantgardehaus.github.io#organization",
+      "name": "Leighton Dynamica",
+      "alternateName": "Leighton Avant-Garde Haus",
+      "url": "https://leightonavantgardehaus.github.io",
+      "logo": "https://leightonavantgardehaus.github.io/images/LeightonDynamica.PNG",
+      "description": "Leighton Dynamica is an Avant-Garde Haus dedicated to innovation in defense, space manufacturing, and artificial intelligence, delivering intelligent systems and strategic consulting for private sector enterprises and healthcare.",
+      "foundingDate": "2022",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Charlotte",
+        "addressRegion": "North Carolina",
+        "postalCode": "28202",
+        "streetAddress": "121 West Trade St"
       },
-      {
-        "@type": "Person",
-        "@id": "https://leightonavantgardehaus.github.io#tristanleighton",
-        "name": "Tristan Leighton",
-        "jobTitle": "Founder & CEO",
-        "url": "https://leightonavantgardehaus.github.io",
-        "worksFor": { "@id": "https://leightonavantgardehaus.github.io#organization" },
-        "sameAs": [
-          "https://www.linkedin.com/in/tristanleighton",
-          "https://www.instagram.com/leigh8n/"
-        ]
+      "sameAs": [
+        "https://www.linkedin.com/company/theleightonhaus",
+        "https://www.instagram.com/leightondynamica/",
+        "https://www.crunchbase.com/organization/leighton-avant-garde-haus",
+        "https://github.com/leightonavantgardehaus"
+      ],
+      "founder": { "@id": "https://leightonavantgardehaus.github.io#tristanleighton" },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Service",
+        "email": "contact@leightondynamica.cloud"
       }
-    ]
-  }
-  </script>
+    },
+    {
+      "@type": "Person",
+      "@id": "https://leightonavantgardehaus.github.io#tristanleighton",
+      "name": "Tristan Leighton",
+      "jobTitle": "Founder & CEO",
+      "url": "https://leightonavantgardehaus.github.io",
+      "worksFor": { "@id": "https://leightonavantgardehaus.github.io#organization" },
+      "sameAs": [
+        "https://www.linkedin.com/in/tristanleighton",
+        "https://www.crunchbase.com/person/tristan-leighton",
+        "https://linktr.ee/tristanleighton",
+        "https://ieee-collabratec.ieee.org/app/p/TristanLeighton",
+        "https://www.instagram.com/leigh8n/",
+        "https://www.snapchat.com/add/leightonsprayer"
+      ]
+    }
+  ]
+}
+</script>
 </head>
