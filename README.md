@@ -1,4 +1,4 @@
-  <img width="80" alt="LeightonDynamica" src="https://github.com/leightonavantgardehaus/leightonavantgardehaus.github.io/blob/main/LeightonDynamica.PNG">
+  <img width="80" alt="LeightonDynamica" src="https://github.com/leightonavantgardehaus/leightonavantgardehaus.github.io/blob/11d81d78f86c4c7016dcadc4d554b1aab42112a6/images/directory/LeightonDynamica.PNG">
   
 # Leighton Dynamica 2025 Compliance
 
