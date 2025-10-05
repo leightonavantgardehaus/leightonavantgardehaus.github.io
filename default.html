@@ -1,45 +1,69 @@
 <head>
+  <!-- Character encoding -->
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Leighton Dynamica</title>
 
-  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <!-- Mobile responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO meta tags -->
+  <title>Leighton Dynamica | Avant-Garde Innovation in AI and Defense</title>
+  <meta name="description" content="Leighton Dynamica delivers intelligent systems and strategic consulting for defense, healthcare, and enterprise transformation. Explore our AI-driven solutions.">
+
+  <!-- Favicon for branding -->
+  <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+
+  <!-- Primary stylesheet with cache-busting -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+  <!-- Custom head content (favicons, additional scripts, etc.) -->
   {% include head-custom.html %}
 
+  <!-- Structured data (JSON-LD schema) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "#organization",
+        "@id": "https://leightonavantgardehaus.github.io#organization",
         "name": "Leighton Dynamica",
         "alternateName": "Leighton Avant-Garde Haus",
         "url": "https://leightonavantgardehaus.github.io",
         "logo": "https://leightonavantgardehaus.github.io/images/LeightonDynamica.PNG",
-        "description": "Leighton Dynamica delivers intelligent systems and strategic consulting for defense, healthcare, and enterprise transformation.",
+        "description": "Leighton Dynamica is an Avant-Garde Haus dedicated to innovation in AI, defense, and healthcare, delivering intelligent systems and strategic consulting for private sector enterprises.",
+        "foundingDate": "2022",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Charlotte",
+          "addressRegion": "North Carolina",
+          "postalCode": "28202",
+          "streetAddress": "121 West Trade St"
+        },
+        "industry": "Defense and Space Manufacturing, Artificial Intelligence",
         "sameAs": [
           "https://www.linkedin.com/company/theleightonhaus",
-          "https://linktr.ee/leightondynamica"
+          "https://www.instagram.com/leightondynamica/",
+          "https://www.crunchbase.com/organization/leighton-avant-garde-haus",
+          "https://github.com/leightonavantgardehaus"
         ],
-        "founder": { "@id": "#tristanleighton" },
+        "founder": { "@id": "https://leightonavantgardehaus.github.io#tristanleighton" },
         "contactPoint": {
           "@type": "ContactPoint",
           "contactType": "Customer Service",
-          "email": "contact@leightondynamica.cloud"
+          "email": "contact@leightondynamica.cloud",
+          "telephone": "+1-980-866-1839"
         }
       },
       {
         "@type": "Person",
-        "@id": "#tristanleighton",
+        "@id": "https://leightonavantgardehaus.github.io#tristanleighton",
         "name": "Tristan Leighton",
         "jobTitle": "Founder & CEO",
         "url": "https://leightonavantgardehaus.github.io",
-        "worksFor": { "@id": "#organization" },
+        "worksFor": { "@id": "https://leightonavantgardehaus.github.io#organization" },
         "sameAs": [
           "https://www.linkedin.com/in/tristanleighton",
-          "https://linktr.ee/tristanleighton"
+          "https://www.instagram.com/leigh8n/"
         ]
       }
     ]
