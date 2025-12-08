@@ -20,7 +20,7 @@ We are actively pursuing opportunities as a defense contractor, with self-attest
 
 
 
-Last Updated: December 4, 2025  
+Last Updated: December 8, 2025  
 Note: This summary is for informational purposes and does not constitute legal advice. Compliance is subject to ongoing audits and updates.The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“A1MX, Leighton Avant-Garde Haus, Leighton Dynamica, Leighton IQX, Xerataus IQX) and apply to and govern your participation in the A1MX, Leighton IQX, and Xerataus IQX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these IQX/AI Program Terms.
 
 Definitions
