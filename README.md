@@ -108,7 +108,7 @@ You represent and warrant that:
 - You are not located in, or a national of, a country subject to U.S. embargoes (e.g., Cuba, Iran, North Korea, Syria).
 - You will not use our services for prohibited end-uses (e.g., military, nuclear, missile, or chemical/biological weapons development).
 - You comply with all applicable U.S. and international export laws.
-Violations may result in termination of access and reporting to authorities. We reserve the right to deny service to ensure compliance. For questions, contact legal@theleightonhaus.com.
+Violations may result in termination of access and reporting to authorities. We reserve the right to deny service to ensure compliance. For questions, contact contact@leightondynamica.cloud.
 
 ### Additional Use Provisions
 You may not use A1MX (i) to develop foundation models or other large scale models that compete with Xerataus IQX; (ii) to mislead any person that Output from the Services was solely human generated; (iii) to generate spam, content for dissemination in electoral campaigns, use the Services in a manner that violates any applicable laws or technical documentation, usage guidelines, or parameters; or (iv) process sensitive personal data as that term is understood under applicable data protection law. You acknowledge that due to the nature of machine learning and the technology powering Xerataus AI, Output may not be unique and the Services may generate the same or similar output to Xerataus IQX or a third party. Xerataus IQX uses technology provided by our Parent Company (Leighton Avant-Garde Haus, LLC) to provide Xerataus IQX. You may not use Xerataus IQX in a manner that violates any Leighton Avant-Garde Haus Policy, including any other Legal Agreements.
@@ -128,7 +128,7 @@ We implement reasonable technical, administrative, and physical safeguards to pr
 - Incident response plans, including breach notification within 72 hours as required by GDPR or state laws (e.g., NC data breach notification).
 - Data minimization: We collect only necessary data and retain it for [specify period, e.g., as long as required for service provision or legal obligations].
 - Employee training on data protection and compliance.
-In the event of a security incident, we will notify affected users and cooperate with investigations. Users must report suspected breaches to legal@theleightonhaus.com. We aim for CMMC Level 1 certification for handling CUI.
+In the event of a security incident, we will notify affected users and cooperate with investigations. Users must report suspected breaches to contact@leightondynamica.cloud. We aim for CMMC Level 1 certification for handling CUI.
 For cross-border data transfers, we use Standard Contractual Clauses (SCCs) or equivalent mechanisms to ensure adequate protection.
 
 ### LIMITS ON LIABILITY
