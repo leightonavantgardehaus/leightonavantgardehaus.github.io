@@ -1,4 +1,4 @@
-# Leighton Dynamica 2026 Compliance | Leighton Dynamica
+# Leighton Dynamica 2026 Compliance 
 
 
 ### Defense Compliancy
