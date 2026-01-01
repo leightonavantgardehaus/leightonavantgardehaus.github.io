@@ -158,7 +158,7 @@ If you are a copyright owner (or authorized to act on behalf of one), report all
 
 Enforcement of this policy supports our commitment to ethical innovation in defense and AI technologies. For questions, contact contact@leightondynamica.cloud.
 
-Last Updated: January 2026
+Last Updated: January 1, 2026
 
 ---
 
