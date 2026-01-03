@@ -1,0 +1,89 @@
+# COMPOSITE CARD — IQX-Astraeus (Dynamic Operations Intelligence Engine)
+
+## 1. Overview
+- **Model Name:** IQX-Astraeus 
+- **Version:** 1.8.2  
+- **Owner:** Leighton Dynamica — Intelligent Systems Division  
+- **Intended Use:**  
+  Provide real‑time operational intelligence, anomaly detection, and decision‑support insights for enterprise and healthcare environments.  
+- **Not Intended For:**  
+  Autonomous decision‑making without human oversight; clinical diagnosis; legal or financial determinations.
+
+## 2. System Context
+- **Operational Environment:**  
+  Deployed within the Dynamic Intelligence Platform (DIP), integrated with enterprise data pipelines and healthcare operational systems.  
+- **Dependencies:**  
+  Secure data ingestion layer, internal feature store, explainability engine, monitoring subsystem.  
+- **Human-in-the-loop Requirements:**  
+  Required for all high‑impact decisions; override mechanisms available at all times.
+
+## 3. Training Data
+- **Data Sources:**  
+  - Operational logs  
+  - Workflow metadata  
+  - De‑identified healthcare operational data  
+  - Historical performance metrics  
+- **Data Characteristics:**  
+  Mixed structured/unstructured; time‑series heavy; multi‑domain.  
+- **Known Limitations:**  
+  Limited representation of rare operational edge cases; dependent on data quality from client systems.  
+- **Data Governance Notes:**  
+  All healthcare‑related data is de‑identified and processed under strict compliance protocols.
+
+## 4. Performance
+- **Evaluation Metrics:**  
+  - Precision/Recall for anomaly detection  
+  - Latency for real‑time inference  
+  - Stability under load  
+- **Benchmark Results:**  
+  - 94% anomaly detection precision  
+  - 87% recall  
+  - <120ms inference latency under peak load  
+- **Stress Test Results:**  
+  Stable up to 4× expected throughput.  
+- **Edge-case Behavior:**  
+  Falls back to conservative alerts when confidence drops below threshold.
+
+## 5. Explainability
+- **Explanation Methods Used:**  
+  - SHAP‑based feature attribution  
+  - Decision pathway tracing  
+  - Confidence scoring  
+- **User-facing Explanation Modes:**  
+  - Executive summaries  
+  - Operator‑level causal factors  
+  - Technical deep‑dive visualizations  
+- **Confidence Indicators:**  
+  Provided for every prediction and recommendation.
+
+## 6. Ethical & Risk Considerations
+- **Bias Evaluation:**  
+  Regular audits for domain‑specific bias (e.g., operational load distribution).  
+- **Mitigation Strategies:**  
+  Balanced sampling; fairness constraints; human‑in‑the‑loop checkpoints.  
+- **Potential Harms:**  
+  Misinterpretation of alerts; over‑reliance on automated insights.  
+- **Safeguards:**  
+  Mandatory human review for high‑impact outputs; clear uncertainty indicators.
+
+## 7. Security
+- **Threat Model:**  
+  Protect against data poisoning, model extraction, unauthorized access.  
+- **Access Controls:**  
+  Role‑based access; multi‑factor authentication; encrypted endpoints.  
+- **Logging & Auditability:**  
+  Immutable logs; versioned inference records.
+
+## 8. Monitoring & Maintenance
+- **Drift Detection:**  
+  Automated drift alerts; monthly drift reports.  
+- **Retraining Schedule:**  
+  Quarterly or as triggered by drift thresholds.  
+- **Incident Response Process:**  
+  24‑hour review window; rollback to previous model version if needed.
+
+## 9. Version History
+- **Changes in This Version:**  
+  Improved anomaly detection recall; enhanced explainability engine.  
+- **Previous Versions:**  
+  1.7.2, 1.7.1, 1.6.9, 1.6.3
