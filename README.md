@@ -1,58 +1,35 @@
 
 # Leighton Dynamica 2026 Compliance
 
-### Defense Compliancy for Leighton Dynamica
+### # Defense Compliance Summary for Leighton Dynamica
 
-Leighton Dynamica, operating through Leighton Avant-Garde Haus and subsidiaries like Xerataus IQX, is committed to delivering innovative AI and technology solutions exclusively for government use, with a focus on defense applications. As a small, agile entity, we prioritize compliance with U.S. Department of Defense (DoD) regulations to ensure secure, ethical, and reliable services. Our compliance framework is designed to support Federal Acquisition Regulation (FAR) and Defense Federal Acquisition Regulation Supplement (DFARS) requirements, enabling us to handle Controlled Unclassified Information (CUI) and position for classified contracts.
+Leighton Dynamica, operating through Leighton Avant-Garde Haus and subsidiaries like Xerataus IQX, is committed to delivering innovative AI and technology solutions exclusively for government use, with a focus on defense applications. As a small, agile entity, we prioritize compliance with U.S. Department of War (DoW) regulations to ensure secure, ethical, and reliable services. Our compliance framework is designed to support Federal Acquisition Regulation (FAR) and Defense Federal Acquisition Regulation Supplement (DFARS) requirements, enabling us to handle Controlled Unclassified Information (CUI) and position for classified contracts.
 
-We are actively pursuing opportunities as a defense contractor, with self-attested readiness for CMMC Level 2 as of January 2026. Below is a high-level overview of our compliance posture. Detailed documentation, including System Security Plans (SSP) and Plans of Action & Milestones (POA&M), is available under NDA for qualified partners, primes, or government contracting officers.
+We are actively pursuing opportunities as a defense contractor, with self-attested readiness for CMMC Level 2 as of December 2025. Below is a high-level overview of our compliance posture. Detailed documentation, including System Security Plans (SSP) and Plans of Action & Milestones (POA&M), is available under NDA for qualified partners, primes, or government contracting officers.
 
 ## Key Compliance Commitments
-
-- **Cybersecurity and CUI Safeguarding**: Implemented NIST SP 800-171 Rev. 3 controls (97/97 addressed or on 180-day POA&M). This includes access controls, system monitoring, and incident response plans with 72-hour reporting to the DoD Cyber Crime Center (DC3) as required by DFARS 252.204-7012.
-- **CMMC Readiness**: Self-attested at Level 2 in the Supplier Performance Risk System (SPRS), making us eligible for CUI-handling contracts under CMMC 2.0. We are preparing for third-party certification by a Certified Third-Party Assessment Organization (C3PAO).
-- **AI Risk Management**: Aligned with the NIST AI Risk Management Framework (AI RMF) 1.0 and DoD Ethical Principles for Artificial Intelligence. Our AI development lifecycle incorporates assessments for bias, reliability, explainability, and human oversight, ensuring trustworthy systems for defense applications.
+- **Cybersecurity and CUI Safeguarding**: Implemented NIST SP 800-171 Rev. 2 controls (110/110 addressed or on 180-day POA&M, per current DoW Class Deviation). This includes access controls, system monitoring, and incident response plans with 72-hour reporting to the DoD Cyber Crime Center (DC3) as required by DFARS 252.204-7012. Rev. 3 gap analysis complete for future transition.
+- **CMMC Readiness**: Self-attested at Level 2 in the Supplier Performance Risk System (SPRS), making us eligible for CUI-handling contracts under CMMC 2.0 Phase 1 (effective November 2025). Preparing for Phase 2 (November 2026) with third-party certification by a Certified Third-Party Assessment Organization (C3PAO).
+- **AI Risk Management**: Aligned with the NIST AI Risk Management Framework (AI RMF) 1.0 and the Department of War (DoW) AI Acceleration Strategy (January 2026), emphasizing objectively truthful AI, rapid deployment, and no ideological tuning. Our AI development lifecycle incorporates assessments for bias, reliability, explainability, and human oversight, ensuring trustworthy systems for defense applications.
 - **Export Controls**: Compliant with U.S. Export Administration Regulations (EAR) and International Traffic in Arms Regulations (ITAR) for technology, software, and data exports.
-- **Supply Chain Security**: Rigorous supplier screening to prevent counterfeit parts, with transparency and flow-down requirements per DFARS 252.246-7007 and NIST SP 800-171 Rev. 3.
+- **Supply Chain Security**: Rigorous supplier screening to prevent counterfeit parts, with transparency and flow-down requirements per DFARS 252.246-7007 and NIST SP 800-171 Rev. 2.
 - **Small Business Utilization**: As a small disadvantaged business, we prioritize subcontracting with other small entities in line with FAR Part 19.
 - **Anti-Corruption and Ethics**: Adherence to the Foreign Corrupt Practices Act (FCPA), prohibiting bribery and ensuring ethical practices in all operations.
-- **Incident Response and Reporting**: Established plans for rapid detection and response, including coordination with DoD channels.
+- **Incident Response and Reporting**: Established plans for rapid detection and response, including coordination with DoW channels.
 - **Classified Information Handling Aspirations**: Positioned for Facility Security Clearance (FCL) under the National Industrial Security Program Operating Manual (NISPOM, 32 CFR Part 117). We seek sponsorship via DD Form 254 for contracts involving classified data, with personnel ready for clearances.
 
-## Dynamic and Continuous Cybersecurity Risk Management
+## Certifications and Affirmations
+- **SPRS Affirmation**: Annual compliance affirmed as of December 2025.
+- **Badges**:
+  - ![CMMC Level 2 Self-Attested](https://img.shields.io/badge/CMMC-Level%202%20Self--Attested-brightgreen)
+  - ![NIST SP 800-171 Rev. 2](https://img.shields.io/badge/NIST%20SP%20800--171%20Rev.%202-Implemented-blue)
+  - ![DoW AI Acceleration Strategy](https://img.shields.io/badge/DoW%20AI%20Acceleration%20Strategy-Aligned-green)
 
-Leighton Dynamica proactively embraces a dynamic, continuous cybersecurity risk management mindset to stay ahead of evolving threats and DoD guidance. As an early adopter of principles aligned with the DoD's Cybersecurity Risk Management Construct (CSRMC)—introduced in late 2025 to replace the legacy Risk Management Framework (RMF)—we embed automated, real-time risk evaluation and mitigation throughout our system and AI development lifecycles. This enables cyber defense at operational speed, supporting mission resilience in AI-driven threat environments.
+## Next Steps for Collaboration
+We are registered in SAM.gov and eager to engage in DoW opportunities, including small business set-asides. For detailed compliance artifacts, capability statements, or to discuss potential partnerships/sponsorships, contact us at [your email/contact info]. We welcome RFIs, RFPs, or DD Form 254 sponsorships to advance toward classified work.
 
-Our approach shifts from periodic, checklist-driven assessments to ongoing automation and integration, positioning us for seamless collaboration in DoD ecosystems (e.g., DoDIN-connected systems) and future contract requirements influenced by CSRMC.
-
-### Alignment with CSRMC Five-Phase Lifecycle
-We integrate risk management across the full lifecycle, ensuring continuous assurance from inception to operations:
-
-- **Design Phase**: Security, risk tolerance, and cyber survivability requirements are embedded from the outset, with cross-functional team collaboration to align functional needs with mission-critical resilience.
-- **Build Phase**: Secure implementation of controls and requirements occurs in development environments, with early data feeds supporting continuous monitoring alignment.
-- **Test Phase**: Comprehensive validation, remediation, and threat-informed testing ensure readiness, including automated reporting for proactive vulnerability management.
-- **Onboard Phase**: Automated continuous monitoring activates upon deployment, enabling risk-reviewed transitions to operational environments and supporting continuous authority to operate (cATO) equivalents.
-- **Operations Phase**: Real-time visibility through proprietary analytics and alerting supports ongoing threat detection, rapid response, and mission-aligned risk decisions.
-
-### Alignment with CSRMC Ten Strategic Tenets
-Our practices incorporate the foundational tenets of CSRMC for scalable, resilient risk management:
-
-- **Automation**: We streamline processes and enhance efficiency through automated tooling, reducing manual effort and enabling scalable risk management.
-- **Critical Controls**: Focus on essential controls and adaptive strategies ensures operational continuity and protection of sensitive assets.
-- **Continuous Monitoring, Control, and ATO**: Real-time visibility into threats, vulnerabilities, and gaps supports ongoing control enforcement and dynamic authorization.
-- **DevSecOps Integration**: Security is automated and embedded throughout development, testing, and deployment pipelines for safe, accelerated delivery.
-- **Cyber Survivability**: Robust measures safeguard against disruptions, supporting resilient operations in contested environments.
-- **Training Enhancer**: Role-based programs maintain consistent cybersecurity knowledge and performance across our team.
-- **Enterprise & Inheritance**: We leverage shared frameworks and inheritance where applicable to reduce burdens and promote consistency.
-- **Operationalization**: Proactive monitoring, incident response, and threat detection strengthen defenses against evolving risks.
-- **Reciprocity**: Readiness to accept and share assessed postures facilitates efficient collaboration and resource reuse.
-- **Cybersecurity Assessments**: Threat-informed methodologies integrate with mission-aligned processes for comprehensive evaluations.
-
-Specific tools, configurations, and proprietary implementations are not disclosed publicly to preserve operational security, intellectual property, and competitive advantage. Compliance is supported through internal governance, regular third-party reviews where applicable, and readiness for formalized assessments (e.g., CMMC Level 2/3 and emerging DoD constructs). By aligning early with CSRMC, Leighton Dynamica demonstrates leadership in continuous risk management, prepared to adapt as DoD guidance evolves.
-
-Last Updated: January 2026
-
-Note: This summary is for informational purposes and does not constitute legal advice. Compliance is subject to ongoing audits and updates.
+*Last Updated: January 20, 2026*  
+*Note: This summary is for informational purposes and does not constitute legal advice. Compliance is subject to ongoing audits and updates.*
 
 The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“A1MX, Leighton Avant-Garde Haus, Leighton Dynamica, Leighton IQX, Xerataus IQX) and apply to and govern your participation in the A1MX, Leighton IQX, and Xerataus IQX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these IQX/AI Program Terms.
 
