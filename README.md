@@ -1,7 +1,7 @@
 
 # Leighton Dynamica 2026 Compliance
 
-### # Defense Compliance Summary for Leighton Dynamica
+### Defense Compliance Summary for Leighton Dynamica
 
 Leighton Dynamica, operating through Leighton Avant-Garde Haus and subsidiaries like Xerataus IQX, is committed to delivering innovative AI and technology solutions exclusively for government use, with a focus on defense applications. As a small, agile entity, we prioritize compliance with U.S. Department of War (DoW) regulations to ensure secure, ethical, and reliable services. Our compliance framework is designed to support Federal Acquisition Regulation (FAR) and Defense Federal Acquisition Regulation Supplement (DFARS) requirements, enabling us to handle Controlled Unclassified Information (CUI) and position for classified contracts.
 
