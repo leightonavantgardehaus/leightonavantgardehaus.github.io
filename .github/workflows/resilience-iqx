@@ -1,0 +1,13 @@
+resilience-toolkit/
+├── README.md                # Overview, quickstart, NIST alignment
+├── docs/                    # Protocols, flowcharts, SLAs
+│   ├── response-protocol.md # Mermaid flowcharts
+│   └── sla-template.md      # SLA examples
+├── scripts/                 # Bash/Python for simulations and red teaming
+│   ├── simulate-failure.py  # Python for edge server failures
+│   └── red-team-attack.sh   # Bash for mock attacks
+├── tests/                   # Automated tests (integrate with primary repo later)
+│   └── failure-simulations/ # Pytest files
+├── logs/                    # Sample drill logs (git-ignored for real data)
+└── case-studies/            # Anonymized healthcare examples, versioned via Git
+    └── healthcare-deployment-v1.md
