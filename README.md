@@ -1,4 +1,3 @@
-
 # Leighton Dynamica 2026 Compliance
 
 ### Defense Compliance Summary for Leighton Dynamica
@@ -8,28 +7,54 @@ Leighton Dynamica, operating through Leighton Avant-Garde Haus and subsidiaries 
 We are actively pursuing opportunities as a defense contractor, with self-attested readiness for CMMC Level 2 as of December 2025. Below is a high-level overview of our compliance posture. Detailed documentation, including System Security Plans (SSP) and Plans of Action & Milestones (POA&M), is available under NDA for qualified partners, primes, or government contracting officers.
 
 ## Key Compliance Commitments
-- **Cybersecurity and CUI Safeguarding**: Implemented NIST SP 800-171 Rev. 2 controls (110/110 addressed or on 180-day POA&M, per current DoW Class Deviation). This includes access controls, system monitoring, and incident response plans with 72-hour reporting to the DoD Cyber Crime Center (DC3) as required by DFARS 252.204-7012. Rev. 3 gap analysis complete for future transition.
-- **CMMC Readiness**: Self-attested at Level 2 in the Supplier Performance Risk System (SPRS), making us eligible for CUI-handling contracts under CMMC 2.0 Phase 1 (effective November 2025). Preparing for Phase 2 (November 2026) with third-party certification by a Certified Third-Party Assessment Organization (C3PAO).
-- **AI Risk Management**: Aligned with the NIST AI Risk Management Framework (AI RMF) 1.0 and the Department of War (DoW) AI Acceleration Strategy (January 2026), emphasizing objectively truthful AI, rapid deployment, and no ideological tuning. Our AI development lifecycle incorporates assessments for bias, reliability, explainability, and human oversight, ensuring trustworthy systems for defense applications.
-- **Export Controls**: Compliant with U.S. Export Administration Regulations (EAR) and International Traffic in Arms Regulations (ITAR) for technology, software, and data exports.
-- **Supply Chain Security**: Rigorous supplier screening to prevent counterfeit parts, with transparency and flow-down requirements per DFARS 252.246-7007 and NIST SP 800-171 Rev. 2.
-- **Small Business Utilization**: As a small disadvantaged business, we prioritize subcontracting with other small entities in line with FAR Part 19.
-- **Anti-Corruption and Ethics**: Adherence to the Foreign Corrupt Practices Act (FCPA), prohibiting bribery and ensuring ethical practices in all operations.
-- **Incident Response and Reporting**: Established plans for rapid detection and response, including coordination with DoW channels.
-- **Classified Information Handling Aspirations**: Positioned for Facility Security Clearance (FCL) under the National Industrial Security Program Operating Manual (NISPOM, 32 CFR Part 117). We seek sponsorship via DD Form 254 for contracts involving classified data, with personnel ready for clearances.
+
+* **Cybersecurity and CUI Safeguarding**: Implemented NIST SP 800-171 Rev. 2 controls (110/110 addressed or on 180-day POA&M, per current DoW Class Deviation). This includes access controls, system monitoring, and incident response plans with 72-hour reporting to the DoD Cyber Crime Center (DC3) as required by DFARS 252.204-7012. Rev. 3 gap analysis complete for future transition.
+* **CMMC Readiness**: Self-attested at Level 2 in the Supplier Performance Risk System (SPRS), making us eligible for CUI-handling contracts under CMMC 2.0 Phase 1 (effective November 2025). Preparing for Phase 2 (November 2026) with third-party certification by a Certified Third-Party Assessment Organization (C3PAO).
+* **AI Risk Management**: Aligned with the NIST AI Risk Management Framework (AI RMF) 1.0 and the Artificial Intelligence Strategy for the Department of War (January 9, 2026), emphasizing objectively truthful AI, rapid deployment, and no ideological tuning. Our AI development lifecycle incorporates assessments for bias, reliability, explainability, and human oversight, ensuring trustworthy systems for defense applications.
+* **Export Controls**: Compliant with U.S. Export Administration Regulations (EAR) and International Traffic in Arms Regulations (ITAR) for technology, software, and data exports. End-user certificates required for ITAR-controlled items.
+* **Supply Chain Security**: Rigorous supplier screening to prevent counterfeit parts, with transparency and flow-down requirements per DFARS 252.246-7007 and NIST SP 800-171 Rev. 2.
+* **Small Business Utilization**: As a small disadvantaged business, we prioritize subcontracting with other small entities in line with FAR Part 19.
+* **Anti-Corruption and Ethics**: Adherence to the Foreign Corrupt Practices Act (FCPA), prohibiting bribery and ensuring ethical practices in all operations.
+* **Incident Response and Reporting**: Established plans for rapid detection and response, including coordination with DoW channels.
+* **Classified Information Handling Aspirations**: Positioned for Facility Security Clearance (FCL) under the National Industrial Security Program Operating Manual (NISPOM, 32 CFR Part 117). We seek sponsorship via DD Form 254 for contracts involving classified data, with personnel ready for clearances.
 
 ## Certifications and Affirmations
-- **SPRS Affirmation**: Annual compliance affirmed as of December 2025.
+- **SPRS Affirmation**: Annual compliance affirmed as of February 2026.
 - **Badges**:
   - ![CMMC Level 2 Self-Attested](https://img.shields.io/badge/CMMC-Level%202%20Self--Attested-brightgreen)
   - ![NIST SP 800-171 Rev. 2](https://img.shields.io/badge/NIST%20SP%20800--171%20Rev.%202-Implemented-blue)
   - ![DoW AI Acceleration Strategy](https://img.shields.io/badge/DoW%20AI%20Acceleration%20Strategy-Aligned-green)
 
-## Next Steps for Collaboration
-We are registered in SAM.gov and eager to engage in DoW opportunities, including small business set-asides. For detailed compliance artifacts, capability statements, or to discuss potential partnerships/sponsorships, contact us at [your email/contact info]. We welcome RFIs, RFPs, or DD Form 254 sponsorships to advance toward classified work.
 
-*Last Updated: January 20, 2026*  
-*Note: This summary is for informational purposes and does not constitute legal advice. Compliance is subject to ongoing audits and updates.*
+## Next Steps for Collaboration
+
+We are registered in SAM.gov and eager to engage in DoW opportunities, including small business set-asides. For detailed compliance artifacts, capability statements, or to discuss potential partnerships/sponsorships, contact us at contact@leightondynamica.cloud. We welcome RFIs, RFPs, or DD Form 254 sponsorships to advance toward classified work.
+
+*Last Updated: February 4, 2026*
+*Note: This summary is for informational purposes and does not constitute legal advice. Compliance is subject to ongoing audits and updates. Regulations like CMMC Phase 2 (November 2026) may introduce additional requirements.*
+
+The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“A1MX, Leighton Avant-Garde Haus, Leighton Dynamica, Leighton IQX, Xerataus IQX) and apply to and govern your participation in the A1MX, Leighton IQX, and Xerataus IQX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these IQX/AI Program Terms.
+
+### Improvement of Services
+
+Artificial intelligence and machine learning models can improve over time to better address specific use cases. We do not and will not permit third parties to use your Content or Customer Data to improve or train their AI models. We do not and will not use your Content or Customer Data to improve or train our models unless you give us express permission to do so.
+
+# Additional Processing Instruction
+
+To the extent your Input contains Customer Personal Data (as that term is defined in the Data Process Addendum), you instruct Xerataus IQX to process the Customer Personal Data for the additional Business Purpose of providing the A1MX functionality and Output. You acknowledge that for the purposes of your participation in the A1MX, Leighton IQX Program(s) and your use of Xerataus IQX, Xerataus uses additional subprocessor(s) to provide the Xerataus IQX functionality.
+
+### Data Security
+
+We implement reasonable technical, administrative, and physical safeguards to protect Customer Personal Data and Content, in line with NIST SP 800-171 and DFARS 252.204-7012. These include:
+
+* Encryption of data in transit (e.g., TLS 1.3) and at rest.
+* Access controls, including role-based authentication and multi-factor verification.
+* Regular vulnerability assessments, penetration testing, and security audits.
+* Incident response plans, including breach notification within 72 hours as required by GDPR or state laws (e.g., NC data breach notification).
+* Data minimization: We collect only necessary data and retain it for as long as required for service provision, contract fulfillment, and legal obligations (e.g., up to 6 years post-contract for audit purposes under DFARS).
+
+* In the event of a security incident, we will notify affected users and cooperate with investigations. Users must report suspected breaches to contact@leightondynamica.cloud. We aim for CMMC Level 1 certification for handling CUI.
+For cross-border data transfers, we use Standard Contractual Clauses (SCCs) or equivalent mechanisms to ensure adequate protection.
 
 The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“A1MX, Leighton Avant-Garde Haus, Leighton Dynamica, Leighton IQX, Xerataus IQX) and apply to and govern your participation in the A1MX, Leighton IQX, and Xerataus IQX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these IQX/AI Program Terms.
 
@@ -105,8 +130,6 @@ We implement reasonable technical, administrative, and physical safeguards to pr
 - Incident response plans, including breach notification within 72 hours as required by GDPR or state laws (e.g., NC data breach notification).
 - Data minimization: We collect only necessary data and retain it for [specify period, e.g., as long as required for service provision or legal obligations].
 - Employee training on data protection and compliance.
-In the event of a security incident, we will notify affected users and cooperate with investigations. Users must report suspected breaches to contact@leightondynamica.cloud. We aim for CMMC Level 1 certification for handling CUI.
-For cross-border data transfers, we use Standard Contractual Clauses (SCCs) or equivalent mechanisms to ensure adequate protection.
 
 ### LIMITS ON LIABILITY
 IN NO EVENT SHALL XERATAUS OR ITS AFFILIATES BE LIABLE FOR ANY INDIRECT, SPECIAL, CONSEQUENTIAL OR INCIDENTAL LOSS, EXEMPLARY OR OTHER DAMAGES RELATED TO THESE AI PROGRAM TERMS OR YOUR PARTICIPATION IN THE XERATAUS AI PROGRAM WHETHER DIRECT OR INDIRECT, HOWEVER CAUSED AND BASED ON ANY THEORY OF LIABILITY, AND WHETHER OR NOT WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
@@ -135,7 +158,7 @@ If you are a copyright owner (or authorized to act on behalf of one), report all
 
 Enforcement of this policy supports our commitment to ethical innovation in defense and AI technologies. For questions, contact contact@leightondynamica.cloud.
 
-Last Updated: January 1, 2026
+Last Updated: February 4, 2026
 
 ---
 
