@@ -164,4 +164,4 @@ Last Updated: February 4, 2026
 
 © 2026 Leighton Avant-Garde Haus LLC, Leighton Dynamica, and Subsidiaries. All Rights Reserved.  
 Unauthorized reproduction or distribution of this content is prohibited.  
-Contact: contact@leightondynamica.cloud  
+Contact: contact@oneleighton.cloud  
