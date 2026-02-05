@@ -28,10 +28,10 @@ We are actively pursuing opportunities as a defense contractor, with self-attest
 
 ## Next Steps for Collaboration
 
-We are registered in SAM.gov and eager to engage in DoW opportunities, including small business set-asides. For detailed compliance artifacts, capability statements, or to discuss potential partnerships/sponsorships, contact us at contact@leightondynamica.cloud. We welcome RFIs, RFPs, or DD Form 254 sponsorships to advance toward classified work.
+We are registered in SAM.gov and eager to engage in DoW opportunities, including small business set-asides. For detailed compliance artifacts, capability statements, or to discuss potential partnerships/sponsorships, contact us at contact@oneleighton.cloud. We welcome RFIs, RFPs, or DD Form 254 sponsorships to advance toward classified work.
 
-*Last Updated: February 4, 2026*
-*Note: This summary is for informational purposes and does not constitute legal advice. Compliance is subject to ongoing audits and updates. Regulations like CMMC Phase 2 (November 2026) may introduce additional requirements.*
+*Last Updated: February 5, 2026*
+
 
 The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“A1MX, Leighton Avant-Garde Haus, Leighton Dynamica, Leighton IQX, Xerataus IQX) and apply to and govern your participation in the A1MX, Leighton IQX, and Xerataus IQX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these IQX/AI Program Terms.
 
