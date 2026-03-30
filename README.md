@@ -22,8 +22,8 @@ We are actively pursuing opportunities as a defense contractor, with self-attest
 ## Certifications and Affirmations
 - **SPRS Affirmation**: Annual compliance affirmed as of March 30, 2026.
 - **Badges**:
-  - ![CMMC Level 2 Self-Attested](https://img.shields.io/badge/CMMC-Level%202%20Self--Attested-brightgreen)
-  - ![NIST SP 800-171 Rev. 2](https://img.shields.io/badge/NIST%20SP%20800--171%20Rev.%202-Implemented-blue)
+  - ![CMMC Level 2 Self-Attested](https://img.shields.io/badge/CMMC-Level%202%20Self--Attested-brightgreen) On track for C3PAO readiness ahead of November 10, 2026 Phase 2 mandate.
+  - ![NIST SP 800-171 Rev. 2](https://img.shields.io/badge/NIST%20SP%20800--171%20Rev.%202-Implemented-blue)Full implementation of NIST SP 800-171 Rev. 2 controls (110/110 addressed or POA&M); Rev. 3 gap analysis and transition planning ongoing in anticipation of future federal alignment.
   - ![DoW AI Acceleration Strategy](https://img.shields.io/badge/DoW%20AI%20Acceleration%20Strategy-Aligned-green)
 
 
