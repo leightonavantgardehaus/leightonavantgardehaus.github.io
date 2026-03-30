@@ -17,9 +17,10 @@ We are actively pursuing opportunities as a defense contractor, with self-attest
 * **Anti-Corruption and Ethics**: Adherence to the Foreign Corrupt Practices Act (FCPA), prohibiting bribery and ensuring ethical practices in all operations.
 * **Incident Response and Reporting**: Established plans for rapid detection and response, including coordination with DoW channels.
 * **Classified Information Handling Aspirations**: Positioned for Facility Security Clearance (FCL) under the National Industrial Security Program Operating Manual (NISPOM, 32 CFR Part 117). We seek sponsorship via DD Form 254 for contracts involving classified data, with personnel ready for clearances.
+* **FY2026 NDAA Alignment: Supporting cybersecurity requirement harmonization across the defense industrial base (NDAA §866, deadline June 2026) to reduce duplicative clauses. Monitoring new DOD-wide AI cybersecurity and governance policy (NDAA §1512) and physical/cyber standards for AI systems (§1513). Benefiting from increased CAS coverage threshold ($100M) as a small disadvantaged business.
 
 ## Certifications and Affirmations
-- **SPRS Affirmation**: Annual compliance affirmed as of February 2026.
+- **SPRS Affirmation**: Annual compliance affirmed as of March 30, 2026.
 - **Badges**:
   - ![CMMC Level 2 Self-Attested](https://img.shields.io/badge/CMMC-Level%202%20Self--Attested-brightgreen)
   - ![NIST SP 800-171 Rev. 2](https://img.shields.io/badge/NIST%20SP%20800--171%20Rev.%202-Implemented-blue)
@@ -30,7 +31,7 @@ We are actively pursuing opportunities as a defense contractor, with self-attest
 
 We are registered in SAM.gov and eager to engage in DoW opportunities, including small business set-asides. For detailed compliance artifacts, capability statements, or to discuss potential partnerships/sponsorships, contact us at contact@oneleighton.cloud. We welcome RFIs, RFPs, or DD Form 254 sponsorships to advance toward classified work.
 
-*Last Updated: February 5, 2026*
+*Last Updated: March 30, 2026*
 
 
 The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“A1MX, Leighton Avant-Garde Haus, Leighton Dynamica, Leighton IQX, Xerataus IQX) and apply to and govern your participation in the A1MX, Leighton IQX, and Xerataus IQX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these IQX/AI Program Terms.
