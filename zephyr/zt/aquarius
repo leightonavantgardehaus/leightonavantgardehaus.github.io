@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IQX ZT by Leighton Dynamica</title>
+  <link rel="preconnect" href="https://api.fontshare.com" />
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" rel="stylesheet" />
+  <style>
+    :root, [data-theme="light"] {
+      --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+      --text-sm: clamp(0.875rem, 0.8rem + 0.35vw, 1rem);
+      --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
+      --text-lg: clamp(1.125rem, 1rem + 0.75vw, 1.5rem);
+      --text-xl: clamp(1.5rem, 1.2rem + 1.25vw, 2.25rem);
+      --space-1: 0.25rem; --space-2: 0.5rem; --space-3: 0.75rem; --space-4: 1rem; --space-5: 1.25rem; --space-6: 1.5rem; --space-8: 2rem; --space-10: 2.5rem; --space-12: 3rem; --space-16: 4rem;
+      --color-bg: #f7f6f2; --color-surface: #f9f8f5; --color-surface-2: #fbfbf9; --color-surface-offset: #f3f0ec; --color-surface-dynamic: #e6e4df; --color-divider: #dcd9d5; --color-border: #d4d1ca;
+      --color-text: #28251d; --color-text-muted: #64625d; --color-text-faint: #8f8d88; --color-text-inverse: #f9f8f4;
+      --color-primary: #01696f; --color-primary-hover: #0c4e54; --color-primary-highlight: #cedcd8;
+      --color-warning: #964219; --color-error: #a12c7b; --color-notification: #a13544; --color-orange: #da7101; --color-gold: #d19900; --color-success: #437a22; --color-blue: #006494; --color-purple: #7a39bb;
+      --radius-sm: .375rem; --radius-md: .5rem; --radius-lg: .75rem; --radius-xl: 1rem; --radius-full: 9999px;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,.05); --shadow-md: 0 6px 24px rgba(0,0,0,.08); --shadow-lg: 0 20px 48px rgba(0,0,0,.12);
+      --font-body: 'Satoshi', Inter, sans-serif;
+    }
+    [data-theme="dark"] {
+      --color-bg: #171614; --color-surface: #1c1b19; --color-surface-2: #201f1d; --color-surface-offset: #1d1c1a; --color-surface-dynamic: #2d2c2a; --color-divider: #262523; --color-border: #393836;
+      --color-text: #e3e1dc; --color-text-muted: #a29f98; --color-text-faint: #7d7a75; --color-text-inverse: #2b2a28;
+      --color-primary: #4f98a3; --color-primary-hover: #227f8b; --color-primary-highlight: #313b3b;
+      --color-warning: #bb653b; --color-error: #d163a7; --color-notification: #dd6974; --color-orange: #fdab43; --color-gold: #e8af34; --color-success: #6daa45; --color-blue: #5591c7; --color-purple: #a86fdf;
+      --shadow-sm: 0 1px 2px rgba(0,0,0,.2); --shadow-md: 0 6px 24px rgba(0,0,0,.28); --shadow-lg: 0 20px 48px rgba(0,0,0,.4);
+    }
+    * { box-sizing: border-box; }
+    html, body { margin:0; height:100%; overflow:hidden; }
+    body { font-family: var(--font-body); font-size: var(--text-base); background: var(--color-bg); color: var(--color-text); }
+    button, input, select { font: inherit; }
+    a { color: inherit; }
+    .dashboard { display:grid; grid-template-columns: 280px 1fr; grid-template-rows: auto 1fr; height:100dvh; }
+    .sidebar { grid-row:1 / -1; overflow-y:auto; overscroll-behavior:contain; background: linear-gradient(180deg, var(--color-surface), var(--color-surface-offset)); border-right:1px solid color-mix(in oklab, var(--color-text) 12%, transparent); padding: var(--space-6); }
+    .header { grid-column:2; position:sticky; top:0; z-index:5; display:flex; align-items:center; justify-content:space-between; gap:var(--space-4); padding: var(--space-4) var(--space-6); background: color-mix(in oklab, var(--color-bg) 86%, transparent); backdrop-filter: blur(10px); border-bottom:1px solid color-mix(in oklab, var(--color-text) 10%, transparent); }
+    .main { grid-column:2; overflow-y:auto; overscroll-behavior:contain; padding: var(--space-6); }
+    .brand { display:flex; align-items:center; gap:var(--space-3); margin-bottom: var(--space-8); }
+    .logo { width:40px; height:40px; border-radius: 12px; display:grid; place-items:center; background: linear-gradient(135deg, var(--color-primary-highlight), color-mix(in oklab, var(--color-primary) 18%, var(--color-surface))); color:var(--color-primary); box-shadow: var(--shadow-sm); }
+    .brand h1 { font-size: var(--text-lg); line-height:1.1; }
+    .muted { color: var(--color-text-muted); }
+    .sidebar-section { margin-bottom: var(--space-8); }
+    .sidebar-section h2 { font-size: var(--text-sm); text-transform: uppercase; letter-spacing: .08em; color: var(--color-text-faint); margin-bottom: var(--space-3); }
+    .nav-pill, .chip { border:1px solid color-mix(in oklab, var(--color-text) 10%, transparent); background: var(--color-surface-2); color: var(--color-text); border-radius: var(--radius-full); padding: .55rem .9rem; display:inline-flex; align-items:center; gap:.5rem; }
+    .nav-list { display:grid; gap: .6rem; }
+    .nav-pill.active { background: var(--color-primary); color: var(--color-text-inverse); border-color: transparent; }
+    .top-actions { display:flex; align-items:center; gap:var(--space-3); flex-wrap:wrap; }
+    .search { min-width: 240px; flex: 1 1 280px; display:flex; align-items:center; gap:.65rem; background: var(--color-surface); border:1px solid color-mix(in oklab, var(--color-text) 10%, transparent); border-radius: var(--radius-lg); padding: .8rem 1rem; }
+    .search input { width:100%; border:none; outline:none; background:transparent; color:var(--color-text); }
+    .theme-toggle, .btn { min-height:44px; border:none; cursor:pointer; border-radius: var(--radius-lg); padding: .75rem 1rem; }
+    .theme-toggle { background: var(--color-surface); color: var(--color-text); border:1px solid color-mix(in oklab, var(--color-text) 10%, transparent); }
+    .btn.primary { background: var(--color-primary); color: var(--color-text-inverse); }
+    .hero { display:grid; gap:var(--space-4); margin-bottom: var(--space-6); }
+    .hero h2 { font-size: var(--text-xl); line-height:1.05; max-width: 18ch; }
+    .hero p { max-width: 78ch; color: var(--color-text-muted); }
+    .kpis { display:grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-4); margin-bottom: var(--space-6); }
+    .card { background: var(--color-surface); border:1px solid color-mix(in oklab, var(--color-text) 10%, transparent); border-radius: var(--radius-xl); box-shadow: var(--shadow-sm); }
+    .kpi { padding: var(--space-5); }
+    .kpi .label { font-size: var(--text-xs); text-transform: uppercase; letter-spacing: .08em; color: var(--color-text-faint); margin-bottom: var(--space-2); }
+    .kpi .value { font-size: var(--text-xl); font-weight: 900; line-height:1; font-variant-numeric: tabular-nums lining-nums; }
+    .kpi .sub { margin-top: var(--space-2); color: var(--color-text-muted); font-size: var(--text-sm); }
+    .grid { display:grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); margin-bottom: var(--space-6); }
+    .panel { padding: var(--space-5); }
+    .panel h3 { font-size: var(--text-lg); margin-bottom: var(--space-3); }
+    .filters { display:grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: var(--space-3); margin-bottom: var(--space-4); }
+    .field { display:grid; gap: .45rem; }
+    .field label { font-size: var(--text-xs); color: var(--color-text-faint); text-transform: uppercase; letter-spacing: .08em; }
+    .field select, .field input { min-height:44px; border-radius: var(--radius-md); border:1px solid color-mix(in oklab, var(--color-text) 10%, transparent); background: var(--color-surface-2); padding: .7rem .85rem; color: var(--color-text); }
+    .legend { display:flex; flex-wrap:wrap; gap:.55rem; margin-top: var(--space-2); }
+    .chip { font-size: var(--text-xs); }
+    .table-wrap { overflow:auto; border-radius: var(--radius-lg); border:1px solid color-mix(in oklab, var(--color-text) 10%, transparent); }
+    table { width:100%; border-collapse: collapse; min-width: 1200px; font-variant-numeric: tabular-nums lining-nums; }
+    thead th { position: sticky; top:0; z-index:1; background: color-mix(in oklab, var(--color-surface) 95%, var(--color-bg)); font-size: var(--text-xs); text-transform: uppercase; letter-spacing: .08em; color: var(--color-text-faint); }
+    th, td { text-align:left; padding: .9rem .85rem; border-bottom:1px solid color-mix(in oklab, var(--color-text) 8%, transparent); vertical-align:top; }
+    tbody tr { background: var(--color-surface); }
+    tbody tr:hover { background: color-mix(in oklab, var(--color-primary) 6%, var(--color-surface)); }
+    th button { all: unset; cursor:pointer; display:inline-flex; align-items:center; gap:.35rem; }
+    .tag { display:inline-flex; align-items:center; gap:.4rem; border-radius: var(--radius-full); padding:.35rem .6rem; font-size: var(--text-xs); font-weight:700; white-space:nowrap; }
+    .risk-low { background: color-mix(in oklab, var(--color-success) 16%, var(--color-surface)); color: var(--color-success); }
+    .risk-med { background: color-mix(in oklab, var(--color-gold) 18%, var(--color-surface)); color: var(--color-gold); }
+    .risk-high { background: color-mix(in oklab, var(--color-orange) 18%, var(--color-surface)); color: var(--color-orange); }
+    .risk-critical { background: color-mix(in oklab, var(--color-notification) 18%, var(--color-surface)); color: var(--color-notification); }
+    .threat { background: var(--color-surface-2); color: var(--color-text); border:1px solid color-mix(in oklab, var(--color-text) 8%, transparent); }
+    .control { background: color-mix(in oklab, var(--color-primary) 9%, var(--color-surface)); color: var(--color-primary); }
+    .entra { background: color-mix(in oklab, var(--color-blue) 10%, var(--color-surface)); color: var(--color-blue); }
+    .mini-list { display:flex; flex-wrap:wrap; gap:.35rem; }
+    .drawer { position: fixed; top:0; right:0; width:min(560px, 100vw); height:100dvh; background: var(--color-surface); border-left:1px solid color-mix(in oklab, var(--color-text) 10%, transparent); box-shadow: var(--shadow-lg); transform: translateX(100%); transition: transform .24s ease; z-index: 20; display:flex; flex-direction:column; }
+    .drawer.open { transform: translateX(0); }
+    .drawer-header { padding: var(--space-5); border-bottom:1px solid color-mix(in oklab, var(--color-text) 10%, transparent); display:flex; align-items:flex-start; justify-content:space-between; gap:var(--space-3); }
+    .drawer-body { padding: var(--space-5); overflow:auto; display:grid; gap: var(--space-5); }
+    .drawer h3 { font-size: var(--text-lg); }
+    .close { background: var(--color-surface-2); border:1px solid color-mix(in oklab, var(--color-text) 10%, transparent); border-radius: var(--radius-md); min-width:44px; min-height:44px; }
+    .detail-block { display:grid; gap:.6rem; }
+    .detail-block h4 { font-size: var(--text-sm); text-transform:uppercase; letter-spacing: .08em; color: var(--color-text-faint); }
+    .progress { height: 10px; border-radius: var(--radius-full); background: var(--color-surface-offset); overflow:hidden; }
+    .progress > span { display:block; height:100%; background: linear-gradient(90deg, var(--color-success), var(--color-gold), var(--color-orange), var(--color-notification)); }
+    .note { font-size: var(--text-sm); color: var(--color-text-muted); }
+    .footer-note { margin-top: var(--space-4); font-size: var(--text-sm); color: var(--color-text-muted); }
+    ul { margin: 0; padding-left: 1.2rem; }
+    @media (max-width: 1100px) {
+      .dashboard { grid-template-columns: 1fr; grid-template-rows: auto auto 1fr; }
+      .sidebar { grid-row:auto; grid-column:1; border-right:none; border-bottom:1px solid color-mix(in oklab, var(--color-text) 10%, transparent); }
+      .header, .main { grid-column:1; }
+      .kpis, .filters, .grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      .main, .sidebar, .header { padding-inline: var(--space-4); }
+      .header { padding-block: var(--space-3); }
+      .hero h2 { max-width: none; }
+    }
+  </style>
+</head>
+<body>
+<div class="dashboard">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">
+        <svg viewBox="0 0 48 48" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.5" aria-label="ZT User logo">
+          <path d="M9 13h30l-18 22h18" />
+          <circle cx="16" cy="33" r="3" fill="currentColor" stroke="none" />
+        </svg>
+      </div>
+      <div>
+        <h1>ZT User</h1>
+        <div class="muted">DoD compliance dashboard</div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <h2>Views</h2>
+      <div class="nav-list">
+        <button class="nav-pill active" type="button">User pillar matrix</button>
+        <button class="nav-pill" type="button" disabled>Threat alignment</button>
+        <button class="nav-pill" type="button" disabled>Control outcomes</button>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <h2>Threat focus</h2>
+      <div class="nav-list">
+        <span class="chip">PRC APT40</span>
+        <span class="chip">Insider risk</span>
+        <span class="chip">Ransomware</span>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <h2>Entra-aligned controls</h2>
+      <div class="nav-list" id="controlLegend"></div>
+    </div>
+
+    <div class="sidebar-section note">
+      Integrated with Microsoft Entra ID concepts for policy enforcement, risk-adaptive access, governance workflows, and privileged identity protection.
+    </div>
+  </aside>
+
+  <header class="header">
+    <div>
+      <div class="muted" style="font-size:var(--text-xs); text-transform:uppercase; letter-spacing:.08em;">Department of Defense Zero Trust</div>
+      <strong>User pillar compliance dashboard with Microsoft Entra ID</strong>
+    </div>
+    <div class="top-actions">
+      <label class="search" aria-label="Search rows">
+        <span aria-hidden="true">⌕</span>
+        <input id="searchInput" type="search" placeholder="Search user type, threat, sensitivity, control, or Entra feature" />
+      </label>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">◐</button>
+    </div>
+  </header>
+
+  <main class="main" id="mainContent">
+    <section class="hero">
+      <h2>Map mission identities to Zero Trust controls and Microsoft Entra ID enforcement.</h2>
+      <p>Filter the matrix by threat, control type, sensitivity, or user type. Sort risk scores, then open row details to review target outcomes, recommended Microsoft Entra capabilities, and control-to-platform mappings.</p>
+    </section>
+
+    <section class="kpis">
+      <article class="card kpi">
+        <div class="label">Rows in scope</div>
+        <div class="value" id="kpiRows">0</div>
+        <div class="sub">User-type and sensitivity combinations</div>
+      </article>
+      <article class="card kpi">
+        <div class="label">Avg risk</div>
+        <div class="value" id="kpiAvgRisk">0</div>
+        <div class="sub">Weighted by threat and sensitivity</div>
+      </article>
+      <article class="card kpi">
+        <div class="label">Critical rows</div>
+        <div class="value" id="kpiCritical">0</div>
+        <div class="sub">Require strongest control stack</div>
+      </article>
+      <article class="card kpi">
+        <div class="label">Entra features surfaced</div>
+        <div class="value" id="kpiFeatures">0</div>
+        <div class="sub">Platform mappings for the visible dataset</div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card panel">
+        <h3>Filter set</h3>
+        <div class="filters">
+          <div class="field"><label for="threatFilter">Threat</label><select id="threatFilter"></select></div>
+          <div class="field"><label for="controlFilter">Control</label><select id="controlFilter"></select></div>
+          <div class="field"><label for="sensitivityFilter">Sensitivity</label><select id="sensitivityFilter"></select></div>
+          <div class="field"><label for="userFilter">User type</label><select id="userFilter"></select></div>
+        </div>
+        <div class="legend" id="activeFilters"></div>
+      </article>
+      <article class="card panel">
+        <h3>Microsoft Entra ID integration</h3>
+        <div class="detail-block">
+          <p class="note">Microsoft Entra Conditional Access acts as the Zero Trust policy engine, while entitlement management and access reviews automate lifecycle governance, and PIM secures privileged elevation.</p>
+          <div class="mini-list">
+            <span class="tag entra">Conditional Access</span>
+            <span class="tag entra">ID Protection</span>
+            <span class="tag entra">PIM</span>
+            <span class="tag entra">Entitlement management</span>
+            <span class="tag entra">Access reviews</span>
+            <span class="tag entra">CBA</span>
+            <span class="tag entra">External ID</span>
+            <span class="tag entra">Workload ID</span>
+          </div>
+        </div>
+        <div class="detail-block" style="margin-top:var(--space-4)">
+          <h4>Implementation lanes</h4>
+          <ul>
+            <li>Policy enforcement with authentication strengths, device compliance, named locations, and sign-in risk.</li>
+            <li>Privileged protection with PIM, approval workflow, just-in-time activation, and protected actions.</li>
+            <li>Governance automation with access packages, provisioning, recurring reviews, and external-user guardrails.</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="grid">
+      <article class="card panel">
+        <h3>Risk scoring</h3>
+        <p class="note">Composite score = threat pressure + data sensitivity + privilege weight + exposure count. Scores are normalized to 100 for triage.</p>
+        <div class="detail-block" style="margin-top:var(--space-4)">
+          <div style="display:flex; justify-content:space-between; gap:var(--space-3)"><span>Low</span><span>Critical</span></div>
+          <div class="progress"><span id="progressBar" style="width:65%"></span></div>
+        </div>
+        <div class="footer-note">Click any row for control outcomes, recommended Microsoft Entra features, owner alignment, and rationale tied to the selected threats.</div>
+      </article>
+      <article class="card panel">
+        <h3>Architecture cue</h3>
+        <p class="note">Use this matrix to move from user categorization to policy deployment. Start with privileged and partner identities, enforce phishing-resistant MFA and device trust, then automate lifecycle reviews and federated access boundaries.</p>
+        <div class="mini-list" style="margin-top:var(--space-4)">
+          <span class="tag threat">Verify explicitly</span>
+          <span class="tag threat">Use least privilege</span>
+          <span class="tag threat">Assume breach</span>
+        </div>
+      </article>
+    </section>
+
+    <section class="card panel">
+      <h3>User pillar matrix</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th><button data-sort="userType">User type</button></th>
+              <th><button data-sort="dataSensitivity">Data sensitivity</button></th>
+              <th><button data-sort="threats">Threats</button></th>
+              <th><button data-sort="controls">Controls</button></th>
+              <th><button data-sort="entraFeatures">Entra mapping</button></th>
+              <th><button data-sort="controlType">Control type</button></th>
+              <th><button data-sort="riskScore">Risk</button></th>
+              <th><button data-sort="priority">Priority</button></th>
+              <th>Details</th>
+            </tr>
+          </thead>
+          <tbody id="matrixBody"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+</div>
+
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-header">
+    <div>
+      <div class="muted" id="drawerMeta"></div>
+      <h3 id="drawerTitle">Row details</h3>
+    </div>
+    <button class="close" id="closeDrawer" aria-label="Close details">✕</button>
+  </div>
+  <div class="drawer-body" id="drawerBody"></div>
+</aside>
+
+<script>
+const entraCatalog = {
+  'MFA':['Authentication methods','Authentication strengths','CBA'],
+  'PAM':['PIM','Protected actions','Authentication context'],
+  'UAM':['Audit logs','Sign-in logs','Defender for Cloud Apps'],
+  'UEBA':['ID Protection','Sentinel UEBA','Defender signals'],
+  'Conditional Access':['Conditional Access','Named locations','Device filters'],
+  'Lifecycle Management':['Entitlement management','Access reviews','Provisioning'],
+  'SSO':['Enterprise app SSO','App integration'],
+  'PKI/CBA':['CBA','CAC / derived credentials'],
+  'Deny-by-default':['App assignment required','Least-privilege RBAC'],
+  'PAW':['Device filters','Compliant PAW enforcement']
+};
+
+const controls = [
+  { id:'MFA', type:'Authentication' },
+  { id:'PAM', type:'Privileged access' },
+  { id:'UAM', type:'Monitoring' },
+  { id:'UEBA', type:'Analytics' },
+  { id:'Conditional Access', type:'Authorization' },
+  { id:'Lifecycle Management', type:'Identity governance' },
+  { id:'SSO', type:'Authentication' },
+  { id:'PKI/CBA', type:'Credentialing' },
+  { id:'Deny-by-default', type:'Least privilege' },
+  { id:'PAW', type:'Privileged access' }
+];
+
+const data = [
+  {
+    userType:'Privileged administrator',
+    dataSensitivity:'Top Secret / SAP',
+    threats:['PRC APT40','Insider risk','Ransomware'],
+    controls:['MFA','PAM','PAW','UEBA','Conditional Access','Deny-by-default'],
+    controlType:'Privileged access',
+    priority:'Immediate',
+    riskScore:96,
+    entraOwner:'Identity and Privileged Access Team',
+    outcomes:[
+      'Phishing-resistant MFA enforced for every admin sign-in',
+      'JIT activation with approval for privileged roles',
+      'Privileged access limited to compliant PAWs and high-trust sessions'
+    ],
+    entra:[
+      'Microsoft Entra CBA with CAC and authentication strengths',
+      'Privileged Identity Management for eligible admin roles and approvals',
+      'Conditional Access with compliant-device and sign-in risk controls'
+    ],
+    rationale:'High-impact identities can enable lateral movement, data loss, and defensive-control tampering if credentials are stolen or abused.'
+  },
+  {
+    userType:'Mission operator',
+    dataSensitivity:'Secret mission data',
+    threats:['PRC APT40','Insider risk'],
+    controls:['MFA','Conditional Access','UEBA','UAM','SSO'],
+    controlType:'Authorization',
+    priority:'High',
+    riskScore:82,
+    entraOwner:'Conditional Access and Operations Team',
+    outcomes:[
+      'Access adapts to user risk, device trust, and mission context',
+      'Continuous monitoring flags abnormal access patterns',
+      'Single sign-on reduces unmanaged app credentials'
+    ],
+    entra:[
+      'Conditional Access policies with risk and device conditions',
+      'Microsoft Entra ID Protection for sign-in and user risk',
+      'SSO with app integration and session controls'
+    ],
+    rationale:'Mission users handle sensitive operational information and are attractive targets for credential theft and covert collection.'
+  },
+  {
+    userType:'Coalition / partner user',
+    dataSensitivity:'Controlled Unclassified Information',
+    threats:['PRC APT40','Insider risk'],
+    controls:['MFA','Lifecycle Management','Conditional Access','SSO','Deny-by-default'],
+    controlType:'Identity governance',
+    priority:'High',
+    riskScore:74,
+    entraOwner:'B2B / Partner Identity Team',
+    outcomes:[
+      'Federated access constrained by explicit attributes and need-to-know',
+      'Time-bound access packages and periodic reviews reduce stale entitlements',
+      'Cross-tenant trust only accepts strong MFA and compliant claims'
+    ],
+    entra:[
+      'Microsoft Entra External ID cross-tenant access settings',
+      'Entitlement management access packages and access reviews',
+      'Conditional Access enforcing trusted MFA claims'
+    ],
+    rationale:'Federation broadens the trust boundary and requires strict lifecycle, attribute, and trust governance.'
+  },
+  {
+    userType:'Contractor developer',
+    dataSensitivity:'DevSecOps pipelines',
+    threats:['PRC APT40','Ransomware'],
+    controls:['MFA','PAM','Lifecycle Management','UEBA','Deny-by-default'],
+    controlType:'Least privilege',
+    priority:'High',
+    riskScore:79,
+    entraOwner:'Platform Identity Engineering',
+    outcomes:[
+      'Privileged build and deployment rights are time-bound',
+      'Inactive accounts and excessive app permissions are removed quickly',
+      'Behavior analytics flags abnormal pipeline access or token misuse'
+    ],
+    entra:[
+      'PIM for privileged groups and app roles',
+      'Lifecycle automation with Entra provisioning and reviews',
+      'ID Protection and Defender integrations for anomaly signals'
+    ],
+    rationale:'Developer access often spans code, secrets, and deployment systems, making it valuable to espionage and extortion actors.'
+  },
+  {
+    userType:'Knowledge worker',
+    dataSensitivity:'FOUO / internal collaboration',
+    threats:['Ransomware','Insider risk'],
+    controls:['MFA','SSO','UAM','UEBA'],
+    controlType:'Monitoring',
+    priority:'Moderate',
+    riskScore:58,
+    entraOwner:'Workforce Identity Team',
+    outcomes:[
+      'Broad password-based exposure is reduced with MFA and SSO',
+      'Anomalous download or sharing behavior becomes visible',
+      'User activity monitoring supports investigations and containment'
+    ],
+    entra:[
+      'Authentication methods and phishing-resistant MFA where feasible',
+      'SSO for SaaS and enterprise apps',
+      'ID Protection and Defender for Cloud Apps session monitoring'
+    ],
+    rationale:'This population drives large attack surface volume and is a common ransomware initial-access path.'
+  },
+  {
+    userType:'Help desk / identity admin',
+    dataSensitivity:'PII and account recovery data',
+    threats:['Insider risk','Ransomware'],
+    controls:['MFA','PAM','UAM','UEBA','Lifecycle Management'],
+    controlType:'Privileged access',
+    priority:'Immediate',
+    riskScore:88,
+    entraOwner:'Directory Operations and SOC',
+    outcomes:[
+      'Recovery actions and directory changes are fully auditable',
+      'Elevated rights require activation, approval, and stronger auth',
+      'Joiner-mover-leaver workflows reduce orphaned support entitlements'
+    ],
+    entra:[
+      'PIM approval workflows and alerts',
+      'Audit logs integrated with Sentinel and UEBA',
+      'Lifecycle processes with governance reviews'
+    ],
+    rationale:'Identity support teams can reset credentials and change privileges, so abuse or compromise has outsized impact.'
+  },
+  {
+    userType:'Mobile edge user',
+    dataSensitivity:'Operational field reporting',
+    threats:['PRC APT40','Ransomware'],
+    controls:['MFA','PKI/CBA','Conditional Access','UAM'],
+    controlType:'Credentialing',
+    priority:'High',
+    riskScore:71,
+    entraOwner:'Mobility and Endpoint Identity Team',
+    outcomes:[
+      'Derived credentials and device trust improve assurance off-premises',
+      'Conditional checks account for device compliance and session risk',
+      'Field access remains resilient while blocking weak authentication paths'
+    ],
+    entra:[
+      'CBA and derived credentials on managed mobile devices',
+      'Intune compliance signals feeding Conditional Access',
+      'Monitoring via sign-in logs and session visibility'
+    ],
+    rationale:'Remote and mobile access expands exposure to credential theft, device loss, and adversary collection.'
+  },
+  {
+    userType:'Service owner',
+    dataSensitivity:'Enterprise application admin data',
+    threats:['PRC APT40','Insider risk','Ransomware'],
+    controls:['MFA','PAM','Conditional Access','Lifecycle Management','Deny-by-default'],
+    controlType:'Identity governance',
+    priority:'Immediate',
+    riskScore:91,
+    entraOwner:'Enterprise App Governance Team',
+    outcomes:[
+      'Local application identity stores are reduced or decommissioned',
+      'App roles and attributes drive standardized access decisions',
+      'Provisioning and deprovisioning align to enterprise ICAM workflows'
+    ],
+    entra:[
+      'App integration with Entra ID, app roles, and dynamic groups',
+      'Provisioning and deprovisioning automation',
+      'Conditional Access and governance for app access'
+    ],
+    rationale:'Application owners influence both control plane and authorization models, making them central to Zero Trust maturity.'
+  }
+].map(row => ({
+  ...row,
+  entraFeatures: [...new Set(row.controls.flatMap(c => entraCatalog[c] || []))]
+}));
+
+const state = {
+  threat: 'All', control: 'All', sensitivity: 'All', user: 'All', search: '', sortKey: 'riskScore', sortDir: 'desc'
+};
+
+const byId = id => document.getElementById(id);
+const matrixBody = byId('matrixBody');
+const activeFilters = byId('activeFilters');
+const drawer = byId('drawer');
+
+function riskClass(score){
+  if(score >= 90) return 'risk-critical';
+  if(score >= 75) return 'risk-high';
+  if(score >= 60) return 'risk-med';
+  return 'risk-low';
+}
+
+function populateSelect(id, values){
+  const el = byId(id);
+  el.innerHTML = ['All', ...values].map(v => `<option value="${v}">${v}</option>`).join('');
+  el.addEventListener('change', e => {
+    const keyMap = { threatFilter:'threat', controlFilter:'control', sensitivityFilter:'sensitivity', userFilter:'user' };
+    state[keyMap[id]] = e.target.value;
+    render();
+  });
+}
+
+populateSelect('threatFilter', [...new Set(data.flatMap(d => d.threats))]);
+populateSelect('controlFilter', controls.map(c => c.id));
+populateSelect('sensitivityFilter', [...new Set(data.map(d => d.dataSensitivity))]);
+populateSelect('userFilter', [...new Set(data.map(d => d.userType))]);
+byId('searchInput').addEventListener('input', e => { state.search = e.target.value.toLowerCase(); render(); });
+
+byId('controlLegend').innerHTML = controls.map(c => `<span class="chip">${c.id}</span>`).join('');
+
+document.querySelectorAll('[data-sort]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const key = btn.dataset.sort;
+    if(state.sortKey === key){ state.sortDir = state.sortDir === 'asc' ? 'desc' : 'asc'; }
+    else { state.sortKey = key; state.sortDir = key === 'riskScore' ? 'desc' : 'asc'; }
+    render();
+  });
+});
+
+function filteredData(){
+  return data.filter(row => {
+    const searchBlob = [row.userType, row.dataSensitivity, row.controlType, row.priority, row.rationale, row.entraOwner, ...row.threats, ...row.controls, ...row.entraFeatures, ...row.entra].join(' ').toLowerCase();
+    return (state.threat === 'All' || row.threats.includes(state.threat)) &&
+           (state.control === 'All' || row.controls.includes(state.control)) &&
+           (state.sensitivity === 'All' || row.dataSensitivity === state.sensitivity) &&
+           (state.user === 'All' || row.userType === state.user) &&
+           (!state.search || searchBlob.includes(state.search));
+  }).sort((a,b) => {
+    const dir = state.sortDir === 'asc' ? 1 : -1;
+    let av = a[state.sortKey], bv = b[state.sortKey];
+    if(Array.isArray(av)) av = av.join(', ');
+    if(Array.isArray(bv)) bv = bv.join(', ');
+    if(typeof av === 'number' && typeof bv === 'number') return (av - bv) * dir;
+    return String(av).localeCompare(String(bv)) * dir;
+  });
+}
+
+function renderKpis(rows){
+  const avg = rows.length ? Math.round(rows.reduce((s,r) => s + r.riskScore, 0) / rows.length) : 0;
+  const critical = rows.filter(r => r.riskScore >= 90).length;
+  const featureCount = new Set(rows.flatMap(r => r.entraFeatures)).size;
+  byId('kpiRows').textContent = rows.length;
+  byId('kpiAvgRisk').textContent = avg;
+  byId('kpiCritical').textContent = critical;
+  byId('kpiFeatures').textContent = featureCount;
+  byId('progressBar').style.width = avg + '%';
+}
+
+function renderActiveFilters(){
+  const items = [
+    ['Threat', state.threat], ['Control', state.control], ['Sensitivity', state.sensitivity], ['User', state.user]
+  ].filter(([,v]) => v !== 'All');
+  activeFilters.innerHTML = items.length ? items.map(([k,v]) => `<span class="chip">${k}: ${v}</span>`).join('') : '<span class="chip">No filters applied</span>';
+}
+
+function openDrawer(row){
+  byId('drawerMeta').textContent = `${row.userType} · ${row.dataSensitivity}`;
+  byId('drawerTitle').textContent = `${row.priority} priority · Risk ${row.riskScore}`;
+  byId('drawerBody').innerHTML = `
+    <section class="detail-block">
+      <h4>Threat coverage</h4>
+      <div class="mini-list">${row.threats.map(t => `<span class="tag threat">${t}</span>`).join('')}</div>
+      <p class="note">${row.rationale}</p>
+    </section>
+    <section class="detail-block">
+      <h4>Required controls</h4>
+      <div class="mini-list">${row.controls.map(c => `<span class="tag control">${c}</span>`).join('')}</div>
+      <p class="note"><strong>Entra owner:</strong> ${row.entraOwner}</p>
+    </section>
+    <section class="detail-block">
+      <h4>Desired outcomes</h4>
+      <ul>${row.outcomes.map(x => `<li>${x}</li>`).join('')}</ul>
+    </section>
+    <section class="detail-block">
+      <h4>Microsoft Entra recommendations</h4>
+      <ul>${row.entra.map(x => `<li>${x}</li>`).join('')}</ul>
+    </section>
+    <section class="detail-block">
+      <h4>Control to Entra mapping</h4>
+      <ul>${row.controls.map(c => `<li><strong>${c}:</strong> ${(entraCatalog[c] || ['Platform control']).join(', ')}</li>`).join('')}</ul>
+    </section>
+  `;
+  drawer.classList.add('open');
+  drawer.setAttribute('aria-hidden','false');
+}
+
+function render(){
+  const rows = filteredData();
+  renderKpis(rows);
+  renderActiveFilters();
+  matrixBody.innerHTML = rows.map((row, idx) => `
+    <tr>
+      <td><strong>${row.userType}</strong></td>
+      <td>${row.dataSensitivity}</td>
+      <td><div class="mini-list">${row.threats.map(t => `<span class="tag threat">${t}</span>`).join('')}</div></td>
+      <td><div class="mini-list">${row.controls.map(c => `<span class="tag control">${c}</span>`).join('')}</div></td>
+      <td><div class="mini-list">${row.entraFeatures.map(f => `<span class="tag entra">${f}</span>`).join('')}</div></td>
+      <td>${row.controlType}</td>
+      <td><span class="tag ${riskClass(row.riskScore)}">${row.riskScore}</span></td>
+      <td>${row.priority}</td>
+      <td><button class="btn primary" type="button" data-row="${idx}">Open</button></td>
+    </tr>
+  `).join('');
+  [...matrixBody.querySelectorAll('[data-row]')].forEach((btn, idx) => btn.addEventListener('click', () => openDrawer(rows[idx])));
+}
+
+byId('closeDrawer').addEventListener('click', () => {
+  drawer.classList.remove('open');
+  drawer.setAttribute('aria-hidden','true');
+});
+
+(function(){
+  const root = document.documentElement;
+  let theme = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  root.setAttribute('data-theme', theme);
+  byId('themeToggle').addEventListener('click', () => {
+    theme = theme === 'dark' ? 'light' : 'dark';
+    root.setAttribute('data-theme', theme);
+  });
+})();
+
+render();
+</script>
+</body>
+</html>
