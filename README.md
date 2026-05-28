@@ -1,7 +1,5 @@
- <h1 align="middle">
-   <img width="275" alt="LeightonDynamica" src="https://github.com/leightonavantgardehaus/leightonavantgardehaus.github.io/blob/main/LeightonDynamica250_Theme.PNG">
-  <h1 align="middle">
-Leighton Dynamica 2026 Compliance
+
+# Leighton Dynamica 2026 Compliance
 
 
 ### Defense Compliance Summary for Leighton Dynamica
