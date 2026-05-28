@@ -1,8 +1,7 @@
-name: Leighton Dynamica
-title: All-Domain Strategic Intelligence
-description: 2026 Compliance
+title: Leighton Dynamica 2026 Compliance
+description: All-Domain Strategic Intelligence Solutions
 logo: /LeightonDynamica250_Theme.PNG
 
-# Theme settings
-show_downloads: false
+# Important settings
 markdown: kramdown
+highlighter: rouge
