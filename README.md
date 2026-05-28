@@ -1,4 +1,8 @@
-# Leighton Dynamica 2026 Compliance
+
+  <h1 align="middle">
+  <img width="275" alt="LeightonDynamica" src="https://github.com/leightonavantgardehaus/leightonavantgardehaus.github.io/blob/main/LeightonDynamica250_Theme.PNG">
+  <h1 align="middle">
+Leighton Dynamica 2026 Compliance
 
 ### Defense Compliance Summary for Leighton Dynamica
 
@@ -20,7 +24,7 @@ We are actively pursuing opportunities as a defense contractor, with self-attest
 * **FY2026 NDAA Alignment: Supporting cybersecurity requirement harmonization across the defense industrial base (NDAA §866, deadline June 2026) to reduce duplicative clauses. Monitoring new DOD-wide AI cybersecurity and governance policy (NDAA §1512) and physical/cyber standards for AI systems (§1513). Benefiting from increased CAS coverage threshold ($100M) as a small disadvantaged business.
 
 ## Certifications and Affirmations
-- **SPRS Affirmation**: Annual compliance affirmed as of March 30, 2026.
+- **SPRS Affirmation**: Annual compliance affirmed as of May 28, 2026.
 - **Badges**:
   - ![CMMC Level 2 Self-Attested](https://img.shields.io/badge/CMMC-Level%202%20Self--Attested-brightgreen) On track for C3PAO readiness ahead of November 10, 2026 Phase 2 mandate.
   - ![NIST SP 800-171 Rev. 2](https://img.shields.io/badge/NIST%20SP%20800--171%20Rev.%202-Implemented-blue)Full implementation of NIST SP 800-171 Rev. 2 controls (110/110 addressed or POA&M); Rev. 3 gap analysis and transition planning ongoing in anticipation of future federal alignment.
@@ -31,7 +35,7 @@ We are actively pursuing opportunities as a defense contractor, with self-attest
 
 We are registered in SAM.gov and eager to engage in DoW opportunities, including small business set-asides. For detailed compliance artifacts, capability statements, or to discuss potential partnerships/sponsorships, contact us at contact@oneleighton.cloud. We welcome RFIs, RFPs, or DD Form 254 sponsorships to advance toward classified work.
 
-*Last Updated: March 30, 2026*
+*Last Updated: May 28, 2026*
 
 
 The following terms (“IQX/AI Program Terms”) supplement the Master Subscription Agreement and Terms of Service (each, respectively and as applicable, the “Agreement”) between you and Xerataus IQX, L.AgH LLC (“A1MX, Leighton Avant-Garde Haus, Leighton Dynamica, Leighton IQX, Xerataus IQX) and apply to and govern your participation in the A1MX, Leighton IQX, and Xerataus IQX early access program that provides AI-enabled features and functionality to program participants (“IQX/AI Program”). All defined terms in these IQX/AI Program Terms shall have the same meaning as in the Agreement. The applicable Agreement (including our Privacy Policy) is incorporated by reference and will control for any provisions not addressed in these IQX/AI Program Terms.
@@ -159,10 +163,9 @@ If you are a copyright owner (or authorized to act on behalf of one), report all
 
 Enforcement of this policy supports our commitment to ethical innovation in defense and AI technologies. For questions, contact contact@leightondynamica.cloud.
 
-Last Updated: February 4, 2026
+Last Updated: May 28, 2026
 
 ---
 
 © 2026 Leighton Avant-Garde Haus LLC, Leighton Dynamica, and Subsidiaries. All Rights Reserved.  
 Unauthorized reproduction or distribution of this content is prohibited.  
-Contact: contact@oneleighton.cloud  
