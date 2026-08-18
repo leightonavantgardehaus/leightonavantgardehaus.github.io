@@ -1,0 +1,31 @@
+{
+  "finish": "holo",
+  "size": 1,
+  "border": 0.008,
+  "cutTolerance": 0,
+  "overlay": "none",
+  "ink": 0.93,
+  "relief": 0.22,
+  "layersOn": true,
+  "layerDepth": 0.002,
+  "layerMaterials": [
+    "gloss",
+    "prism",
+    "matte"
+  ],
+  "holoIntensity": 0.6,
+  "bands": 9,
+  "hueShift": 0.03,
+  "grain": 0.01,
+  "pattern": "radial",
+  "peelDirection": "top-right",
+  "peelAmount": 0,
+  "curl": 0.02,
+  "shadow": 0,
+  "light": {
+    "x": 0.65,
+    "y": 0.7
+  },
+  "background": "transparent",
+  "exportSize": 2048
+}
