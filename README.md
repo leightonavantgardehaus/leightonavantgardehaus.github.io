@@ -28,6 +28,11 @@ We are actively pursuing opportunities as a defense contractor, with self-attest
   - ![NIST SP 800-171 Rev. 2](https://img.shields.io/badge/NIST%20SP%20800--171%20Rev.%202-Implemented-blue)Full implementation of NIST SP 800-171 Rev. 2 controls (110/110 addressed or POA&M); Rev. 3 gap analysis and transition planning ongoing in anticipation of future federal alignment.
   - ![DoW AI Acceleration Strategy](https://img.shields.io/badge/DoW%20AI%20Acceleration%20Strategy-Aligned-green)
 
+  <h3 align="middle">
+  <img width="85" alt="LeightonDynamica" src="https://github.com/leightonavantgardehaus/Morningstar/blob/main/nist800171.jpg">
+
+  <h3 align="middle">
+  <img width="145" alt="LeightonDynamica" src="https://github.com/leightonavantgardehaus/Morningstar/blob/main/cmmc.jpg">
 
 ## Next Steps for Collaboration
 
