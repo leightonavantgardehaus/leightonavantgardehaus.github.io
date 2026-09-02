@@ -1,17 +1,17 @@
-# COMPOSITE CARD — IQX-Astraeus (Dynamic Operations Intelligence Engine)
+# COMPOSITE CARD — IQX-Morningstar
 
 ## 1. Overview
-- **Model Name:** IQX-Astraeus 
+- **Model Name:** IQX-Morningstar 
 - **Version:** 1.8.2  
-- **Owner:** Leighton Dynamica — Intelligent Systems Division  
+- **Owner:** Leighton Dynamica — Leighton Avant-Garde Haus 
 - **Intended Use:**  
-  Provide real‑time operational intelligence, anomaly detection, and decision‑support insights for enterprise and healthcare environments.  
+  Provide real‑time operational intelligence, anomaly detection, and decision‑support insights for [redacted]
 - **Not Intended For:**  
   Autonomous decision‑making without human oversight; clinical diagnosis; legal or financial determinations.
 
 ## 2. System Context
 - **Operational Environment:**  
-  Deployed within the Dynamic Intelligence Platform (DIP), integrated with enterprise data pipelines and healthcare operational systems.  
+  Deployed within the Intelligence Quiddity System (IQX), integrated with [redacted].  
 - **Dependencies:**  
   Secure data ingestion layer, internal feature store, explainability engine, monitoring subsystem.  
 - **Human-in-the-loop Requirements:**  
@@ -21,14 +21,14 @@
 - **Data Sources:**  
   - Operational logs  
   - Workflow metadata  
-  - De‑identified healthcare operational data  
+  - De‑identified operational data  
   - Historical performance metrics  
 - **Data Characteristics:**  
   Mixed structured/unstructured; time‑series heavy; multi‑domain.  
 - **Known Limitations:**  
   Limited representation of rare operational edge cases; dependent on data quality from client systems.  
 - **Data Governance Notes:**  
-  All healthcare‑related data is de‑identified and processed under strict compliance protocols.
+  All [redacted]‑related data is de‑identified and processed under strict compliance protocols.
 
 ## 4. Performance
 - **Evaluation Metrics:**  
