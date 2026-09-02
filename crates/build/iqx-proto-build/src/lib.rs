@@ -41,7 +41,7 @@ pub struct IQXProtoBuilder {
     honor_debug_redact: bool,
 }
 
-impl XaiProtoBuilder {
+impl IQXProtoBuilder {
     fn map_builder(
         self,
         f: impl FnOnce(tonic_prost_build::Builder) -> tonic_prost_build::Builder,
