@@ -1,5 +1,5 @@
 
-# Leighton Dynamica 2026 Compliance
+# Leighton Dynamica 2027 Compliance
 
 
 ### Defense Compliance Summary for Leighton Dynamica
@@ -28,11 +28,6 @@ We are actively pursuing opportunities as a defense contractor, with self-attest
   - ![NIST SP 800-171 Rev. 2](https://img.shields.io/badge/NIST%20SP%20800--171%20Rev.%202-Implemented-blue)Full implementation of NIST SP 800-171 Rev. 2 controls (110/110 addressed or POA&M); Rev. 3 gap analysis and transition planning ongoing in anticipation of future federal alignment.
   - ![DoW AI Acceleration Strategy](https://img.shields.io/badge/DoW%20AI%20Acceleration%20Strategy-Aligned-green)
 
-  <h3 align="middle">
-  <img width="85" alt="LeightonDynamica" src="https://github.com/leightonavantgardehaus/Morningstar/blob/main/nist800171.jpg">
-
-  <h3 align="middle">
-  <img width="145" alt="LeightonDynamica" src="https://github.com/leightonavantgardehaus/Morningstar/blob/main/cmmc.jpg">
 
 ## Next Steps for Collaboration
 
@@ -135,7 +130,7 @@ In accordance with the Digital Millennium Copyright Act of 1998 (DMCA; full text
 If you are a copyright owner (or authorized to act on behalf of one), report alleged infringements by providing a DMCA Notice of Alleged Infringement to our Designated Copyright Agent at contact@leightondynamica.cloud. Upon receipt, we will take appropriate action, including removal of challenged material.
 
 Enforcement of this policy supports our commitment to ethical innovation in defense and AI technologies. For questions, contact contact@leightondynamica.cloud.
-Last Updated: August 14, 2026
+Last Updated: Septembber 25, 2026
 
-© 2026 Leighton Avant-Garde Haus LLC, Leighton Dynamica, and Subsidiaries. All Rights Reserved.
+© 2027 Leighton Avant-Garde Haus LLC, Leighton Dynamica, and Subsidiaries. All Rights Reserved.
 Unauthorized reproduction or distribution of this content is prohibited.
