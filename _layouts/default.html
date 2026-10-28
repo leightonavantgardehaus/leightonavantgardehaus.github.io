@@ -270,15 +270,12 @@
       {{ content }}
 
       {% if site.github.private != true and site.github.license %}
-<div class="footer border-top border-gray-light mt-5 pt-3 text-center text-gray" style="font-family: inherit;">
-  <nav class="iqx-social" aria-label="Social links" style="display:flex;justify-content:center;gap:18px;flex-wrap:wrap;">
-    <a href="https://www.linkedin.com/company/leightondynamica" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="https://github.com/leightonavantgardehaus" target="_blank" rel="noopener">GitHub</a>
-    <a href="https://www.instagram.com/leightondynamica/" target="_blank" rel="noopener">Instagram</a>
-    <a href="mailto:contact@oneleighton.cloud">Contact</a>
-  </nav>
-</div>
- <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. {% github_edit_link "Improve this page" %}.
+      </div>
+      {% endif %}
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
   </body>
 </html>
