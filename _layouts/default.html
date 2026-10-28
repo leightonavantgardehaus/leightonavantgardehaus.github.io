@@ -93,280 +93,176 @@
 
 <div class="iqx-wrap">
   <div class="iqx-watch" id="iqx-watch">
-    <div class="case">
-      <div class="bezel" id="bezel"></div>
-      <div class="dial">
-        <div class="marks" id="hour-marks"></div>
-        <div class="brand">IQX</div>
-        <div class="sub">DIVER</div>
-        <div class="hand hour" id="hour"></div>
-        <div class="hand minute" id="minute"></div>
-        <div class="hand second" id="second"></div>
-        <div class="pin"></div>
-      </div>
+    <div class="bezel" id="bezel"></div>
+    <div class="dial">
+      <div class="hour-marks" id="hour-marks"></div>
+      <div class="brand">IQX</div>
+      <div class="digital" id="digital">0:00</div>
+      <div class="hand hour" id="hour"><span></span></div>
+      <div class="hand minute" id="minute"><span></span></div>
+      <div class="hand second" id="second"></div>
+      <div class="pin"></div>
     </div>
   </div>
 </div>
 
 <style>
-  .iqx-wrap {
-    position: relative;
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    padding: 12px 0 24px;
-    background: transparent;
-  }
+  .iqx-wrap { display:flex; justify-content:center; padding:8px 0 20px; position:relative; z-index:1; }
   .iqx-watch {
-    --yellow: #ffe24a;
-    --teal: #3df0d6;
-    --ink: #1a1a1a;
-    width: 280px;
-    height: 280px;
-    position: relative;
-    filter: drop-shadow(0 18px 28px rgba(0,0,0,.45));
-  }
-  .case {
-    position: absolute;
-    inset: 0;
-    border-radius: 50%;
-    background:
-      radial-gradient(circle at 32% 28%, #d8dce2 0 12%, #8f969e 40%, #3a3e44 100%);
-    box-shadow:
-      inset 0 1px 1px rgba(255,255,255,.5),
-      inset 0 -3px 8px rgba(0,0,0,.4);
+    --yellow:#ffe24a;
+    --teal:#3df0d6;
+    --gray:#9b9b9b;
+    --ink:#2b2b2b;
+    width:280px; height:280px; position:relative;
   }
   .bezel {
-    position: absolute;
-    inset: 8px;
-    border-radius: 50%;
-    background: conic-gradient(
-      from -90deg,
-      var(--teal) 0 180deg,
-      #6a7078 180deg 360deg
-    );
-    -webkit-mask:
-      radial-gradient(farthest-side, transparent calc(100% - 28px), #000 calc(100% - 27px));
-            mask:
-      radial-gradient(farthest-side, transparent calc(100% - 28px), #000 calc(100% - 27px));
-  }
-  .bezel::before {
-    content: "";
-    position: absolute;
-    inset: -4px;
-    border-radius: 50%;
-    background:
-      repeating-conic-gradient(
-        from 0deg,
-        transparent 0 4deg,
-        rgba(0,0,0,.35) 4deg 6deg
-      );
-    -webkit-mask: radial-gradient(farthest-side, transparent 88%, #000 89%);
-            mask: radial-gradient(farthest-side, transparent 88%, #000 89%);
-    pointer-events: none;
+    position:absolute; inset:0; border-radius:50%;
+    background: conic-gradient(from -90deg, var(--teal) 0 180deg, var(--gray) 180deg 360deg);
+    box-shadow: 0 8px 22px rgba(0,0,0,.18);
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 32px), #000 calc(100% - 31px));
+            mask: radial-gradient(farthest-side, transparent calc(100% - 32px), #000 calc(100% - 31px));
   }
   .bezel .tick {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    width: 22px;
-    margin-left: -11px;
-    height: 100%;
-    transform-origin: center;
-    pointer-events: none;
+    position:absolute; left:50%; top:0; width:20px; margin-left:-10px;
+    height:100%; transform-origin:center center; pointer-events:none;
   }
   .bezel .tick i {
-    display: block;
-    margin: 7px auto 0;
-    background: #111;
-    border-radius: 1px;
+    display:block; margin:8px auto 0; background:var(--ink);
+    border-radius:1px;
   }
-  .bezel .tick.minor i { width: 1.5px; height: 6px; }
-  .bezel .tick.major i { width: 2.5px; height: 10px; }
+  .bezel .tick.minor i { width:2px; height:8px; }
+  .bezel .tick.major i { width:3px; height:12px; }
   .bezel .tick.num {
-    color: #111;
-    font: 700 10px/1 "Fira Code", monospace;
-    text-align: center;
-    padding-top: 5px;
+    color:var(--ink); font:700 11px/1 Arial,sans-serif;
+    text-align:center; padding-top:6px;
   }
-  .bezel .tick.num.light { color: #f4f4f4; }
+  .bezel .tick.num.light { color:#fff; }
   .bezel .pip {
-    position: absolute;
-    left: 50%;
-    top: 6px;
-    width: 12px;
-    height: 9px;
-    margin-left: -6px;
-    background: #111;
-    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    position:absolute; left:50%; top:7px; width:14px; height:9px;
+    margin-left:-7px; background:var(--ink);
+    clip-path:polygon(50% 0,100% 100%,0 100%);
   }
   .dial {
-    position: absolute;
-    inset: 36px;
-    border-radius: 50%;
+    position:absolute; inset:32px; border-radius:50%;
     background: transparent;
-    box-shadow: inset 0 0 0 1px rgba(255,255,255,.12);
-    overflow: hidden;
+    box-shadow: none;
   }
-  .marks .hm {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    width: 16px;
-    margin-left: -8px;
-    height: 100%;
-    transform-origin: center;
+  .hour-marks .hm {
+    position:absolute; left:50%; top:0; width:18px; margin-left:-9px;
+    height:100%; transform-origin:center center;
   }
-  .marks .hm b {
-    display: block;
-    margin: 10px auto 0;
-    background: var(--yellow);
+  .hour-marks .hm b {
+    display:block; margin:10px auto 0; background:var(--yellow);
   }
-  .marks .hm.dot b { width: 8px; height: 8px; border-radius: 50%; }
-  .marks .hm.bat b { width: 14px; height: 5px; border-radius: 1px; }
-  .marks .hm.tri b {
-    width: 0; height: 0; background: none;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-bottom: 11px solid var(--yellow);
+  .hour-marks .hm.dot b { width:9px; height:9px; border-radius:50%; }
+  .hour-marks .hm.bat b { width:16px; height:7px; border-radius:1px; }
+  .hour-marks .hm.tri b {
+    width:0; height:0; background:none;
+    border-left:7px solid transparent;
+    border-right:7px solid transparent;
+    border-bottom:12px solid var(--yellow);
   }
   .brand {
-    position: absolute;
-    left: 50%;
-    top: 24%;
-    transform: translateX(-50%);
-    font: 700 12px/1 "Fira Code", monospace;
-    letter-spacing: .2em;
-    color: var(--yellow);
-    text-shadow: 0 1px 4px rgba(0,0,0,.55);
+    position:absolute; left:50%; top:21%;
+    transform:translateX(-50%);
+    font:700 13px/1 Georgia,"Times New Roman",serif;
+    letter-spacing:.0em; color:var(--yellow);
+    text-shadow: 0 1px 6px rgba(0,0,0,.65);
   }
-  .sub {
-    position: absolute;
-    left: 50%;
-    top: 32%;
-    transform: translateX(-50%);
-    font: 600 8px/1 "Fira Code", monospace;
-    letter-spacing: .18em;
-    color: #9aa0a8;
+  .digital {
+    position:absolute; left:50%; bottom:26%;
+    transform:translateX(-50%);
+    font:700 16px/1 Georgia,"Times New Roman",serif;
+    color:#fff; letter-spacing:.04em;
+    text-shadow: 0 1px 6px rgba(0,0,0,.65);
   }
-  .hand {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform-origin: 50% 100%;
-    border-radius: 1px;
+  .hand { position:absolute; left:50%; top:50%; transform-origin:50% 100%; }
+  .hour { width:18px; height:52px; margin:-52px 0 0 -9px; z-index:3; }
+  .hour span {
+    display:block; width:100%; height:100%; background:var(--yellow);
+    clip-path:polygon(50% 0,70% 16%,70% 56%,58% 56%,58% 100%,42% 100%,42% 56%,30% 56%,30% 16%);
   }
-  .hour {
-    width: 5px;
-    height: 48px;
-    margin: -48px 0 0 -2.5px;
-    background: linear-gradient(180deg, var(--yellow), #c9a60a);
-    z-index: 3;
-  }
-  .minute {
-    width: 3.5px;
-    height: 68px;
-    margin: -68px 0 0 -1.75px;
-    background: #fff;
-    z-index: 4;
+  .minute { width:12px; height:76px; margin:-76px 0 0 -6px; z-index:4; }
+  .minute span {
+    display:block; width:100%; height:100%; background:#fff;
+    clip-path:polygon(50% 0,76% 10%,68% 100%,32% 100%,24% 10%);
   }
   .second {
-    width: 1.5px;
-    height: 78px;
-    margin: -62px 0 0 -.75px;
-    background: var(--teal);
-    z-index: 5;
+    width:2px; height:88px; margin:-88px 0 0 -1px;
+    background:var(--teal); z-index:5;
   }
   .second::before {
-    content: "";
-    position: absolute;
-    left: 50%;
-    top: 14px;
-    width: 6px;
-    height: 6px;
-    margin-left: -3px;
-    border-radius: 50%;
-    background: #fff;
-    box-shadow: 0 0 0 1.5px var(--teal);
+    content:""; position:absolute; left:50%; top:16px;
+    width:8px; height:8px; margin-left:-4px;
+    border-radius:50%; background:#fff;
+    box-shadow:0 0 0 2px var(--teal);
   }
   .second::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: -12px;
-    width: 1.5px;
-    height: 12px;
-    margin-left: -.75px;
-    background: var(--teal);
+    content:""; position:absolute; left:50%; bottom:-12px;
+    width:2px; height:12px; margin-left:-1px; background:var(--teal);
   }
   .pin {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: 9px;
-    height: 9px;
-    margin: -4.5px 0 0 -4.5px;
-    border-radius: 50%;
-    background: radial-gradient(circle at 35% 30%, #eee, #222 70%);
-    box-shadow: 0 0 0 2px #111;
-    z-index: 6;
+    position:absolute; left:50%; top:50%;
+    width:10px; height:10px; margin:-5px 0 0 -5px;
+    border-radius:50%; background:var(--ink);
+    box-shadow:0 0 0 2px var(--teal); z-index:6;
   }
 </style>
-
 <script>
-(function () {
-  var bezel = document.getElementById("bezel");
-  var marks = document.getElementById("hour-marks");
-  if (!bezel || bezel.dataset.ready) return;
-  bezel.dataset.ready = "1";
-
-  var pip = document.createElement("div");
-  pip.className = "pip";
+(function(){
+  var bezel=document.getElementById("bezel");
+  var hours=document.getElementById("hour-marks");
+  if(!bezel || bezel.dataset.ready) return;
+  bezel.dataset.ready="1";
+  var pip=document.createElement("div");
+  pip.className="pip";
   bezel.appendChild(pip);
-
-  for (var i = 1; i < 60; i++) {
-    var el = document.createElement("div");
-    el.className = "tick";
-    el.style.transform = "rotate(" + (i * 6) + "deg)";
-    if (i % 5 === 0) {
-      el.className += " num" + (i >= 20 && i <= 40 ? " light" : "");
-      var lab = document.createElement("span");
-      lab.textContent = (i < 10 ? "0" : "") + i;
-      lab.style.display = "block";
-      lab.style.transform = "rotate(" + (-i * 6) + "deg)";
+  for(var i=1;i<60;i++){
+    var el=document.createElement("div");
+    el.className="tick";
+    el.style.transform="rotate("+ (i*6) +"deg)";
+    if(i%10===0){
+      el.className+=" num"+(i>=20 && i<=40 ? " light":"");
+      var lab=document.createElement("span");
+      lab.textContent=(i===0?"": (i<10?"0":"")+i);
+      lab.style.display="block";
+      lab.style.transform="rotate("+ (-i*6) +"deg)";
       el.appendChild(lab);
+    } else if(i%5===0){
+      el.className+=" major";
+      el.innerHTML="<i></i>";
     } else {
-      el.className += " minor";
-      el.innerHTML = "<i></i>";
+      el.className+=" minor";
+      el.innerHTML="<i></i>";
     }
     bezel.appendChild(el);
   }
-
-  for (var h = 0; h < 12; h++) {
-    var hm = document.createElement("div");
-    var kind = "dot";
-    if (h === 0) kind = "tri";
-    if (h === 3 || h === 6 || h === 9) kind = "bat";
-    hm.className = "hm " + kind;
-    hm.style.transform = "rotate(" + (h * 30) + "deg)";
-    hm.innerHTML = "<b></b>";
-    marks.appendChild(hm);
+  for(var h=0;h<12;h++){
+    var hm=document.createElement("div");
+    hm.className="hm "+(h===0?"tri":(h===3||h===9?"bat":"dot"));
+    hm.style.transform="rotate("+(h*30)+"deg)";
+    hm.innerHTML="<b></b>";
+    hours.appendChild(hm);
   }
-
-  var hour = document.getElementById("hour");
-  var minute = document.getElementById("minute");
-  var second = document.getElementById("second");
-  function tick() {
-    var now = new Date();
-    var s = now.getSeconds() + now.getMilliseconds() / 1000;
-    var m = now.getMinutes() + s / 60;
-    var hr = (now.getHours() % 12) + m / 60;
-    hour.style.transform = "rotate(" + (hr * 30) + "deg)";
-    minute.style.transform = "rotate(" + (m * 6) + "deg)";
-    second.style.transform = "rotate(" + (s * 6) + "deg)";
+  var hour=document.getElementById("hour");
+  var minute=document.getElementById("minute");
+  var second=document.getElementById("second");
+  var digital=document.getElementById("digital");
+  function pad(n){return n<10?"0"+n:""+n;}
+  function tick(){
+    var now=new Date();
+    var s=now.getSeconds()+now.getMilliseconds()/1000;
+    var m=now.getMinutes()+s/60;
+    var hr=(now.getHours()%12)+m/60;
+    hour.style.transform="rotate("+(hr*30)+"deg)";
+    minute.style.transform="rotate("+(m*6)+"deg)";
+    second.style.transform="rotate("+(s*6)+"deg)";
+    var h24=now.getHours();
+    var h12=h24%12; if(!h12) h12=12;
+    digital.textContent=h12+":"+pad(now.getMinutes());
   }
   tick();
-  setInterval(tick, 50);
+  setInterval(tick,50);
 })();
 </script>
 <!-- IQX watch: end -->
