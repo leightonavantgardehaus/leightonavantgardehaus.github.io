@@ -163,26 +163,26 @@
     border-bottom:12px solid var(--yellow);
   }
   .brand {
-    position:absolute; left:50%; top:26%;
+    position:absolute; left:50%; top:28%;
     transform:translateX(-50%);
     font: 700 13px/1 "Courier New", Courier, monospace; /* ← Courier */
-    letter-spacing:.0em; color:var(--teal);
+    letter-spacing:.0em; color:var(--gray);
     text-shadow: 0 0px 0px rgba(0,0,0,.65);
   }
   .digital {
-    position:absolute; left:50%; bottom:26%;
+    position:absolute; left:50%; bottom:23%;
     transform:translateX(-50%);
-    font: 700 24px/1 "Courier New", Courier, monospace; /* ← Courier */
-    color:#ffe24a; letter-spacing:.04em;
+    font: 700 26px/1 "Courier New", Courier, monospace; /* ← Courier */
+    color:#9b9b9b; letter-spacing:.04em;
     text-shadow: 0 1px 0px rgba(0,0,0,.65);
   }
   .hand { position:absolute; left:50%; top:50%; transform-origin:50% 100%; }
-  .hour { width:18px; height:52px; margin:-52px 0 0 -9px; z-index:3; }
+  .hour { width:19px; height:52px; margin:-52px 0 0 -9px; z-index:3; }
   .hour span {
     display:block; width:100%; height:100%; background:var(--teal);
     clip-path:polygon(50% 0,70% 16%,70% 56%,58% 56%,58% 100%,42% 100%,42% 56%,30% 56%,30% 16%);
   }
-  .minute { width:12px; height:76px; margin:-76px 0 0 -6px; z-index:4; }
+  .minute { width:13px; height:76px; margin:-76px 0 0 -6px; z-index:4; }
   .minute span {
     display:block; width:100%; height:100%; background:#3df0d6;
     clip-path:polygon(50% 0,76% 10%,68% 100%,32% 100%,24% 10%);
@@ -195,7 +195,7 @@
     content:""; position:absolute; left:50%; top:16px;
     width:8px; height:8px; margin-left:-4px;
     border-radius:50%; background:#fff;
-    box-shadow:0 0 0 2px var(--yellow);
+    box-shadow:0 0 0 2px var(--teal);
   }
   .second::after {
     content:""; position:absolute; left:50%; bottom:-12px;
@@ -204,7 +204,7 @@
   .pin {
     position:absolute; left:50%; top:50%;
     width:10px; height:10px; margin:-5px 0 0 -5px;
-    border-radius:50%; background:var(--ink);
+    border-radius:50%; background:var(--gray);
     box-shadow:0 0 0 2px var(--teal); z-index:6;
   }
 </style>
