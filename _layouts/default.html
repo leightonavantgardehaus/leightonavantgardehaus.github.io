@@ -90,7 +90,6 @@
   requestAnimationFrame(frame);
 })();
 </script>
-
 <div class="iqx-wrap">
   <div class="iqx-watch" id="iqx-watch">
     <div class="bezel" id="bezel"></div>
@@ -105,7 +104,6 @@
     </div>
   </div>
 </div>
-
 <style>
   .iqx-wrap { display:flex; justify-content:center; padding:8px 0 20px; position:relative; z-index:1; }
   .iqx-watch {
@@ -114,6 +112,7 @@
     --gray:#9b9b9b;
     --ink:#2b2b2b;
     width:280px; height:280px; position:relative;
+    font-family: "Courier New", Courier, monospace; /* base font */
   }
   .bezel {
     position:absolute; inset:0; border-radius:50%;
@@ -133,7 +132,8 @@
   .bezel .tick.minor i { width:2px; height:8px; }
   .bezel .tick.major i { width:3px; height:12px; }
   .bezel .tick.num {
-    color:var(--ink); font:700 11px/1 Arial,sans-serif;
+    color:var(--ink);
+    font: 700 11px/1 "Courier New", Courier, monospace; /* ← Courier */
     text-align:center; padding-top:6px;
   }
   .bezel .tick.num.light { color:#fff; }
@@ -165,14 +165,14 @@
   .brand {
     position:absolute; left:50%; top:26%;
     transform:translateX(-50%);
-    font:700 13px/1 Georgia,"Times New Roman",serif;
+    font: 700 13px/1 "Courier New", Courier, monospace; /* ← Courier */
     letter-spacing:.0em; color:var(--teal);
     text-shadow: 0 0px 0px rgba(0,0,0,.65);
   }
   .digital {
     position:absolute; left:50%; bottom:26%;
     transform:translateX(-50%);
-    font:700 24px/1 Georgia,"Times New Roman",serif;
+    font: 700 24px/1 "Courier New", Courier, monospace; /* ← Courier */
     color:#ffe24a; letter-spacing:.04em;
     text-shadow: 0 1px 0px rgba(0,0,0,.65);
   }
