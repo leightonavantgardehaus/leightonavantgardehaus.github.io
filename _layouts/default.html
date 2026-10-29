@@ -89,24 +89,14 @@
 </script>
 
 <div class="iqx-wrap">
-  <div class="iqx-watch" id="iqx-watch">
-    <div class="case">
-      <img class="bezel" id="bezel" alt="" draggable="false"
-        src="/images/bezel.webp">
-      <div class="dial">
-        <div class="marks" id="track"></div>
-        <div class="marks" id="hour-marks"></div>
-        <div class="brand">IQX</div>
-        <div class="sub">DIVER</div>
-        <div class="depth">200M</div>
-        <div class="hands">
-          <div class="hand hour" id="hour"></div>
-          <div class="hand minute" id="minute"></div>
-          <div class="hand second" id="second"></div>
-          <div class="pin"></div>
-        </div>
-        <div class="glass"></div>
-      </div>
+  <div class="iqx-watch">
+    <img class="bezel" src="/images/iqx-bezel.png" alt="">
+    <div class="dial">
+      <div class="brand">IQX</div>
+      <div class="hand hour" id="hour"></div>
+      <div class="hand minute" id="minute"></div>
+      <div class="hand second" id="second"></div>
+      <div class="pin"></div>
     </div>
   </div>
 </div>
@@ -117,272 +107,111 @@
     z-index: 1;
     display: flex;
     justify-content: center;
-    padding: 12px 0 24px;
+    padding: 20px 0 28px;
     background: transparent;
   }
   .iqx-watch {
-    --accent: #e0a91f;
-    --lume: #eaf4cf;
-    --rim: #8d949b;
-    width: 300px;
-    height: 300px;
+    width: 280px;
+    height: 280px;
     position: relative;
-    filter: drop-shadow(0 18px 24px rgba(0,0,0,.5));
+    filter: drop-shadow(0 12px 20px rgba(0,0,0,.4));
   }
-
-  /* steel rim only — center cut out so no gray disc */
-  .case {
-    position: absolute;
-    inset: 0;
-    border-radius: 50%;
-    background:
-      conic-gradient(from 20deg, #aeb4bb, #f1f3f5, #80878f, #e4e7ea, #6b727a, #f1f3f5, #aeb4bb);
-    -webkit-mask: radial-gradient(farthest-side, transparent 78%, #000 79%);
-            mask: radial-gradient(farthest-side, transparent 78%, #000 79%);
-    box-shadow:
-      inset 0 0 0 1px rgba(0,0,0,.55),
-      inset 0 2px 2px rgba(255,255,255,.7),
-      inset 0 -4px 8px rgba(0,0,0,.45);
-  }
-
   .bezel {
     position: absolute;
-    inset: 4%;
-    width: 92%;
-    height: 92%;
+    inset: 0;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
+    display: block;
     pointer-events: none;
-    user-select: none;
-    -webkit-user-drag: none;
   }
-
   .dial {
     position: absolute;
     inset: 18%;
     border-radius: 50%;
-    background:
-      repeating-conic-gradient(from 0deg, rgba(255,255,255,0) 0 3deg, rgba(0,0,0,.03) 3deg 6deg),
-      radial-gradient(circle at 50% 35%, #fbfcfd 0, #e9ecef 60%, #cdd2d7 100%);
-    box-shadow:
-      0 0 0 2px #aab0b6,
-      0 0 0 4px #30343a,
-      inset 0 6px 14px rgba(0,0,0,.25);
-    overflow: hidden;
-  }
-  .marks { position: absolute; inset: 0; }
-  .marks .mt {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    width: 4px;
-    margin-left: -2px;
-    height: 100%;
-    transform-origin: center;
-  }
-  .marks .mt i {
-    display: block;
-    margin: 4px auto 0;
-    width: 1.5px;
-    height: 5px;
-    background: #2b2f34;
-  }
-  .marks .mt.five i { width: 2.5px; height: 7px; }
-  .marks .hm {
-    position: absolute;
-    left: 50%;
-    top: 0;
-    width: 20px;
-    margin-left: -10px;
-    height: 100%;
-    transform-origin: center;
-  }
-  .marks .hm b { display: block; margin: 12px auto 0; box-sizing: border-box; }
-  .marks .hm.dot b {
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    border: 2px solid var(--rim);
-    background: radial-gradient(circle at 40% 35%, #fff, var(--lume) 75%);
-    box-shadow: 0 1px 2px rgba(0,0,0,.45);
-  }
-  .marks .hm.bat b {
-    margin-top: 10px;
-    width: 12px;
-    height: 22px;
-    border-radius: 2px;
-    border: 2px solid var(--rim);
-    background: linear-gradient(90deg, var(--lume), #fff 50%, var(--lume));
-    box-shadow: 0 1px 2px rgba(0,0,0,.45);
-  }
-  .marks .hm.tri b {
-    position: relative;
-    margin-top: 9px;
-    width: 16px;
-    height: 14px;
-    background: var(--rim);
-    clip-path: polygon(50% 0, 100% 100%, 0 100%);
-  }
-  .marks .hm.tri b::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: var(--lume);
-    clip-path: polygon(50% 26%, 82% 86%, 18% 86%);
-  }
-
-  .brand, .sub, .depth {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    font-family: "Fira Code", Arial, sans-serif;
+    background: transparent;
   }
   .brand {
-    top: 24%;
-    font-weight: 800;
-    font-size: 13px;
-    letter-spacing: .22em;
-    color: #15181b;
-  }
-  .sub {
-    top: 34%;
-    font-weight: 700;
-    font-size: 8px;
-    letter-spacing: .2em;
-    color: #5f666d;
-  }
-  .depth {
-    top: 68%;
-    font-weight: 700;
-    font-size: 8px;
-    letter-spacing: .12em;
-    color: #5f666d;
-  }
-
-  .hands {
     position: absolute;
-    inset: 0;
-    filter: drop-shadow(2px 4px 2px rgba(0,0,0,.35));
-    pointer-events: none;
+    left: 50%;
+    top: 28%;
+    transform: translateX(-50%);
+    font: 700 13px/1 "Fira Code", monospace;
+    letter-spacing: 0.2em;
+    color: #ffe24a;
+    text-shadow: 0 1px 4px rgba(0,0,0,.5);
   }
   .hand {
     position: absolute;
     left: 50%;
     top: 50%;
     transform-origin: 50% 100%;
+    border-radius: 1px;
   }
-  .hour, .minute {
-    background: linear-gradient(90deg, #f6f8fa 0 50%, #98a0a7 50% 100%);
-    clip-path: polygon(50% 0, 100% 12%, 100% 100%, 0 100%, 0 12%);
+  .hour {
+    width: 5px;
+    height: 40px;
+    margin: -40px 0 0 -2.5px;
+    background: #ffe24a;
+    z-index: 3;
   }
-  .hour::after, .minute::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    width: 2.5px;
-    margin-left: -1.25px;
-    top: 14px;
-    bottom: 6px;
-    background: var(--lume);
+  .minute {
+    width: 3px;
+    height: 56px;
+    margin: -56px 0 0 -1.5px;
+    background: #fff;
+    z-index: 4;
   }
-  .hour   { width: 9px;  height: 48px; margin: -48px 0 0 -4.5px; z-index: 3; }
-  .minute { width: 6px;  height: 68px; margin: -68px 0 0 -3px;   z-index: 4; }
   .second {
-    width: 2px;
-    height: 84px;
-    margin: -72px 0 0 -1px;
-    transform-origin: 50% 72px;
-    background: var(--accent);
+    width: 1.5px;
+    height: 64px;
+    margin: -50px 0 0 -0.75px;
+    background: #3df0d6;
     z-index: 5;
   }
   .second::before {
     content: "";
     position: absolute;
     left: 50%;
-    top: 14px;
-    width: 7px;
-    height: 7px;
-    margin-left: -3.5px;
+    top: 12px;
+    width: 6px;
+    height: 6px;
+    margin-left: -3px;
     border-radius: 50%;
-    border: 2px solid var(--accent);
     background: #fff;
-    box-sizing: border-box;
-  }
-  .second::after {
-    content: "";
-    position: absolute;
-    left: 50%;
-    bottom: 0;
-    width: 5px;
-    height: 12px;
-    margin-left: -2.5px;
-    background: var(--accent);
-    border-radius: 1px;
+    box-shadow: 0 0 0 1.5px #3df0d6;
   }
   .pin {
     position: absolute;
     left: 50%;
     top: 50%;
-    width: 12px;
-    height: 12px;
-    margin: -6px 0 0 -6px;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
     border-radius: 50%;
-    background: radial-gradient(circle at 35% 30%, #fff, #8d949b 45%, #2a2d31 100%);
-    box-shadow: 0 0 0 2px var(--accent);
+    background: #1a1a1a;
+    box-shadow: 0 0 0 2px #3df0d6;
     z-index: 6;
-  }
-  .glass {
-    position: absolute;
-    inset: 0;
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 8;
-    background:
-      linear-gradient(140deg, rgba(255,255,255,.45) 0, rgba(255,255,255,.1) 28%, rgba(255,255,255,0) 42%),
-      radial-gradient(circle at 50% 50%, rgba(0,0,0,0) 58%, rgba(0,0,0,.12) 100%);
   }
 </style>
 
 <script>
 (function () {
-  var bezel = document.getElementById("bezel");
-  var marks = document.getElementById("hour-marks");
-  var track = document.getElementById("track");
-  if (!bezel || bezel.dataset.ready) return;
-  bezel.dataset.ready = "1";
-
-  for (var t = 0; t < 60; t++) {
-    var mt = document.createElement("div");
-    mt.className = "mt" + (t % 5 === 0 ? " five" : "");
-    mt.style.transform = "rotate(" + (t * 6) + "deg)";
-    mt.innerHTML = "<i></i>";
-    track.appendChild(mt);
-  }
-  for (var h = 0; h < 12; h++) {
-    var hm = document.createElement("div");
-    var kind = "dot";
-    if (h === 0) kind = "tri";
-    if (h === 3 || h === 6 || h === 9) kind = "bat";
-    hm.className = "hm " + kind;
-    hm.style.transform = "rotate(" + (h * 30) + "deg)";
-    hm.innerHTML = "<b></b>";
-    marks.appendChild(hm);
-  }
-
   var hour = document.getElementById("hour");
   var minute = document.getElementById("minute");
   var second = document.getElementById("second");
-  function frame() {
-    var d = new Date();
-    var sc = d.getSeconds() + d.getMilliseconds() / 1000;
-    var m = d.getMinutes() + sc / 60;
-    var hr = (d.getHours() % 12) + m / 60;
+  if (!hour) return;
+  function tick() {
+    var now = new Date();
+    var s = now.getSeconds() + now.getMilliseconds() / 1000;
+    var m = now.getMinutes() + s / 60;
+    var hr = (now.getHours() % 12) + m / 60;
     hour.style.transform = "rotate(" + (hr * 30) + "deg)";
     minute.style.transform = "rotate(" + (m * 6) + "deg)";
-    second.style.transform = "rotate(" + (sc * 6) + "deg)";
-    requestAnimationFrame(frame);
+    second.style.transform = "rotate(" + (s * 6) + "deg)";
   }
-  frame();
+  tick();
+  setInterval(tick, 50);
 })();
 </script>
 <!-- IQX watch: end -->
