@@ -90,15 +90,14 @@
 
 <div class="iqx-wrap">
   <div class="iqx-watch">
-    <div class="case">
-      <div class="bezel-photo" role="img" aria-label="IQX bezel"></div>
-      <div class="dial">
-        <div class="brand">IQX</div>
-        <div class="hand hour" id="hour"></div>
-        <div class="hand minute" id="minute"></div>
-        <div class="hand second" id="second"></div>
-        <div class="pin"></div>
-      </div>
+    <div class="case"></div>
+    <div class="bezel-photo" role="img" aria-label="IQX bezel"></div>
+    <div class="dial">
+      <div class="brand">IQX</div>
+      <div class="hand hour" id="hour"></div>
+      <div class="hand minute" id="minute"></div>
+      <div class="hand second" id="second"></div>
+      <div class="pin"></div>
     </div>
   </div>
 </div>
@@ -118,34 +117,38 @@
     width: 300px;
     height: 300px;
     position: relative;
-    filter: drop-shadow(0 18px 28px rgba(0,0,0,.5));
+    filter: drop-shadow(0 14px 24px rgba(0,0,0,.45));
   }
+  /* thin outer steel rim only — center punched out */
   .case {
     position: absolute;
     inset: 0;
     border-radius: 50%;
     background:
-      radial-gradient(circle at 30% 28%, #cfd3d8 0 14%, #7a8088 42%, #2c3036 100%);
+      radial-gradient(circle at 32% 28%, #d5d9de 0%, #8b9198 45%, #3a3e44 100%);
+    -webkit-mask: radial-gradient(farthest-side, transparent 72%, #000 73%);
+            mask: radial-gradient(farthest-side, transparent 72%, #000 73%);
     box-shadow:
-      inset 0 1px 1px rgba(255,255,255,.45),
-      inset 0 -3px 10px rgba(0,0,0,.45);
+      inset 0 1px 1px rgba(255,255,255,.4),
+      0 2px 8px rgba(0,0,0,.25);
   }
   .bezel-photo {
     position: absolute;
-    inset: 6%;
+    inset: 3%;
     border-radius: 50%;
     background: url("/images/bezel.webp") center / contain no-repeat;
+    pointer-events: none;
   }
   .dial {
     position: absolute;
-    inset: 22%;
+    inset: 20%;
     border-radius: 50%;
     background: transparent;
   }
   .brand {
     position: absolute;
     left: 50%;
-    top: 28%;
+    top: 26%;
     transform: translateX(-50%);
     font: 700 13px/1 "Fira Code", monospace;
     letter-spacing: 0.22em;
@@ -161,22 +164,22 @@
   }
   .hour {
     width: 5px;
-    height: 42px;
-    margin: -42px 0 0 -2.5px;
+    height: 40px;
+    margin: -40px 0 0 -2.5px;
     background: linear-gradient(180deg, var(--yellow), #c9a60a);
     z-index: 3;
   }
   .minute {
     width: 3.5px;
-    height: 58px;
-    margin: -58px 0 0 -1.75px;
+    height: 56px;
+    margin: -56px 0 0 -1.75px;
     background: #fff;
     z-index: 4;
   }
   .second {
     width: 1.5px;
-    height: 68px;
-    margin: -54px 0 0 -0.75px;
+    height: 64px;
+    margin: -50px 0 0 -0.75px;
     background: var(--teal);
     z-index: 5;
   }
