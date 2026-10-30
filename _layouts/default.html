@@ -90,6 +90,7 @@
   requestAnimationFrame(frame);
 })();
 </script>
+
 <div class="iqx-wrap">
   <div class="iqx-watch" id="iqx-watch">
     <div class="bezel" id="bezel"></div>
@@ -104,48 +105,69 @@
     </div>
   </div>
 </div>
+
 <style>
   .iqx-wrap { display:flex; justify-content:center; padding:8px 0 20px; position:relative; z-index:1; }
   .iqx-watch {
-    --yellow:#ffe24a;
+    --yellow:#ffd700;
     --teal:#3df0d6;
-    --gray:#9b9b9b;
-    --ink:#2b2b2b;
+    --gray:#888888;
+    --dark-gray:#707070;
+    --ink:#ffffff;
     width:280px; height:280px; position:relative;
-    font-family: "Courier New", Courier, monospace; /* base font */
+    font-family: "Courier New", Courier, monospace;
   }
+
+  /* Procedural Bezel with Split Colors & Transparent Center */
   .bezel {
-    position:absolute; inset:0; border-radius:50%;
-    background: conic-gradient(from -90deg, var(--teal) 0 180deg, var(--gray) 180deg 360deg);
-    box-shadow: 0 8px 22px rgba(0,0,0,.18);
-    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 32px), #000 calc(100% - 31px));
-            mask: radial-gradient(farthest-side, transparent calc(100% - 32px), #000 calc(100% - 31px));
+    position: absolute; inset: 0; border-radius: 50%;
+    /* Yellow background for top-right 120 deg (0 to 20 mins), Dark Gray for the rest */
+    background: conic-gradient(from 0deg at 50% 50%, 
+      var(--gray) 0deg, 
+      var(--gray) 120deg, 
+      var(--yellow) 120deg, 
+      var(--yellow) 360deg
+    );
+    box-shadow: 0 8px 22px rgba(0,0,0,.3);
+    /* Creates the hollow ring center so the network background shows through */
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 38px), #000 calc(100% - 37px));
+            mask: radial-gradient(farthest-side, transparent calc(100% - 38px), #000 calc(100% - 37px));
+    z-index: 2;
   }
+
+  /* Bezel Ticks and Text Elements */
   .bezel .tick {
-    position:absolute; left:50%; top:0; width:20px; margin-left:-10px;
-    height:100%; transform-origin:center center; pointer-events:none;
+    position: absolute; left: 50%; top: 0; width: 30px; margin-left: -15px;
+    height: 100%; transform-origin: center center; pointer-events: none;
   }
   .bezel .tick i {
-    display:block; margin:8px auto 0; background:var(--ink);
-    border-radius:1px;
+    display: block; margin: 6px auto 0; background: #fff; border-radius: 1px;
   }
-  .bezel .tick.minor i { width:2px; height:8px; }
-  .bezel .tick.major i { width:3px; height:12px; }
+  .bezel .tick.minor i { width: 2px; height: 6px; opacity: 0.8; }
+  .bezel .tick.major i { width: 3px; height: 10px; }
+  .bezel .tick.dot i { width: 6px; height: 6px; border-radius: 50%; background: #fff; }
+  
   .bezel .tick.num {
-    color:var(--ink);
-    font: 700 11px/1 "Courier New", Courier, monospace; /* ← Courier */
-    text-align:center; padding-top:6px;
+    color: #fff;
+    font: 700 12px/1 "Courier New", Courier, monospace;
+    text-align: center; padding-top: 10px;
   }
-  .bezel .tick.num.light { color:#fff; }
-  .bezel .pip {
-    position:absolute; left:50%; top:7px; width:14px; height:9px;
-    margin-left:-7px; background:var(--ink);
-    clip-path:polygon(50% 0,100% 100%,0 100%);
+
+  /* Top Triangle Pip */
+  .bezel .top-pip {
+    position: absolute; left: 50%; top: 4px; width: 0; height: 0;
+    margin-left: -7px; z-index: 3;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 12px solid #ffffff;
+    pointer-events: none;
   }
+
   .dial {
-    position:absolute; inset:32px; border-radius:50%;
+    position:absolute; inset:38px; border-radius:50%;
     background: transparent;
     box-shadow: none;
+    z-index: 3;
   }
   .hour-marks .hm {
     position:absolute; left:50%; top:0; width:18px; margin-left:-9px;
@@ -165,16 +187,15 @@
   .brand {
     position:absolute; left:50%; top:28%;
     transform:translateX(-50%);
-    font: 700 13px/1 "Courier New", Courier, monospace; /* ← Courier */
+    font: 700 13px/1 "Courier New", Courier, monospace;
     letter-spacing:.0em; color:var(--gray);
-    text-shadow: 0 0px 0px rgba(0,0,0,.65);
   }
   .digital {
     position:absolute; left:50%; bottom:23%;
     transform:translateX(-50%);
-    font: 700 26px/1 "Courier New", Courier, monospace; /* ← Courier */
+    font: 700 26px/1 "Courier New", Courier, monospace;
     color:#fff; letter-spacing:.04em;
-    text-shadow: 0 1px 0px rgba(0,0,0,.65);
+    text-shadow: 0 1px 2px rgba(0,0,0,.65);
   }
   .hand { position:absolute; left:50%; top:50%; transform-origin:50% 100%; }
   .hour { width:19px; height:52px; margin:-52px 0 0 -9px; z-index:3; }
@@ -184,7 +205,7 @@
   }
   .minute { width:13px; height:76px; margin:-76px 0 0 -6px; z-index:4; }
   .minute span {
-    display:block; width:100%; height:100%; background:#3df0d6;
+    display:block; width:100% ; height:100%; background:#3df0d6;
     clip-path:polygon(50% 0,76% 10%,68% 100%,32% 100%,24% 10%);
   }
   .second {
@@ -208,61 +229,85 @@
     box-shadow:0 0 0 2px var(--yellow); z-index:6;
   }
 </style>
+
 <script>
 (function(){
-  var bezel=document.getElementById("bezel");
-  var hours=document.getElementById("hour-marks");
+  var bezel = document.getElementById("bezel");
+  var hours = document.getElementById("hour-marks");
   if(!bezel || bezel.dataset.ready) return;
-  bezel.dataset.ready="1";
-  var pip=document.createElement("div");
-  pip.className="pip";
-  bezel.appendChild(pip);
-  for(var i=1;i<60;i++){
-    var el=document.createElement("div");
-    el.className="tick";
-    el.style.transform="rotate("+ (i*6) +"deg)";
-    if(i%10===0){
-      el.className+=" num"+(i>=20 && i<=40 ? " light":"");
-      var lab=document.createElement("span");
-      lab.textContent=(i===0?"": (i<10?"0":"")+i);
-      lab.style.display="block";
-      lab.style.transform="rotate("+ (-i*6) +"deg)";
+  bezel.dataset.ready = "1";
+
+  // Add top alignment triangle pip
+  var topPip = document.createElement("div");
+  topPip.className = "top-pip";
+  bezel.appendChild(topPip);
+
+  // Generate 60 minute/second increments around the bezel ring
+  for(var i = 1; i < 60; i++){
+    var el = document.createElement("div");
+    el.className = "tick";
+    el.style.transform = "rotate(" + (i * 6) + "deg)";
+
+    // Numbers at 30, 40, 50 (corresponding to positions on the watch face)
+    if(i === 30 || i === 40 || i === 50){
+      el.className += " num";
+      var lab = document.createElement("span");
+      lab.textContent = i;
+      lab.style.display = "block";
+      lab.style.transform = "rotate(" + (-i * 6) + "deg)";
       el.appendChild(lab);
-    } else if(i%5===0){
-      el.className+=" major";
-      el.innerHTML="<i></i>";
-    } else {
-      el.className+=" minor";
-      el.innerHTML="<i></i>";
+    } 
+    // Dot markers for the first 20 minutes yellow countdown zone
+    else if(i < 20 && i % 2 === 0){
+      el.className += " dot";
+      el.innerHTML = "<i></i>";
+    }
+    // Major ticks every 5 minutes
+    else if(i % 5 === 0){
+      el.className += " major";
+      el.innerHTML = "<i></i>";
+    } 
+    // Minor ticks for single minutes
+    else {
+      el.className += " minor";
+      el.innerHTML = "<i></i>";
     }
     bezel.appendChild(el);
   }
-  for(var h=0;h<12;h++){
-    var hm=document.createElement("div");
-    hm.className="hm "+(h===0?"tri":(h===3||h===9?"bat":"dot"));
-    hm.style.transform="rotate("+(h*30)+"deg)";
-    hm.innerHTML="<b></b>";
+
+  // Dial hour marks generator
+  for(var h = 0; h < 12; h++){
+    var hm = document.createElement("div");
+    hm.className = "hm " + (h === 0 ? "tri" : (h === 3 || h === 9 ? "bat" : "dot"));
+    hm.style.transform = "rotate(" + (h * 30) + "deg)";
+    hm.innerHTML = "<b></b>";
     hours.appendChild(hm);
   }
-  var hour=document.getElementById("hour");
-  var minute=document.getElementById("minute");
-  var second=document.getElementById("second");
-  var digital=document.getElementById("digital");
-  function pad(n){return n<10?"0"+n:""+n;}
+
+  var hour = document.getElementById("hour");
+  var minute = document.getElementById("minute");
+  var second = document.getElementById("second");
+  var digital = document.getElementById("digital");
+
+  function pad(n){ return n < 10 ? "0" + n : "" + n; }
+
   function tick(){
-    var now=new Date();
-    var s=now.getSeconds()+now.getMilliseconds()/1000;
-    var m=now.getMinutes()+s/60;
-    var hr=(now.getHours()%12)+m/60;
-    hour.style.transform="rotate("+(hr*30)+"deg)";
-    minute.style.transform="rotate("+(m*6)+"deg)";
-    second.style.transform="rotate("+(s*6)+"deg)";
-    var h24=now.getHours();
-    var h12=h24%12; if(!h12) h12=12;
-    digital.textContent=h12+":"+pad(now.getMinutes());
+    var now = new Date();
+    var s = now.getSeconds() + now.getMilliseconds() / 1000;
+    var m = now.getMinutes() + s / 60;
+    var hr = (now.getHours() % 12) + m / 60;
+    
+    hour.style.transform = "rotate(" + (hr * 30) + "deg)";
+    minute.style.transform = "rotate(" + (m * 6) + "deg)";
+    second.style.transform = "rotate(" + (s * 6) + "deg)";
+    
+    var h24 = now.getHours();
+    var h12 = h24 % 12; if(!h12) h12 = 12;
+    digital.textContent = h12 + ":" + pad(now.getMinutes());
   }
+  
   tick();
-  setInterval(tick,50);
+  setInterval(tick, 50);
 })();
 </script>
 <!-- IQX watch: end -->
