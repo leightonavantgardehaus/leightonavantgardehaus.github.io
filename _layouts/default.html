@@ -109,62 +109,58 @@
 <style>
   .iqx-wrap { display:flex; justify-content:center; padding:8px 0 20px; position:relative; z-index:1; }
   .iqx-watch {
-    --yellow:#ffd700;
+    --yellow:#ffe24a;
     --teal:#3df0d6;
-    --gray:#888888;
-    --dark-gray:#707070;
-    --ink:#ffffff;
+    --gray:#707070;
     width:280px; height:280px; position:relative;
     font-family: "Courier New", Courier, monospace;
   }
 
-  /* Procedural Bezel with Split Colors & Transparent Center */
+  /* Corrected Bezel: Yellow for first 20 mins (120 deg from top), Dark Gray for the rest (240 deg) */
   .bezel {
     position: absolute; inset: 0; border-radius: 50%;
-    /* Yellow background for top-right 120 deg (0 to 20 mins), Dark Gray for the rest */
     background: conic-gradient(from 0deg at 50% 50%, 
-      var(--gray) 0deg, 
-      var(--gray) 120deg, 
+      var(--yellow) 0deg, 
       var(--yellow) 120deg, 
-      var(--yellow) 360deg
+      var(--gray) 120deg, 
+      var(--gray) 360deg
     );
     box-shadow: 0 8px 22px rgba(0,0,0,.3);
-    /* Creates the hollow ring center so the network background shows through */
-    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 38px), #000 calc(100% - 37px));
-            mask: radial-gradient(farthest-side, transparent calc(100% - 38px), #000 calc(100% - 37px));
+    -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 32px), #000 calc(100% - 31px));
+            mask: radial-gradient(farthest-side, transparent calc(100% - 32px), #000 calc(100% - 31px));
     z-index: 2;
   }
 
-  /* Bezel Ticks and Text Elements */
+  /* Scaled up bezel elements and larger typography */
   .bezel .tick {
-    position: absolute; left: 50%; top: 0; width: 30px; margin-left: -15px;
+    position: absolute; left: 50%; top: 0; width: 24px; margin-left: -12px;
     height: 100%; transform-origin: center center; pointer-events: none;
   }
   .bezel .tick i {
-    display: block; margin: 6px auto 0; background: #fff; border-radius: 1px;
+    display: block; margin: 5px auto 0; background: #ffffff; border-radius: 1px;
   }
-  .bezel .tick.minor i { width: 2px; height: 6px; opacity: 0.8; }
-  .bezel .tick.major i { width: 3px; height: 10px; }
-  .bezel .tick.dot i { width: 6px; height: 6px; border-radius: 50%; background: #fff; }
+  .bezel .tick.minor i { width: 3px; height: 10px; }
+  .bezel .tick.major i { width: 4px; height: 14px; }
+  .bezel .tick.dot i { width: 8px; height: 8px; border-radius: 50%; background: #ffffff; }
   
   .bezel .tick.num {
-    color: #fff;
-    font: 700 12px/1 "Courier New", Courier, monospace;
-    text-align: center; padding-top: 10px;
+    color: #ffffff;
+    font: 700 15px/1 "Courier New", Courier, monospace;
+    text-align: center; padding-top: 7px;
   }
 
-  /* Top Triangle Pip */
+  /* Top Alignment Triangle Pip */
   .bezel .top-pip {
     position: absolute; left: 50%; top: 4px; width: 0; height: 0;
-    margin-left: -7px; z-index: 3;
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    border-top: 12px solid #ffffff;
+    margin-left: -8px; z-index: 3;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 13px solid #ffffff;
     pointer-events: none;
   }
 
   .dial {
-    position:absolute; inset:38px; border-radius:50%;
+    position:absolute; inset:32px; border-radius:50%;
     background: transparent;
     box-shadow: none;
     z-index: 3;
@@ -188,7 +184,7 @@
     position:absolute; left:50%; top:28%;
     transform:translateX(-50%);
     font: 700 13px/1 "Courier New", Courier, monospace;
-    letter-spacing:.0em; color:var(--gray);
+    letter-spacing:.0em; color:#9b9b9b;
   }
   .digital {
     position:absolute; left:50%; bottom:23%;
@@ -205,7 +201,7 @@
   }
   .minute { width:13px; height:76px; margin:-76px 0 0 -6px; z-index:4; }
   .minute span {
-    display:block; width:100% ; height:100%; background:#3df0d6;
+    display:block; width:100%; height:100%; background:#3df0d6;
     clip-path:polygon(50% 0,76% 10%,68% 100%,32% 100%,24% 10%);
   }
   .second {
@@ -225,7 +221,7 @@
   .pin {
     position:absolute; left:50%; top:50%;
     width:10px; height:10px; margin:-5px 0 0 -5px;
-    border-radius:50%; background:var(--gray);
+    border-radius:50%; background:#9b9b9b;
     box-shadow:0 0 0 2px var(--yellow); z-index:6;
   }
 </style>
@@ -242,13 +238,13 @@
   topPip.className = "top-pip";
   bezel.appendChild(topPip);
 
-  // Generate 60 minute/second increments around the bezel ring
+  // Generate 60 minute increments around the bezel ring with scaled ticks/dots/numbers
   for(var i = 1; i < 60; i++){
     var el = document.createElement("div");
     el.className = "tick";
     el.style.transform = "rotate(" + (i * 6) + "deg)";
 
-    // Numbers at 30, 40, 50 (corresponding to positions on the watch face)
+    // Numbers at 30, 40, 50 (larger font size applied via CSS)
     if(i === 30 || i === 40 || i === 50){
       el.className += " num";
       var lab = document.createElement("span");
@@ -257,7 +253,7 @@
       lab.style.transform = "rotate(" + (-i * 6) + "deg)";
       el.appendChild(lab);
     } 
-    // Dot markers for the first 20 minutes yellow countdown zone
+    // Larger dot markers for the first 20 minutes yellow countdown zone
     else if(i < 20 && i % 2 === 0){
       el.className += " dot";
       el.innerHTML = "<i></i>";
@@ -310,6 +306,7 @@
   setInterval(tick, 50);
 })();
 </script>
+
 <!-- IQX watch: end -->
 
       {{ content }}
