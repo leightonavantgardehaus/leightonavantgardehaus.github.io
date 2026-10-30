@@ -35,6 +35,7 @@
   var w = 0;
   var h = 0;
   var dpr = 1;
+
   function resize() {
     dpr = Math.min(window.devicePixelRatio || 1, 4);
     w = window.innerWidth;
@@ -55,19 +56,29 @@
       });
     }
   }
+
   function frame() {
     ctx.clearRect(0, 0, w, h);
     var max = 150;
+    
+    // Check connection quality dynamically for node coloring
+    var conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    var isSlow = conn && (conn.saveData || conn.effectiveType === 'slow-2g' || conn.effectiveType === '2g' || conn.rtt > 300);
+    var nodeColor = isSlow ? "rgba(255,100,100,0.9)" : "rgba(61,240,214,0.9)";
+    var lineColor = isSlow ? "rgba(255,100,100," : "rgba(61,240,214,";
+
     for (var i = 0; i < nodes.length; i++) {
       var a = nodes[i];
       a.x += a.vx;
       a.y += a.vy;
       if (a.x < 0 || a.x > w) a.vx *= -1;
       if (a.y < 0 || a.y > h) a.vy *= -1;
+      
       ctx.beginPath();
-      ctx.fillStyle = "rgba(61,240,214,0.9)";
+      ctx.fillStyle = nodeColor;
       ctx.arc(a.x, a.y, 1.25, 0, Math.PI * 2);
       ctx.fill();
+
       for (var j = i + 1; j < nodes.length; j++) {
         var b = nodes[j];
         var dx = a.x - b.x;
@@ -75,7 +86,7 @@
         var d = Math.sqrt(dx * dx + dy * dy);
         if (d < max) {
           ctx.beginPath();
-          ctx.strokeStyle = "rgba(61,240,214," + (1 - d / max) * 0.32 + ")";
+          ctx.strokeStyle = lineColor + (1 - d / max) * 0.32 + ")";
           ctx.lineWidth = 1;
           ctx.moveTo(a.x, a.y);
           ctx.lineTo(b.x, b.y);
@@ -85,6 +96,7 @@
     }
     requestAnimationFrame(frame);
   }
+
   resize();
   window.addEventListener("resize", resize);
   requestAnimationFrame(frame);
@@ -93,10 +105,11 @@
 
 <div class="iqx-wrap">
   <div class="iqx-watch" id="iqx-watch">
+    <!-- Added a latency status class container -->
     <div class="bezel" id="bezel"></div>
     <div class="dial">
       <div class="hour-marks" id="hour-marks"></div>
-      <div class="brand">Morningstar</div>
+      <div class="brand" id="brand-status">Morningstar</div>
       <div class="digital" id="digital">0:00</div>
       <div class="hand hour" id="hour"><span></span></div>
       <div class="hand minute" id="minute"><span></span></div>
@@ -111,12 +124,12 @@
   .iqx-watch {
     --yellow:#ffe24a;
     --teal:#3df0d6;
-    --gray:#9b9b9b;
+    --gray:#707070;
+    --alert-red:#ff4a4a;
     width:280px; height:280px; position:relative;
     font-family: "Courier New", Courier, monospace;
   }
 
-  /* Corrected Bezel: Yellow for first 20 mins (120 deg from top), Dark Gray for the rest (240 deg) */
   .bezel {
     position: absolute; inset: 0; border-radius: 50%;
     background: conic-gradient(from 0deg at 50% 50%, 
@@ -129,9 +142,20 @@
     -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 32px), #000 calc(100% - 31px));
             mask: radial-gradient(farthest-side, transparent calc(100% - 32px), #000 calc(100% - 31px));
     z-index: 2;
+    transition: filter 0.3s ease;
   }
 
-  /* Scaled up bezel elements and larger typography */
+  /* Pulse animation triggered when latency is poor */
+  .iqx-watch.high-latency .bezel {
+    filter: drop-shadow(0 0 8px rgba(255, 74, 74, 0.6));
+    animation: bezel-pulse 1.5s infinite alternate;
+  }
+
+  @keyframes bezel-pulse {
+    0% { opacity: 0.8; }
+    100% { opacity: 1; transform: scale(1.01); }
+  }
+
   .bezel .tick {
     position: absolute; left: 50%; top: 0; width: 24px; margin-left: -12px;
     height: 100%; transform-origin: center center; pointer-events: none;
@@ -139,17 +163,16 @@
   .bezel .tick i {
     display: block; margin: 5px auto 0; background: #ffffff; border-radius: 1px;
   }
-  .bezel .tick.minor i { width: 3px; height: 8px; }
-  .bezel .tick.major i { width: 6px; height: 16px; }
+  .bezel .tick.minor i { width: 3px; height: 10px; }
+  .bezel .tick.major i { width: 4px; height: 14px; }
   .bezel .tick.dot i { width: 8px; height: 8px; border-radius: 50%; background: #ffffff; }
   
   .bezel .tick.num {
     color: #ffffff;
-    font: 700 16px/1 "Courier New", Courier, monospace;
+    font: 700 15px/1 "Courier New", Courier, monospace;
     text-align: center; padding-top: 7px;
   }
 
-  /* Top Alignment Triangle Pip */
   .bezel .top-pip {
     position: absolute; left: 50%; top: 4px; width: 0; height: 0;
     margin-left: -8px; z-index: 3;
@@ -183,8 +206,9 @@
   .brand {
     position:absolute; left:50%; top:28%;
     transform:translateX(-50%);
-    font: 700 12px/1 "Courier New", Courier, monospace;
+    font: 700 13px/1 "Courier New", Courier, monospace;
     letter-spacing:.0em; color:#9b9b9b;
+    transition: color 0.3s ease;
   }
   .digital {
     position:absolute; left:50%; bottom:23%;
@@ -230,21 +254,21 @@
 (function(){
   var bezel = document.getElementById("bezel");
   var hours = document.getElementById("hour-marks");
+  var watchContainer = document.getElementById("iqx-watch");
+  var brandStatus = document.getElementById("brand-status");
+
   if(!bezel || bezel.dataset.ready) return;
   bezel.dataset.ready = "1";
 
-  // Add top alignment triangle pip
   var topPip = document.createElement("div");
   topPip.className = "top-pip";
   bezel.appendChild(topPip);
 
-  // Generate 60 minute increments around the bezel ring with scaled ticks/dots/numbers
   for(var i = 1; i < 60; i++){
     var el = document.createElement("div");
     el.className = "tick";
     el.style.transform = "rotate(" + (i * 6) + "deg)";
 
-    // Numbers at 30, 40, 50 (larger font size applied via CSS)
     if(i === 30 || i === 40 || i === 50){
       el.className += " num";
       var lab = document.createElement("span");
@@ -252,26 +276,19 @@
       lab.style.display = "block";
       lab.style.transform = "rotate(" + (-i * 6) + "deg)";
       el.appendChild(lab);
-    } 
-    // Larger dot markers for the first 20 minutes yellow countdown zone
-    else if(i < 20 && i % 2 === 0){
+    } else if(i < 20 && i % 2 === 0){
       el.className += " dot";
       el.innerHTML = "<i></i>";
-    }
-    // Major ticks every 5 minutes
-    else if(i % 5 === 0){
+    } else if(i % 5 === 0){
       el.className += " major";
       el.innerHTML = "<i></i>";
-    } 
-    // Minor ticks for single minutes
-    else {
+    } else {
       el.className += " minor";
       el.innerHTML = "<i></i>";
     }
     bezel.appendChild(el);
   }
 
-  // Dial hour marks generator
   for(var h = 0; h < 12; h++){
     var hm = document.createElement("div");
     hm.className = "hm " + (h === 0 ? "tri" : (h === 3 || h === 9 ? "bat" : "dot"));
@@ -286,6 +303,21 @@
   var digital = document.getElementById("digital");
 
   function pad(n){ return n < 10 ? "0" + n : "" + n; }
+
+  function checkNetworkStatus() {
+    var conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+    if (conn) {
+      if (conn.saveData || conn.effectiveType === 'slow-2g' || conn.effectiveType === '2g' || conn.rtt > 300) {
+        watchContainer.classList.add("high-latency");
+        brandStatus.textContent = "LAG DETECTED";
+        brandStatus.style.color = "var(--alert-red)";
+      } else {
+        watchContainer.classList.remove("high-latency");
+        brandStatus.textContent = "Morningstar";
+        brandStatus.style.color = "#9b9b9b";
+      }
+    }
+  }
 
   function tick(){
     var now = new Date();
@@ -304,6 +336,10 @@
   
   tick();
   setInterval(tick, 50);
+  
+  // Check network condition periodically
+  setInterval(checkNetworkStatus, 5000);
+  checkNetworkStatus();
 })();
 </script>
 
