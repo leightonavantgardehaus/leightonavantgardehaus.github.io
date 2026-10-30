@@ -106,13 +106,7 @@
   <div class="iqx-watch" id="iqx-watch">
     <div class="bezel" id="bezel"></div>
     
-    <!-- Real-Time Sun & Moon Celestial Orbit (Synchronized with Terminator) -->
-    <div class="celestial-orbit" id="celestial-orbit">
-      <div class="sun-icon">☀️</div>
-      <div class="moon-icon">🌙</div>
-    </div>
-
-    <!-- Solar Terminator Day/Night Orbital Shadow Overlay -->
+    <!-- Solar Terminator Day/Night Orbital Overlay -->
     <div class="solar-terminator" id="solar-terminator"></div>
 
     <div class="dial">
@@ -132,7 +126,7 @@
   .iqx-watch {
     --yellow:#ffe24a;
     --teal:#3df0d6;
-    --gray:#9b9b9b;
+    --gray:#707070;
     --alert-red:#ff4a4a;
     width:280px; height:280px; position:relative;
     font-family: "Courier New", Courier, monospace;
@@ -155,40 +149,14 @@
     transition: filter 0.3s ease;
   }
 
-  /* Celestial Orbit Layer (Sun & Moon) */
-  .celestial-orbit {
-    position: absolute;
-    inset: 22px;
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 3;
-    transition: transform 1s linear;
-  }
-  .sun-icon {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 13px;
-    filter: drop-shadow(0 0 4px rgba(255, 226, 74, 0.8));
-  }
-  .moon-icon {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 12px;
-    filter: drop-shadow(0 0 4px rgba(255, 255, 255, 0.6));
-  }
-
   /* Solar Terminator Shadow Overlay */
   .solar-terminator {
     position: absolute;
     inset: 0;
     border-radius: 50%;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.02) 50%, rgba(10, 15, 30, 0.4) 100%);
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(10, 15, 30, 0.45) 100%);
     pointer-events: none;
-    z-index: 4;
+    z-index: 4; /* Sits over bezel/dial, but below hands */
     mix-blend-mode: multiply;
     transition: transform 1s linear;
   }
@@ -216,7 +184,7 @@
   
   .bezel .tick.num {
     color: #ffffff;
-    font: 700 20px/1 "Courier New", Courier, monospace;
+    font: 700 15px/1 "Courier New", Courier, monospace;
     text-align: center; padding-top: 7px;
   }
 
@@ -233,7 +201,7 @@
     position:absolute; inset:32px; border-radius:50%;
     background: transparent;
     box-shadow: none;
-    z-index: 5;
+    z-index: 3;
   }
   .hour-marks .hm {
     position:absolute; left:50%; top:0; width:18px; margin-left:-9px;
@@ -253,10 +221,10 @@
   .brand {
     position:absolute; left:50%; top:28%;
     transform:translateX(-50%);
-    font: 700 13px/1 "Courier New", Courier, monospace;
+    font: 700 14px/1 "Courier New", Courier, monospace;
     letter-spacing:.0em; color:#fff;
     text-shadow: 0 1px 2px rgba(0,0,0,.65);
-    z-index: 6;
+    z-index: 5;
   }
   .digital {
     position:absolute; left:50%; bottom:23%;
@@ -264,38 +232,38 @@
     font: 700 26px/1 "Courier New", Courier, monospace;
     color:#fff; letter-spacing:.04em;
     text-shadow: 0 1px 2px rgba(0,0,0,.65);
-    z-index: 6;
+    z-index: 5;
   }
-  .hand { position:absolute; left:50%; top:50%; transform-origin:50% 100%; z-index: 7; }
-  .hour { width:20px; height:48px; margin:-52px 0 0 -9px; }
+  .hand { position:absolute; left:50%; top:50%; transform-origin:50% 100%; z-index: 6; }
+  .hour { width:19px; height:52px; margin:-52px 0 0 -9px; }
   .hour span {
     display:block; width:100%; height:100%; background:var(--teal);
     clip-path:polygon(50% 0,70% 16%,70% 56%,58% 56%,58% 100%,42% 100%,42% 56%,30% 56%,30% 16%);
   }
-  .minute { width:14px; height:76px; margin:-76px 0 0 -6px; z-index: 8; }
+  .minute { width:14px; height:76px; margin:-76px 0 0 -6px; z-index: 7; }
   .minute span {
     display:block; width:100%; height:100%; background:#3df0d6;
     clip-path:polygon(50% 0,76% 10%,68% 100%,32% 100%,24% 10%);
   }
   .second {
     width:2px; height:88px; margin:-88px 0 0 -1px;
-    background:var(--yellow); z-index: 9;
+    background:var(--yellow); z-index: 8;
   }
   .second::before {
     content:""; position:absolute; left:50%; top:16px;
     width:8px; height:8px; margin-left:-4px;
     border-radius:50%; background:#fff;
-    box-shadow:0 0 0 2px var(--yellow);
+    box-shadow:0 0 0 2px var(--teal);
   }
   .second::after {
     content:""; position:absolute; left:50%; bottom:-12px;
-    width:2px; height:12px; margin-left:-1px; background:var(--teal);
+    width:2px; height:12px; margin-left:-1px; background:var(--yellow);
   }
   .pin {
     position:absolute; left:50%; top:50%;
     width:10px; height:10px; margin:-5px 0 0 -5px;
     border-radius:50%; background:#9b9b9b;
-    box-shadow:0 0 0 2px var(--yellow); z-index: 10;
+    box-shadow:0 0 0 2px var(--yellow); z-index: 9;
   }
 </style>
 
@@ -306,7 +274,6 @@
   var watchContainer = document.getElementById("iqx-watch");
   var brandStatus = document.getElementById("brand-status");
   var solarTerminator = document.getElementById("solar-terminator");
-  var celestialOrbit = document.getElementById("celestial-orbit");
 
   if(!bezel || bezel.dataset.ready) return;
   bezel.dataset.ready = "1";
@@ -385,17 +352,14 @@
     var h12 = h24 % 12; if(!h12) h12 = 12;
     digital.textContent = h12 + ":" + pad(now.getMinutes());
 
-    // Exact fractional hours for celestial & orbital calculations
+    // Solar Terminator orbital shadow rotation (24-hour cycle mapped to 360 degrees)
     var totalHours = now.getHours() + now.getMinutes() / 60 + now.getSeconds() / 3600;
-    
-    // Unified orbital angle for both the shadow and the sun/moon tracker
     var orbitalAngle = (totalHours / 24) * 360;
     solarTerminator.style.transform = "rotate(" + orbitalAngle + "deg)";
-    celestialOrbit.style.transform = "rotate(" + orbitalAngle + "deg)";
   }
   
   tick();
-  setInterval(tick, 1000);
+  setInterval(tick, 1000); // Updated every second for smooth planetary tracking
   
   setInterval(checkNetworkStatus, 5000);
   checkNetworkStatus();
