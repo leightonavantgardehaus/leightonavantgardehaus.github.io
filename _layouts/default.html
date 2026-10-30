@@ -124,7 +124,7 @@
   .iqx-watch {
     --yellow:#ffe24a;
     --teal:#3df0d6;
-    --gray:#707070;
+    --gray:#9b9b9b;
     --alert-red:#ff4a4a;
     width:280px; height:280px; position:relative;
     font-family: "Courier New", Courier, monospace;
@@ -163,13 +163,13 @@
   .bezel .tick i {
     display: block; margin: 5px auto 0; background: #ffffff; border-radius: 1px;
   }
-  .bezel .tick.minor i { width: 3px; height: 10px; }
-  .bezel .tick.major i { width: 4px; height: 14px; }
+  .bezel .tick.minor i { width: 3px; height: 8px; }
+  .bezel .tick.major i { width: 6px; height: 16px; }
   .bezel .tick.dot i { width: 8px; height: 8px; border-radius: 50%; background: #ffffff; }
   
   .bezel .tick.num {
     color: #ffffff;
-    font: 700 15px/1 "Courier New", Courier, monospace;
+    font: 700 18px/1 "Courier New", Courier, monospace;
     text-align: center; padding-top: 7px;
   }
 
@@ -218,12 +218,12 @@
     text-shadow: 0 1px 2px rgba(0,0,0,.65);
   }
   .hand { position:absolute; left:50%; top:50%; transform-origin:50% 100%; }
-  .hour { width:19px; height:52px; margin:-52px 0 0 -9px; z-index:3; }
+  .hour { width:20px; height:52px; margin:-52px 0 0 -9px; z-index:3; }
   .hour span {
     display:block; width:100%; height:100%; background:var(--teal);
     clip-path:polygon(50% 0,70% 16%,70% 56%,58% 56%,58% 100%,42% 100%,42% 56%,30% 56%,30% 16%);
   }
-  .minute { width:13px; height:76px; margin:-76px 0 0 -6px; z-index:4; }
+  .minute { width:15px; height:76px; margin:-76px 0 0 -6px; z-index:4; }
   .minute span {
     display:block; width:100%; height:100%; background:#3df0d6;
     clip-path:polygon(50% 0,76% 10%,68% 100%,32% 100%,24% 10%);
