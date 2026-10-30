@@ -356,10 +356,11 @@
     var totalHours = now.getHours() + now.getMinutes() / 60 + now.getSeconds() / 3600;
     var orbitalAngle = (totalHours / 24) * 360;
     solarTerminator.style.transform = "rotate(" + orbitalAngle + "deg)";
+
+    requestAnimationFrame(tick);
   }
   
   tick();
-  setInterval(tick, 1000); // Updated every second for smooth planetary tracking
   
   setInterval(checkNetworkStatus, 5000);
   checkNetworkStatus();
