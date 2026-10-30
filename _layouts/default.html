@@ -367,6 +367,122 @@
 })();
 </script>
 
+<script>
+/* IQX radar sweep (add-on). Nothing above is edited: this watches the network canvas's own draw calls. */
+(function () {
+  var watch = document.getElementById("iqx-watch");
+  var net = document.getElementById("network-canvas");
+  var P = window.CanvasRenderingContext2D && CanvasRenderingContext2D.prototype;
+  if (!watch || !net || !P || P.__iqxRadar) return;
+  if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  P.__iqxRadar = true;
+
+  var RANGE = 108;   // reset every frame from the dial's real radius, so the sweep never leaves the dial
+  var dial = watch.querySelector(".dial") || watch;
+  var TRAIL = 100;   // length of the fading trail, in degrees
+  var cx = 0, cy = 0, hand = 0, on = false;
+  var col = "61,240,214", core = "0,170,150";
+  var clearRect = P.clearRect, arc = P.arc;
+
+  // once per frame: work out the watch centre and the second-hand angle, draw the beam
+  P.clearRect = function () {
+    clearRect.apply(this, arguments);
+    if (this.canvas !== net) return;
+
+    var r = watch.getBoundingClientRect();
+    cx = r.left + r.width / 2;
+    cy = r.top + r.height / 2;
+    on = r.bottom > 0 && r.top < window.innerHeight && r.right > 0 && r.left < window.innerWidth;
+    RANGE = dial.getBoundingClientRect().width / 2;
+    if (!on) return;
+
+    var lag = watch.classList.contains("high-latency");
+    col = lag ? "255,74,74" : "61,240,214";
+    core = lag ? "200,30,30" : "0,170,150";
+
+    var d = new Date();
+    hand = (d.getSeconds() + d.getMilliseconds() / 1000) * 6;   // same maths as the second hand
+    var th = hand * Math.PI / 180 - Math.PI / 2;
+    var tr = TRAIL * Math.PI / 180;
+
+    this.save();
+
+    var rings = new Path2D();
+    rings.arc(cx, cy, RANGE * 2 / 3, 0, 6.2832);
+    rings.moveTo(cx + RANGE / 3, cy);
+    rings.arc(cx, cy, RANGE / 3, 0, 6.2832);
+    this.strokeStyle = "rgba(" + col + ",0.09)";
+    this.lineWidth = 1;
+    this.stroke(rings);
+
+    if (this.createConicGradient) {
+      var f = tr / (2 * Math.PI);
+      var g = this.createConicGradient(th - tr, cx, cy);
+      g.addColorStop(0, "rgba(" + col + ",0)");
+      g.addColorStop(f, "rgba(" + col + ",0.2)");
+      g.addColorStop(Math.min(f + 0.0005, 1), "rgba(" + col + ",0)");
+      g.addColorStop(1, "rgba(" + col + ",0)");
+      var wedge = new Path2D();
+      wedge.moveTo(cx, cy);
+      wedge.arc(cx, cy, RANGE, th - tr, th);
+      wedge.closePath();
+      this.fillStyle = g;
+      this.fill(wedge);
+    }
+
+    var lx = cx + Math.cos(th) * RANGE, ly = cy + Math.sin(th) * RANGE;
+    var lg = this.createLinearGradient(cx, cy, lx, ly);
+    lg.addColorStop(0, "rgba(" + col + ",0.55)");
+    lg.addColorStop(1, "rgba(" + col + ",0)");
+    var line = new Path2D();
+    line.moveTo(cx, cy);
+    line.lineTo(lx, ly);
+    this.strokeStyle = lg;
+    this.lineWidth = 1.5;
+    this.stroke(line);
+
+    this.restore();
+  };
+
+  // for every network node (the 1.25px dots): glow it if the sweep just passed over it
+  P.arc = function (x, y, rad) {
+    arc.apply(this, arguments);
+    if (!on || rad !== 1.25 || this.canvas !== net) return;
+
+    var dx = x - cx, dy = y - cy;
+    var dist = Math.sqrt(dx * dx + dy * dy);
+    if (dist > RANGE) return;
+
+    var a = Math.atan2(dx, -dy) * 180 / Math.PI;   // 0 = up, clockwise
+    if (a < 0) a += 360;
+    var behind = hand - a;
+    if (behind < 0) behind += 360;
+    if (behind > TRAIL) return;
+
+    var t = 1 - behind / TRAIL;
+    var k = t * t * (1 - 0.5 * dist / RANGE);
+    if (k < 0.03) return;
+
+    var R = 4 + 9 * k;
+    var g = this.createRadialGradient(x, y, 0, x, y, R);
+    g.addColorStop(0, "rgba(" + col + "," + (0.85 * k) + ")");
+    g.addColorStop(1, "rgba(" + col + ",0)");
+    var halo = new Path2D();
+    halo.arc(x, y, R, 0, 6.2832);
+    var dot = new Path2D();
+    dot.arc(x, y, 1.8, 0, 6.2832);
+
+    this.save();                       // save/restore leaves your own fillStyle and path untouched
+    this.fillStyle = g;
+    this.fill(halo);
+    this.fillStyle = "rgba(" + core + "," + k + ")";
+    this.fill(dot);
+    this.restore();
+  };
+})();
+</script>
+
+
 <!-- IQX watch: end -->
 
       {{ content }}
