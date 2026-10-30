@@ -156,7 +156,7 @@
     border-radius: 50%;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(10, 15, 30, 0.45) 100%);
     pointer-events: none;
-    z-index: 4; /* Sits over bezel/dial, but below hands */
+    z-index: 4; 
     mix-blend-mode: multiply;
     transition: transform 1s linear;
   }
@@ -343,7 +343,7 @@
     var m = now.getMinutes() + s / 60;
     var hr = (now.getHours() % 12) + m / 60;
     
-    // Watch hands rotation
+    
     hour.style.transform = "rotate(" + (hr * 30) + "deg)";
     minute.style.transform = "rotate(" + (m * 6) + "deg)";
     second.style.transform = "rotate(" + (s * 6) + "deg)";
@@ -352,7 +352,7 @@
     var h12 = h24 % 12; if(!h12) h12 = 12;
     digital.textContent = h12 + ":" + pad(now.getMinutes());
 
-    // Solar Terminator orbital shadow rotation (24-hour cycle mapped to 360 degrees)
+    
     var totalHours = now.getHours() + now.getMinutes() / 60 + now.getSeconds() / 3600;
     var orbitalAngle = (totalHours / 24) * 360;
     solarTerminator.style.transform = "rotate(" + orbitalAngle + "deg)";
@@ -368,7 +368,7 @@
 </script>
 
 <script>
-/* IQX radar sweep (add-on). Nothing above is edited: this watches the network canvas's own draw calls. */
+
 (function () {
   var watch = document.getElementById("iqx-watch");
   var net = document.getElementById("network-canvas");
@@ -377,14 +377,14 @@
   if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   P.__iqxRadar = true;
 
-  var RANGE = 108;   // reset every frame from the dial's real radius, so the sweep never leaves the dial
+  var RANGE = 108;   
   var dial = watch.querySelector(".dial") || watch;
-  var TRAIL = 100;   // length of the fading trail, in degrees
+  var TRAIL = 100;   
   var cx = 0, cy = 0, hand = 0, on = false;
   var col = "61,240,214", core = "0,170,150";
   var clearRect = P.clearRect, arc = P.arc;
 
-  // once per frame: work out the watch centre and the second-hand angle, draw the beam
+  
   P.clearRect = function () {
     clearRect.apply(this, arguments);
     if (this.canvas !== net) return;
@@ -401,7 +401,7 @@
     core = lag ? "200,30,30" : "0,170,150";
 
     var d = new Date();
-    hand = (d.getSeconds() + d.getMilliseconds() / 1000) * 6;   // same maths as the second hand
+    hand = (d.getSeconds() + d.getMilliseconds() / 1000) * 6;   
     var th = hand * Math.PI / 180 - Math.PI / 2;
     var tr = TRAIL * Math.PI / 180;
 
@@ -444,7 +444,7 @@
     this.restore();
   };
 
-  // for every network node (the 1.25px dots): glow it if the sweep just passed over it
+  
   P.arc = function (x, y, rad) {
     arc.apply(this, arguments);
     if (!on || rad !== 1.25 || this.canvas !== net) return;
@@ -453,7 +453,7 @@
     var dist = Math.sqrt(dx * dx + dy * dy);
     if (dist > RANGE) return;
 
-    var a = Math.atan2(dx, -dy) * 180 / Math.PI;   // 0 = up, clockwise
+    var a = Math.atan2(dx, -dy) * 180 / Math.PI;   
     if (a < 0) a += 360;
     var behind = hand - a;
     if (behind < 0) behind += 360;
@@ -472,7 +472,7 @@
     var dot = new Path2D();
     dot.arc(x, y, 1.8, 0, 6.2832);
 
-    this.save();                       // save/restore leaves your own fillStyle and path untouched
+    this.save();                       
     this.fillStyle = g;
     this.fill(halo);
     this.fillStyle = "rgba(" + core + "," + k + ")";
@@ -481,6 +481,122 @@
   };
 })();
 </script>
+
+<script>
+
+(function () {
+  var watch = document.getElementById("iqx-watch");
+  var dial = watch && watch.querySelector(".dial");
+  if (!dial || dial.dataset.flag) return;
+  dial.dataset.flag = "1";
+
+  var OPACITY = 0.12;   
+  var RED = "#e8454b", WHITE = "#ffffff", NAVY = "#17246e";
+  var still = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+  var c = document.createElement("canvas");
+  c.setAttribute("aria-hidden", "true");
+  c.style.cssText = "position:absolute;left:0;top:0;width:100%;height:100%;border-radius:50%;pointer-events:none;opacity:" + OPACITY;
+  dial.insertBefore(c, dial.firstChild);   
+  var ctx = c.getContext("2d");
+  var S = 216;
+
+  function size() {
+    var dpr = Math.min(window.devicePixelRatio || 1, 3);
+    S = dial.getBoundingClientRect().width || 216;
+    c.width = c.height = Math.round(S * dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  }
+
+  var CW = 0.4, CH = 7 / 13;   
+
+  function draw(t) {
+    ctx.clearRect(0, 0, S, S);
+    var W = S * 1.2, H = S * 1.08, X0 = (S - W) / 2, Y0 = -S * 0.04, A = S * 0.03;
+    function P(u, v) {   
+      var wave = Math.sin(u * 7 - t) + Math.sin(u * 13 - t * 1.7 + v * 3) * 0.25;
+      return [X0 + u * W, Y0 + v * H + wave * A * (0.25 + 0.75 * u)];
+    }
+
+    
+    ctx.beginPath();
+    var i, p, n = 14;
+    for (i = 0; i <= n; i++) { p = P(CW * i / n, 0); ctx[i ? "lineTo" : "moveTo"](p[0], p[1]); }
+    for (i = 1; i <= n; i++) { p = P(CW, CH * i / n); ctx.lineTo(p[0], p[1]); }
+    for (i = n - 1; i >= 0; i--) { p = P(CW * i / n, CH); ctx.lineTo(p[0], p[1]); }
+    ctx.closePath();
+    ctx.globalAlpha = 0.85;
+    ctx.fillStyle = NAVY;
+    ctx.fill();
+    ctx.globalAlpha = 1;
+
+   
+    var white = [], stars = [], row, k, u, v, q, u0, dots = 72, m = 40;
+    ctx.fillStyle = RED;
+    ctx.beginPath();
+    for (row = 0; row < 13; row += 2) {
+      u0 = row < 7 ? CW : 0;                       
+      for (k = 0; k <= m; k++) { u = u0 + (1 - u0) * k / m; q = P(u, row / 13); ctx[k ? "lineTo" : "moveTo"](q[0], q[1]); }
+      for (k = m; k >= 0; k--) { u = u0 + (1 - u0) * k / m; q = P(u, (row + 1) / 13); ctx.lineTo(q[0], q[1]); }
+      ctx.closePath();
+    }
+    ctx.fill();
+    
+    for (row = 1; row < 13; row += 2) {
+      v = (row + 0.5) / 13;
+      for (k = 0; k < dots; k++) {
+        u = k / (dots - 1);
+        if (u < CW && v < CH) continue;           
+        white.push(P(u, v));
+      }
+    }
+    
+    for (row = 0; row < 9; row++) {
+      var cols = row % 2 ? 5 : 6;
+      for (k = 0; k < cols; k++) {
+        var ux = (row % 2 ? 2 + 2 * k : 1 + 2 * k) / 12;
+        stars.push(P(ux * CW, (row + 1) / 10 * CH));
+      }
+    }
+
+    function dotsOf(list, color, r) {
+      ctx.fillStyle = color;
+      ctx.beginPath();
+      for (var j = 0; j < list.length; j++) {
+        ctx.moveTo(list[j][0] + r, list[j][1]);
+        ctx.arc(list[j][0], list[j][1], r, 0, 6.2832);
+      }
+      ctx.fill();
+    }
+    var s = S / 216;
+    dotsOf(white, WHITE, 1.15 * s);
+    dotsOf(stars, WHITE, 1.5 * s);
+  }
+
+  function loop(ms) { draw(ms / 1000 * 0.9); requestAnimationFrame(loop); }
+  function resize() { size(); if (still) draw(0); }
+
+  size();
+  window.addEventListener("resize", resize);
+  if (still) draw(0); else requestAnimationFrame(loop);
+})();
+</script>
+
+<style>
+  
+  .iqx-watch .brand,
+  .iqx-watch .digital {
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    white-space: nowrap;
+    transform: translate(-50%, -50%);
+  }
+  .iqx-watch .brand   { top: calc(50% - 44px); }
+  .iqx-watch .digital { top: calc(50% + 44px); text-indent: .04em; }  
+  .iqx-watch .hour    { margin-left: -9.5px; }   
+  .iqx-watch .minute  { margin-left: -7px; }     
+</style>
 
 
 <!-- IQX watch: end -->
