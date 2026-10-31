@@ -2,7 +2,7 @@
 
 ### Defense Compliance Summary for Leighton Dynamica
 
-Leighton Dynamica is committed to delivering innovative super intelligence (SI) and technology solutions exclusively for government use, with a focus on defense applications. As a small, agile entity, we prioritize compliance with U.S. Department of War (DoW) regulations to ensure secure, ethical, and reliable services. Our compliance framework is designed to support Federal Acquisition Regulation (FAR) and Defense Federal Acquisition Regulation Supplement (DFARS) requirements, enabling us to handle Controlled Unclassified Information (CUI) and position for classified contracts.
+Leighton Dynamica is committed to delivering innovative intelligence and strategic solutions exclusively for government use, with a focus on defense applications. As a small, agile entity, we prioritize compliance with U.S. Department of War (DoW) regulations to ensure secure, ethical, and reliable services. Our compliance framework is designed to support Federal Acquisition Regulation (FAR) and Defense Federal Acquisition Regulation Supplement (DFARS) requirements, enabling us to handle Controlled Unclassified Information (CUI) and position for classified contracts.
 
 We are actively pursuing opportunities as a defense contractor, with self-attested readiness for CMMC Level 2 as of December 2025. Below is a high-level overview of our compliance posture. Detailed documentation, including System Security Plans (SSP) and Plans of Action and Milestones (POA&M), is available under NDA for qualified partners, primes, or government contracting officers.
 
