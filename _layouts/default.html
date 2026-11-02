@@ -156,7 +156,7 @@
     border-radius: 50%;
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0.05) 50%, rgba(10, 15, 30, 0.45) 100%);
     pointer-events: none;
-    z-index: 4; 
+    z-index: 4; /* Sits over bezel/dial, but below hands */
     mix-blend-mode: multiply;
     transition: transform 1s linear;
   }
@@ -343,7 +343,7 @@
     var m = now.getMinutes() + s / 60;
     var hr = (now.getHours() % 12) + m / 60;
     
-    
+    // Watch hands rotation
     hour.style.transform = "rotate(" + (hr * 30) + "deg)";
     minute.style.transform = "rotate(" + (m * 6) + "deg)";
     second.style.transform = "rotate(" + (s * 6) + "deg)";
@@ -352,7 +352,7 @@
     var h12 = h24 % 12; if(!h12) h12 = 12;
     digital.textContent = h12 + ":" + pad(now.getMinutes());
 
-    
+    // Solar Terminator orbital shadow rotation (24-hour cycle mapped to 360 degrees)
     var totalHours = now.getHours() + now.getMinutes() / 60 + now.getSeconds() / 3600;
     var orbitalAngle = (totalHours / 24) * 360;
     solarTerminator.style.transform = "rotate(" + orbitalAngle + "deg)";
@@ -368,7 +368,7 @@
 </script>
 
 <script>
-
+/* IQX radar sweep (add-on). Nothing above is edited: this watches the network canvas's own draw calls. */
 (function () {
   var watch = document.getElementById("iqx-watch");
   var net = document.getElementById("network-canvas");
@@ -377,14 +377,14 @@
   if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   P.__iqxRadar = true;
 
-  var RANGE = 108;   
+  var RANGE = 108;   // reset every frame from the dial's real radius, so the sweep never leaves the dial
   var dial = watch.querySelector(".dial") || watch;
-  var TRAIL = 100;   
+  var TRAIL = 100;   // length of the fading trail, in degrees
   var cx = 0, cy = 0, hand = 0, on = false;
   var col = "61,240,214", core = "0,170,150";
   var clearRect = P.clearRect, arc = P.arc;
 
-  
+  // once per frame: work out the watch centre and the second-hand angle, draw the beam
   P.clearRect = function () {
     clearRect.apply(this, arguments);
     if (this.canvas !== net) return;
@@ -401,7 +401,7 @@
     core = lag ? "200,30,30" : "0,170,150";
 
     var d = new Date();
-    hand = (d.getSeconds() + d.getMilliseconds() / 1000) * 6;   
+    hand = (d.getSeconds() + d.getMilliseconds() / 1000) * 6;   // same maths as the second hand
     var th = hand * Math.PI / 180 - Math.PI / 2;
     var tr = TRAIL * Math.PI / 180;
 
@@ -444,7 +444,7 @@
     this.restore();
   };
 
-  
+  // for every network node (the 1.25px dots): glow it if the sweep just passed over it
   P.arc = function (x, y, rad) {
     arc.apply(this, arguments);
     if (!on || rad !== 1.25 || this.canvas !== net) return;
@@ -453,7 +453,7 @@
     var dist = Math.sqrt(dx * dx + dy * dy);
     if (dist > RANGE) return;
 
-    var a = Math.atan2(dx, -dy) * 180 / Math.PI;   
+    var a = Math.atan2(dx, -dy) * 180 / Math.PI;   // 0 = up, clockwise
     if (a < 0) a += 360;
     var behind = hand - a;
     if (behind < 0) behind += 360;
@@ -472,7 +472,7 @@
     var dot = new Path2D();
     dot.arc(x, y, 1.8, 0, 6.2832);
 
-    this.save();                       
+    this.save();                       // save/restore leaves your own fillStyle and path untouched
     this.fillStyle = g;
     this.fill(halo);
     this.fillStyle = "rgba(" + core + "," + k + ")";
@@ -483,21 +483,21 @@
 </script>
 
 <script>
-
+/* IQX faint flag (add-on): a waving American flag drawn in dotted lines inside the dial, in the si.gov dotted-wave style. */
 (function () {
   var watch = document.getElementById("iqx-watch");
   var dial = watch && watch.querySelector(".dial");
   if (!dial || dial.dataset.flag) return;
   dial.dataset.flag = "1";
 
-  var OPACITY = 0.12;   
+  var OPACITY = 0.12;   // how faint the flag is (0 = gone, 1 = full strength)
   var RED = "#e8454b", WHITE = "#ffffff", NAVY = "#17246e";
   var still = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   var c = document.createElement("canvas");
   c.setAttribute("aria-hidden", "true");
   c.style.cssText = "position:absolute;left:0;top:0;width:100%;height:100%;border-radius:50%;pointer-events:none;opacity:" + OPACITY;
-  dial.insertBefore(c, dial.firstChild);   
+  dial.insertBefore(c, dial.firstChild);   // first child, so the markers, text and hands stay on top
   var ctx = c.getContext("2d");
   var S = 216;
 
@@ -508,17 +508,17 @@
     ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
   }
 
-  var CW = 0.4, CH = 7 / 13;   
+  var CW = 0.4, CH = 7 / 13;   // canton: 40% of the width, 7 of the 13 stripes tall
 
   function draw(t) {
     ctx.clearRect(0, 0, S, S);
     var W = S * 1.2, H = S * 1.08, X0 = (S - W) / 2, Y0 = -S * 0.04, A = S * 0.03;
-    function P(u, v) {   
+    function P(u, v) {   // flag coordinates (0..1) to canvas pixels, with the wave applied
       var wave = Math.sin(u * 7 - t) + Math.sin(u * 13 - t * 1.7 + v * 3) * 0.25;
       return [X0 + u * W, Y0 + v * H + wave * A * (0.25 + 0.75 * u)];
     }
 
-    
+    // canton (blue field)
     ctx.beginPath();
     var i, p, n = 14;
     for (i = 0; i <= n; i++) { p = P(CW * i / n, 0); ctx[i ? "lineTo" : "moveTo"](p[0], p[1]); }
@@ -530,27 +530,27 @@
     ctx.fill();
     ctx.globalAlpha = 1;
 
-   
+    // red stripes: solid wavy bands (stripes 1, 3, 5 ... 13)
     var white = [], stars = [], row, k, u, v, q, u0, dots = 72, m = 40;
     ctx.fillStyle = RED;
     ctx.beginPath();
     for (row = 0; row < 13; row += 2) {
-      u0 = row < 7 ? CW : 0;                       
+      u0 = row < 7 ? CW : 0;                       // the top stripes start at the canton's edge
       for (k = 0; k <= m; k++) { u = u0 + (1 - u0) * k / m; q = P(u, row / 13); ctx[k ? "lineTo" : "moveTo"](q[0], q[1]); }
       for (k = m; k >= 0; k--) { u = u0 + (1 - u0) * k / m; q = P(u, (row + 1) / 13); ctx.lineTo(q[0], q[1]); }
       ctx.closePath();
     }
     ctx.fill();
-    
+    // white stripes: a dotted wave down the middle of each
     for (row = 1; row < 13; row += 2) {
       v = (row + 0.5) / 13;
       for (k = 0; k < dots; k++) {
         u = k / (dots - 1);
-        if (u < CW && v < CH) continue;           
+        if (u < CW && v < CH) continue;            // that part is the canton
         white.push(P(u, v));
       }
     }
-    
+    // 50 stars: rows alternate 6 and 5
     for (row = 0; row < 9; row++) {
       var cols = row % 2 ? 5 : 6;
       for (k = 0; k < cols; k++) {
@@ -583,7 +583,7 @@
 </script>
 
 <style>
-  
+  /* IQX alignment fixes (add-on): centres the text on the hub and removes small pivot offsets */
   .iqx-watch .brand,
   .iqx-watch .digital {
     left: 50%;
@@ -593,10 +593,119 @@
     transform: translate(-50%, -50%);
   }
   .iqx-watch .brand   { top: calc(50% - 44px); }
-  .iqx-watch .digital { top: calc(50% + 44px); text-indent: .04em; }  
-  .iqx-watch .hour    { margin-left: -9.5px; }   
-  .iqx-watch .minute  { margin-left: -7px; }     
+  .iqx-watch .digital { top: calc(50% + 44px); text-indent: .04em; }  /* cancels the trailing letter-spacing */
+  .iqx-watch .hour    { margin-left: -9.5px; }   /* 19px wide, so the pivot sits exactly on the hub */
+  .iqx-watch .minute  { margin-left: -7px; }     /* 14px wide, was 1px right of the hub */
 </style>
+
+<script>
+/* IQX LED time (add-on): dot-matrix digits modelled on a Tissot basketball shot clock.
+   Slender 7-segment shapes, each segment a dense chain of separate LED dots (2 dots wide), red LEDs on black. */
+(function () {
+  var watch = document.getElementById("iqx-watch");
+  var dial = watch && watch.querySelector(".dial");
+  var text = document.getElementById("digital");
+  if (!dial || !text || dial.dataset.led) return;
+  dial.dataset.led = "1";
+
+  var RED = "255,40,40";      // 12am to 12pm: shot-clock red
+  var NAVY = "22,44,128";     // 12pm to 12am: navy blue
+  var PANEL = false;          // false = transparent, dots sit right on the dial. true = black display panel
+  var GHOST = "100,110,135";  // unlit dots, faintly visible like on the real board
+  var GHOST_ALPHA = PANEL ? 0.32 : 0.16;   // 0 hides the unlit dots
+  var BLINK = false;          // true = blinking colon
+
+  var P = 2.3;                // spacing between LED dots, px (smaller = denser)
+  var R_ON = 0.8, R_OFF = 0.62;
+  var PAD = 6, COLS = 10, ROWS = 20;
+
+  var DW = (COLS - 1) * P;    // digit width
+  var X = [0, DW + 3 * P];
+  var COLON = X[1] + DW + 3 * P;
+  X.push(COLON + P + 3 * P);
+  X.push(X[2] + DW + 3 * P);
+  var W = X[3] + DW + 2 * PAD, H = (ROWS - 1) * P + 2 * PAD;
+
+  // 7 segments, each a block of dots 2 wide: [col from, col to, row from, row to]
+  var SEGS = { a: [2, 7, 0, 1], b: [8, 9, 0, 9], c: [8, 9, 10, 19], d: [2, 7, 18, 19], e: [0, 1, 10, 19], f: [0, 1, 0, 9], g: [2, 7, 9, 10] };
+  var SHOW = { 0: "abcdef", 1: "bc", 2: "abdeg", 3: "abcdg", 4: "bcfg", 5: "acdfg", 6: "acdefg", 7: "abc", 8: "abcdefg", 9: "abcdfg" };
+  var dots = [];              // the 116 dots of one digit, each tagged with its segment
+  for (var c = 0; c < COLS; c++) {
+    for (var r = 0; r < ROWS; r++) {
+      for (var key in SEGS) {
+        var g = SEGS[key];
+        if (c >= g[0] && c <= g[1] && r >= g[2] && r <= g[3]) { dots.push({ x: c * P, y: r * P, s: key }); break; }
+      }
+    }
+  }
+
+  var box = document.createElement("div");
+  box.setAttribute("role", "img");
+  box.style.cssText = "position:absolute;left:50%;top:calc(50% + 40px);width:" + W + "px;height:" + H + "px;" +
+    "transform:translate(-50%,-50%);z-index:5;pointer-events:none;border-radius:6px;" +
+    (PANEL ? "background:linear-gradient(180deg,#0b0e13,#020304);box-shadow:0 0 0 1.5px #aab0b6,0 0 0 2.5px #30343a,inset 0 2px 5px rgba(0,0,0,.9)" : "");
+  var cv = document.createElement("canvas");
+  cv.style.cssText = "display:block;width:100%;height:100%";
+  box.appendChild(cv);
+  dial.appendChild(box);
+  text.style.visibility = "hidden";         // your original text keeps updating underneath, just hidden
+
+  var ctx = cv.getContext("2d");
+  var dpr = Math.min(window.devicePixelRatio || 1, 3);
+  var last = "";
+  cv.width = Math.round(W * dpr);
+  cv.height = Math.round(H * dpr);
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+
+  function paint(list, radius, fill, glow) {
+    if (!list.length) return;
+    ctx.save();
+    ctx.fillStyle = fill;
+    if (glow) { ctx.shadowColor = glow; ctx.shadowBlur = 3 * dpr; }
+    ctx.beginPath();
+    for (var i = 0; i < list.length; i++) {
+      ctx.moveTo(list[i][0] + radius, list[i][1]);
+      ctx.arc(list[i][0], list[i][1], radius, 0, 6.2832);
+    }
+    ctx.fill();
+    ctx.restore();
+  }
+
+  function render() {
+    var d = new Date();
+    var h = d.getHours() % 12 || 12, m = d.getMinutes();
+    var colon = BLINK ? d.getMilliseconds() < 500 : true;
+    var pm = d.getHours() >= 12;              // noon to midnight = navy, midnight to noon = red
+    var ink = pm ? NAVY : RED;
+    var id = h + ":" + m + colon + ink;
+    if (id === last) return;
+    last = id;
+    box.setAttribute("aria-label", h + ":" + (m < 10 ? "0" : "") + m);
+
+    var digits = [h > 9 ? 1 : null, h % 10, Math.floor(m / 10), m % 10];   // no leading zero, like your original
+    var on = [], off = [];
+    for (var i = 0; i < 4; i++) {
+      var segs = digits[i] === null ? "" : SHOW[digits[i]];
+      for (var k = 0; k < dots.length; k++) {
+        var q = dots[k];
+        (segs.indexOf(q.s) > -1 ? on : off).push([PAD + X[i] + q.x, PAD + q.y]);
+      }
+    }
+    var cd = [], rows = [5, 6, 13, 14], target = colon ? on : off;
+    for (var n = 0; n < rows.length; n++) {
+      target.push([PAD + COLON, PAD + rows[n] * P], [PAD + COLON + P, PAD + rows[n] * P]);
+    }
+
+    ctx.clearRect(0, 0, W, H);
+    if (GHOST_ALPHA > 0) paint(off, R_OFF, "rgba(" + GHOST + "," + GHOST_ALPHA + ")", null);
+    paint(on, R_ON, "rgb(" + ink + ")", "rgba(" + ink + ",0.7)");
+    paint(on, 0.34, pm ? "rgba(190,210,255,0.8)" : "rgba(255,235,225,0.8)", null);         // bright centre of each LED
+  }
+
+  render();
+  setInterval(render, 250);
+})();
+</script>
 
 
 <!-- IQX watch: end -->
