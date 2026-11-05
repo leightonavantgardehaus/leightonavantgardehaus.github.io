@@ -368,8 +368,8 @@
 </script>
 
 <script>
-/* IQX radar sweep (add-on). Nothing above is edited: this watches the network canvas's own draw calls. */
-(function () {
+
+  (function () {
   var watch = document.getElementById("iqx-watch");
   var net = document.getElementById("network-canvas");
   var P = window.CanvasRenderingContext2D && CanvasRenderingContext2D.prototype;
@@ -377,7 +377,7 @@
   if (window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
   P.__iqxRadar = true;
 
-  var RANGE = 108;   // reset every frame from the dial's real radius, so the sweep never leaves the dial
+  var RANGE = 108;   
   var dial = watch.querySelector(".dial") || watch;
   var TRAIL = 100;   // length of the fading trail, in degrees
   var cx = 0, cy = 0, hand = 0, on = false;
@@ -444,7 +444,7 @@
     this.restore();
   };
 
-  // for every network node (the 1.25px dots): glow it if the sweep just passed over it
+  
   P.arc = function (x, y, rad) {
     arc.apply(this, arguments);
     if (!on || rad !== 1.25 || this.canvas !== net) return;
@@ -453,7 +453,7 @@
     var dist = Math.sqrt(dx * dx + dy * dy);
     if (dist > RANGE) return;
 
-    var a = Math.atan2(dx, -dy) * 180 / Math.PI;   // 0 = up, clockwise
+    var a = Math.atan2(dx, -dy) * 180 / Math.PI;   
     if (a < 0) a += 360;
     var behind = hand - a;
     if (behind < 0) behind += 360;
@@ -472,7 +472,7 @@
     var dot = new Path2D();
     dot.arc(x, y, 1.8, 0, 6.2832);
 
-    this.save();                       // save/restore leaves your own fillStyle and path untouched
+    this.save();                      
     this.fillStyle = g;
     this.fill(halo);
     this.fillStyle = "rgba(" + core + "," + k + ")";
@@ -483,7 +483,7 @@
 </script>
 
 <script>
-/* IQX faint flag (add-on): a waving American flag drawn in dotted lines inside the dial, in the si.gov dotted-wave style. */
+
 (function () {
   var watch = document.getElementById("iqx-watch");
   var dial = watch && watch.querySelector(".dial");
@@ -546,7 +546,7 @@
       v = (row + 0.5) / 13;
       for (k = 0; k < dots; k++) {
         u = k / (dots - 1);
-        if (u < CW && v < CH) continue;            // that part is the canton
+        if (u < CW && v < CH) continue;            
         white.push(P(u, v));
       }
     }
@@ -583,7 +583,7 @@
 </script>
 
 <style>
-  /* IQX alignment fixes (add-on): centres the text on the hub and removes small pivot offsets */
+  
   .iqx-watch .brand,
   .iqx-watch .digital {
     left: 50%;
@@ -593,14 +593,13 @@
     transform: translate(-50%, -50%);
   }
   .iqx-watch .brand   { top: calc(50% - 44px); }
-  .iqx-watch .digital { top: calc(50% + 44px); text-indent: .04em; }  /* cancels the trailing letter-spacing */
-  .iqx-watch .hour    { margin-left: -9.5px; }   /* 19px wide, so the pivot sits exactly on the hub */
-  .iqx-watch .minute  { margin-left: -7px; }     /* 14px wide, was 1px right of the hub */
+  .iqx-watch .digital { top: calc(50% + 44px); text-indent: .04em; }  
+  .iqx-watch .hour    { margin-left: -9.5px; }   
+  .iqx-watch .minute  { margin-left: -7px; }     
 </style>
 
 <script>
-/* IQX LED time (add-on): dot-matrix digits modelled on a Tissot basketball shot clock.
-   Slender 7-segment shapes, each segment a dense chain of separate LED dots (2 dots wide), red LEDs on black. */
+
 (function () {
   var watch = document.getElementById("iqx-watch");
   var dial = watch && watch.querySelector(".dial");
@@ -615,7 +614,7 @@
   var GHOST_ALPHA = PANEL ? 0.32 : 0.16;   // 0 hides the unlit dots
   var BLINK = false;          // true = blinking colon
 
-  var SCALE = 0.87;           // overall size of the digits (1 = the previous size)
+  var SCALE = 0.80;           // overall size of the digits (1 = the previous size)
   var P = 2.3 * SCALE;        // spacing between LED dots, px
   var R_ON = 0.8 * SCALE, R_OFF = 0.62 * SCALE;
   var PAD = 6, COLS = 10, ROWS = 20;
@@ -649,7 +648,7 @@
   cv.style.cssText = "display:block;width:100%;height:100%";
   box.appendChild(cv);
   dial.appendChild(box);
-  text.style.visibility = "hidden";         // your original text keeps updating underneath, just hidden
+  text.style.visibility = "hidden";        
 
   var ctx = cv.getContext("2d");
   var dpr = Math.min(window.devicePixelRatio || 1, 3);
