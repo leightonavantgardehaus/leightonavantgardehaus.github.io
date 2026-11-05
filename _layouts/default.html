@@ -615,8 +615,9 @@
   var GHOST_ALPHA = PANEL ? 0.32 : 0.16;   // 0 hides the unlit dots
   var BLINK = false;          // true = blinking colon
 
-  var P = 2.3;                // spacing between LED dots, px (smaller = denser)
-  var R_ON = 0.8, R_OFF = 0.62;
+  var SCALE = 0.87;           // overall size of the digits (1 = the previous size)
+  var P = 2.3 * SCALE;        // spacing between LED dots, px
+  var R_ON = 0.8 * SCALE, R_OFF = 0.62 * SCALE;
   var PAD = 6, COLS = 10, ROWS = 20;
 
   var DW = (COLS - 1) * P;    // digit width
@@ -699,7 +700,7 @@
     ctx.clearRect(0, 0, W, H);
     if (GHOST_ALPHA > 0) paint(off, R_OFF, "rgba(" + GHOST + "," + GHOST_ALPHA + ")", null);
     paint(on, R_ON, "rgb(" + ink + ")", "rgba(" + ink + ",0.7)");
-    paint(on, 0.34, pm ? "rgba(190,210,255,0.8)" : "rgba(255,235,225,0.8)", null);         // bright centre of each LED
+    paint(on, 0.34 * SCALE, pm ? "rgba(190,210,255,0.8)" : "rgba(255,235,225,0.8)", null);         // bright centre of each LED
   }
 
   render();
